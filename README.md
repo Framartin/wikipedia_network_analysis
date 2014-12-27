@@ -7,7 +7,7 @@ Statistical Network Analysis of the Field of Statistics on Wikipedia In English
 
 The Python script, which extracts edges of our graphs, is inspired by the great brianckeegan's Wikipedia-Network-Analysis python notebook available on [github](https://github.com/brianckeegan/Wikipedia-Network-Analysis) under MIT license.
 
-Data available in edges.csv where extracted the 27/12/2014. If you want to update these data, please [donate to Wikimedia](https://donate.wikimedia.org), because this operation is quite resource consuming.
+Data available in edges.csv was extracted the 27/12/2014. If you want to update this data, please [donate to Wikimedia](https://donate.wikimedia.org), because this operation is quite resource consuming for the [MediaWiki API](https://www.mediawiki.org/wiki/API:Main_page).
 
 ## Requirements
 
