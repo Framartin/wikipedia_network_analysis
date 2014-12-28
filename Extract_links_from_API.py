@@ -17,6 +17,8 @@ import numpy as np
 
 # pandas handles tabular data
 import pandas as pd
+
+# to quote csv output
 import csv
 
 # networkx handles network data
@@ -25,15 +27,8 @@ import networkx as nx
 # json handles reading and writing JSON data
 import json
 
-# To visualize webpages within this webpage
-from IPython.display import HTML
-
 # To run queries against MediaWiki APIs
 from wikitools import wiki, api
-
-# Some other helper functions
-from collections import Counter
-from operator import itemgetter
 
 # to delay queries
 from time import sleep
@@ -100,6 +95,7 @@ def get_pages_category(category):
 # query example : https://en.wikipedia.org/w/api.php?action=query&generator=links&titles=Factor%20analysis%20of%20mixed%20data&prop=titles&redirects
 # generator : generate links from a specific page and then extract titles 
 # Note : the 'redirects' option doesn't work with prop='links' : it redirects the principal page, not out links  
+# With the wrong options we get titles of redirection pages, which is problematic because these titles are not in our selection of Statistics articles. Ex : "Principal components analysis" in get_page_links("Factor analysis of mixed data")
 
 def get_page_links(page):
     query = {'action': 'query',
@@ -123,7 +119,10 @@ def get_page_links(page):
 #        Extract pages about Statistics       #
 ###############################################
 
-# explorer jusquà une profondeur de 3 par exemple
+# 2 solutions founds : explore Category:Statistics or extract articles from "List of" articles
+
+# 1) First solution 
+# we explore the Category:Statistics in 3-steps
 
 #subcats = get_subcategory_category("Category:Statistics")
 #subcats2 = pd.DataFrame()
@@ -133,90 +132,112 @@ def get_page_links(page):
 #    subcats2 = pd.concat([temp, subcats2], ignore_index=True)
 #    sleep(0.5)
 
-# extraire les sous-catégories de "Category:Statistics"
-# 1er niveau
+# extract subcategories of "Category:Statistics"
+# 1st step
 subcats = get_subcategory_category("Category:Statistics") 
-# 2eme niveau
+# 2nd step
 subcats2 = []
 for subcat in subcats :
     temp = get_subcategory_category(subcat)
     subcats2 = subcats2+temp
     sleep(0.5)
 
-# 3eme niveau
+# 3th step
 subcats3 = []
 for subcat in subcats2 :
     temp = get_subcategory_category(subcat)
     subcats3 = subcats3+temp
     sleep(0.5)
 
-# combiner de manière unique
+# merge and keep unique
 categories = subcats + subcats2 + subcats3
 categories_unique = list(set(categories))
 len(categories)
 len(categories_unique)
 
-## TODO : ou se limiter à deux étapes
-categories = subcats + subcats2
-categories_unique = list(set(categories))
-len(categories_unique)
+## TODO : we can take only 2 steps
+#categories = subcats + subcats2
+#categories_unique = list(set(categories))
+#len(categories_unique)
 
-# enregistrer
+# save
 df = pd.DataFrame(categories_unique)
-df.to_csv('categories_unique.csv',quotechar='"',index=False, encoding='utf-8')
+df.to_csv('categories_unique.csv', quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
 
-# extraire les pages des sous-catégories extraites
+# extract pages of subcategories
 articles1 = get_pages_category("Category:Statistics")
 articles2 = []
 for subcat in categories_unique :
     temp = get_pages_category(subcat)
     articles2 = articles2+temp
     sleep(0.5)
-# et celles de cette liste (ajoute 100 pages pertinentes)
+
+# 2) Second solution 
+# we extract pages related to statistics using these pages (featured in the Statistics portal : https://en.wikipedia.org/wiki/Portal:Statistics ) :
+# - List_of_statistics_articles
+# - Outline_of_statistics
+# - https://en.wikipedia.org/wiki/List_of_statisticians (not yet) TODO : include this ?
+
+# this solution adds 100 more pages to the first one 
+
 # generate alls links in namespace 0 of these articles
-# articles mis en valeurs par le portail Statistics : https://en.wikipedia.org/wiki/Portal:Statistics
 articles3 = get_page_links("List_of_statistics_articles|Outline_of_statistics")
 articles3 = articles3 + ["List of statistics articles","Outline of statistics"]
-# TODO : inclure : https://en.wikipedia.org/wiki/List_of_statisticians ??
 
-# concaténation et unicité des pages extraites
+
+# 3) choose the solution
+
+#     - First one only :
+pages = articles1 + articles2
+pages_unique = list(set(pages))
+len(pages_unique)
+
+#     - Second one only :
+pages = articles3
+pages_unique = list(set(pages))
+len(pages_unique)
+
+#     - Both :
 pages = articles1 + articles2 + articles3
 pages_unique = list(set(pages))
 len(pages)
 len(pages_unique)
 
-# enregistrement
+
+# save
 df = pd.DataFrame(pages_unique)
-df.to_csv('pages_unique.csv',quotechar='"',index=False, encoding='utf-8')
+df.to_csv('pages_unique.csv',quoting = csv.QUOTE_NONNUMERIC,quotechar='"',index=False, encoding='utf-8')
 
-# TO DO : exclure "List of" ?
-r = re.compile(r'List of')
-pages_list_of = filter(r.match, pages_unique)
-# ou se limiter qu'à deux sous-catégories
+# TODO : we can exlude page begining by "List of" ?
+# r = re.compile(r'List of')
+# pages_list_of = filter(r.match, pages_unique)
 
-###### TODO : pour les tests on se réduit à articles3
-pages = articles3
-pages_unique = list(set(pages))
 
-del pages_unique[pages_unique.index('Cumulative frequency analysis')] # we remove deleted pages which generates errors
+
+##################################
+#        Extract out links       #
+##################################
+
+# we remove deleted pages which generates errors
+del pages_unique[pages_unique.index('Cumulative frequency analysis')] 
+
 
 pages_links = {}
 for page in pages_unique:
     links = get_page_links(page)
-    links_sel = [] # we keep only links in the pages selection
+    links_sel = [] # we keep only links in the pages selection (pages_unique)
     for link in links:
         if link in pages_unique:
             links_sel.append(link)
-    pages_links[page] = links_sel
+    pages_links[page] = links_sel # key = page 'from', value = page 'to'
     sleep(0.5)
 
 
-# TODO : BUG : on résupère les liens vers les pages de redirection, qui ne sont donc pas dans pages_uniques. Ex : "Principal components analysis" dans get_page_links("Factor analysis of mixed data")
-
-# sauvegarde
+# save dict in JSON
 with open('statistics_links_data.json','wb') as f:
     json.dump(pages_links,f)
 
+# save edges in CSV (one line = one link)
 edges = []
 for orig in pages_links.keys():
     for dest in pages_links[orig]:
@@ -226,13 +247,22 @@ df = pd.DataFrame(edges)
 df.to_csv('edges.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
 
 
-# en cas de besoin
+
+###############################
+#        Auxiliary code       #
+###############################
+
+
+# load JSON if needed
 
 #f = open('statistics_links_data.json') 
 #data = json.load(f) 
 #f.close()
 
-# nettoyage du précédant articles3
+
+
+# clean pages_links if we have links not in our pages selection
+
 #edges = []
 #for orig in pages_links.keys():
 #    for dest in pages_links[orig]:
@@ -243,36 +273,37 @@ df.to_csv('edges.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False,
 #df.to_csv('edges.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
 
 
+
 # Make a network using NetworkX library
 
-hrc_g = nx.DiGraph() # directed graph
+graph = nx.DiGraph() # directed graph
 
 for orig in pages_links.keys():
     for dest in pages_links[orig]:
-        hrc_g.add_edge(orig,dest)
+        graph.add_edge(orig,dest)
 
-hrc_g.number_of_edges()
-hrc_g.number_of_nodes()
+graph.number_of_edges()
+graph.number_of_nodes()
 
 reciprocal_edges = list()
-for (i,j) in hrc_g.edges():
-    if hrc_g.has_edge(j,i) and (j,i) not in reciprocal_edges:
+for (i,j) in graph.edges():
+    if graph.has_edge(j,i) and (j,i) not in reciprocal_edges:
         reciprocal_edges.append((i,j))
 
-reciprocation_fraction = round(float(len(reciprocal_edges))/hrc_g.number_of_edges(),3)
-print "There are {0} reciprocated edges out of {1} edges in the network, giving a reciprocation fraction of {2}.".format(len(reciprocal_edges),hrc_g.number_of_edges(),reciprocation_fraction)
+reciprocation_fraction = round(float(len(reciprocal_edges))/graph.number_of_edges(),3)
+print "There are {0} reciprocated edges out of {1} edges in the network, giving a reciprocation fraction of {2}.".format(len(reciprocal_edges),graph.number_of_edges(),reciprocation_fraction)
 # There are 41021 reciprocated edges out of 151917 edges in the network, giving a reciprocation fraction of 0.27.
 
 import matplotlib.pyplot as plt
 
-nx.draw(hrc_g)
+nx.draw(graph)
 plt.savefig("path.png")
-nx.draw_networkx(hrc_g, node_size = 80, alpha=0.5, linewidths=0.2, width=0.2, font_size=5)
+nx.draw_networkx(graph, node_size = 80, alpha=0.5, linewidths=0.2, width=0.2, font_size=5)
 plt.savefig("path_ok.png")
-nx.draw_random(hrc_g)
+nx.draw_random(graph)
 plt.savefig("path_random.png")
-nx.draw_circular(hrc_g)
+nx.draw_circular(graph)
 plt.savefig("path_circular.png")
-nx.draw_spectral(hrc_g)
+nx.draw_spectral(graph)
 plt.savefig("path_spectral.png")
 
