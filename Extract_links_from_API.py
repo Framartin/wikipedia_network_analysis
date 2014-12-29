@@ -120,6 +120,23 @@ def get_page_links(page):
     return outlist
 
 
+# length of a specific article
+# query example : https://en.wikipedia.org/w/api.php?action=query&titles=Albert%20Einstein&prop=info
+def get_page_length(page):
+    query = {'action': 'query',
+             'prop': 'info',
+             'titles': page }
+    results = wikipedia_query(query) # do the query
+    
+    if len(results['pages'].keys())>0: #sometimes there are no links
+        outlist = [results['pages'][link_id]['length'] for link_id in results['pages'].keys()] # clean up outlinks
+    else:
+        outlist = [] # return empty list if no outlinks
+    
+    return outlist
+
+
+
 ###############################################
 #        Extract pages about Statistics       #
 ###############################################
@@ -289,15 +306,41 @@ df = pd.DataFrame(edges)
 df.to_csv('edges.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
 
 
+###################################################
+#        Extract other infos about articles       #
+###################################################
+
+pages_length = {}
+for page in pages_links.keys() :
+    pages_length[page] = get_page_length(page)
+    sleep(0.5)
+
+# stubs
+pages_stubs = get_pages_category('Category:Statistics_stubs')
+pages_stubs = pages_stubs + get_pages_category('Category:Econometrics_stubs')
+
+# needs expert
+pages_expert = get_pages_category('Category:Statistics_articles_needing_expert_attention')
+
+
 # for the first solution we save the category of vertices :
 vertex = []
-for orig in pages_links.keys():
-    vertex = vertex + [{ "name":orig, "category": pages_category[orig] }]
+for page in pages_links.keys():
+    vertex = vertex + [{ "name":page, "category": pages_category[page], "stub": page in pages_stubs , "expertneeded": page in pages_expert }]
 
 
 df = pd.DataFrame(vertex)
 df.to_csv('vertex.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
 
+
+
+# for the second solution without categories :
+vertex = []
+for page in pages_links.keys():
+    vertex = vertex + [{ "name":page, "stub": page in pages_stubs , "expertneeded": page in pages_expert }]
+
+df = pd.DataFrame(vertex)
+df.to_csv('vertex.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
 
 ###############################
 #        Auxiliary code       #
