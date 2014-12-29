@@ -33,6 +33,9 @@ from wikitools import wiki, api
 # to delay queries
 from time import sleep
 
+# to select pages
+import re
+
 ##########################
 #        Fonctions       #
 ##########################
@@ -66,6 +69,7 @@ def get_subcategory_category(category):
 #bc_out = get_subcategory_category("Category:Statistics")
 #print "There are {0} subcats".format(len(bc_out))
 
+
 # extract pages of a (sub)category
 def get_pages_category(category):
     # options on http://www.mediawiki.org/wiki/API%3aCategorymembers
@@ -93,6 +97,7 @@ def get_pages_category(category):
 # extract out links from a wikipedia page
 
 # query example : https://en.wikipedia.org/w/api.php?action=query&generator=links&titles=Factor%20analysis%20of%20mixed%20data&prop=titles&redirects
+# query example : https://en.wikipedia.org/w/api.php?action=query&generator=links&titles=Least_squares&prop=titles&redirects&gpllimit=500&gplnamespace=0
 # generator : generate links from a specific page and then extract titles 
 # Note : the 'redirects' option doesn't work with prop='links' : it redirects the principal page, not out links  
 # With the wrong options we get titles of redirection pages, which is problematic because these titles are not in our selection of Statistics articles. Ex : "Principal components analysis" in get_page_links("Factor analysis of mixed data")
@@ -103,8 +108,8 @@ def get_page_links(page):
              'redirects': 'True',
              'prop': 'titles',
              'titles': page,
-             'pllimit': '500',
-             'plnamespace': '0'}
+             'gpllimit': '500',
+             'gplnamespace': '0'}
     results = wikipedia_query(query) # do the query
     
     if len(results['pages'].keys())>0: #sometimes there are no links
@@ -182,7 +187,6 @@ for subcat in categories_unique :
 
 # generate alls links in namespace 0 of these articles
 articles3 = get_page_links("List_of_statistics_articles|Outline_of_statistics")
-articles3 = articles3 + ["List of statistics articles","Outline of statistics"]
 
 
 # 3) choose the solution
@@ -204,14 +208,21 @@ len(pages)
 len(pages_unique)
 
 
+
+# we exlude the 2 pages used for the generation (to not lead to a biais) 
+del pages_unique[pages_unique.index('List of statistics articles')] 
+del pages_unique[pages_unique.index('Outline of statistics')] 
+
+# we exlude page begining by "List of"
+r = re.compile(r'List of')
+pages_list_of = filter(r.match, pages_unique)
+for pages_del in pages_list_of:
+    del pages_unique[pages_unique.index(pages_del)] 
+
+
 # save
 df = pd.DataFrame(pages_unique)
 df.to_csv('pages_unique.csv',quoting = csv.QUOTE_NONNUMERIC,quotechar='"',index=False, encoding='utf-8')
-
-# TODO : we can exlude page begining by "List of" ?
-# r = re.compile(r'List of')
-# pages_list_of = filter(r.match, pages_unique)
-
 
 
 ##################################
@@ -221,7 +232,8 @@ df.to_csv('pages_unique.csv',quoting = csv.QUOTE_NONNUMERIC,quotechar='"',index=
 # we remove deleted pages which generates errors
 del pages_unique[pages_unique.index('Cumulative frequency analysis')] 
 
-
+# TODO : delete links of templates from https://en.wikipedia.org/w/api.php?action=query&generator=links&titles=Template:Least_squares_and_regression_analysis&prop=titles&redirects&gpllimit=500&gplnamespace=0 
+# get templates of a page : 
 pages_links = {}
 for page in pages_unique:
     links = get_page_links(page)
@@ -241,7 +253,8 @@ with open('statistics_links_data.json','wb') as f:
 edges = []
 for orig in pages_links.keys():
     for dest in pages_links[orig]:
-        edges = edges + [{ "from":orig, "to":dest }]
+        if dest in pages_links.keys() & dest!=orig: # we make sure that links are in our pages selection and that we have not loop-link (self-link) which can append due to templates
+            edges = edges + [{ "from":orig, "to":dest }]
 
 df = pd.DataFrame(edges)
 df.to_csv('edges.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
@@ -260,15 +273,6 @@ df.to_csv('edges.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False,
 #f.close()
 
 
-
-# clean pages_links if we have links not in our pages selection
-
-#edges = []
-#for orig in pages_links.keys():
-#    for dest in pages_links[orig]:
-#        if dest in pages_links.keys():
-#            edges = edges + [{ "from":orig, "to":dest }]
-#
 #df = pd.DataFrame(edges)
 #df.to_csv('edges.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
 
