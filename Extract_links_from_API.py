@@ -137,6 +137,9 @@ def get_page_links(page):
 #    subcats2 = pd.concat([temp, subcats2], ignore_index=True)
 #    sleep(0.5)
 
+# we save the root category of each subcat in subcat_category
+subcat_category = {}
+
 # extract subcategories of "Category:Statistics"
 # 1st step
 subcats = get_subcategory_category("Category:Statistics") 
@@ -144,8 +147,10 @@ subcats = get_subcategory_category("Category:Statistics")
 subcats2 = []
 for subcat in subcats :
     temp = get_subcategory_category(subcat)
-    subcats2 = subcats2+temp
+    subcats2 = subcats2+temp 
     sleep(0.5)
+    for subcat2 in temp:
+        subcat_category[subcat2] = subcat # the subcategory is associated with the 1st step category 
 
 # 3th step
 subcats3 = []
@@ -153,6 +158,9 @@ for subcat in subcats2 :
     temp = get_subcategory_category(subcat)
     subcats3 = subcats3+temp
     sleep(0.5)
+    for subcat3 in temp:
+        if not subcat3 in subcat_category.keys():
+            subcat_category[subcat3] = subcat_category[subcat] # the sub-subcategory is associated with the 1st step category of the subcategory 
 
 # merge and keep unique
 categories = subcats + subcats2 + subcats3
@@ -169,13 +177,27 @@ len(categories_unique)
 df = pd.DataFrame(categories_unique)
 df.to_csv('categories_unique.csv', quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
 
+
+# root category of pages
+pages_category = {}
+
 # extract pages of subcategories
 articles1 = get_pages_category("Category:Statistics")
+for page in articles1: # save root category of pages
+    pages_category[page] = "Category:Statistics"
+
 articles2 = []
 for subcat in categories_unique :
     temp = get_pages_category(subcat)
     articles2 = articles2+temp
     sleep(0.5)
+    for page in temp:
+        if not page in pages_category.keys():
+            pages_category[page] = subcat_category[subcat]
+
+# save
+with open('pages_category.json','wb') as f:
+    json.dump(pages_category,f)
 
 # 2) Second solution 
 # we extract pages related to statistics using these pages (featured in the Statistics portal : https://en.wikipedia.org/wiki/Portal:Statistics ) :
