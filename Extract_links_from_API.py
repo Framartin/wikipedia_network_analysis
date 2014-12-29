@@ -143,6 +143,7 @@ subcat_category = {}
 # extract subcategories of "Category:Statistics"
 # 1st step
 subcats = get_subcategory_category("Category:Statistics") 
+
 # 2nd step
 subcats2 = []
 for subcat in subcats :
@@ -161,6 +162,11 @@ for subcat in subcats2 :
     for subcat3 in temp:
         if not subcat3 in subcat_category.keys():
             subcat_category[subcat3] = subcat_category[subcat] # the sub-subcategory is associated with the 1st step category of the subcategory 
+
+# Root categories return them-self
+for subcat in subcats :
+    subcat_category[subcat] = subcat
+
 
 # merge and keep unique
 categories = subcats + subcats2 + subcats3
@@ -238,8 +244,8 @@ del pages_unique[pages_unique.index('Outline of statistics')]
 # we exlude page begining by "List of"
 r = re.compile(r'List of')
 pages_list_of = filter(r.match, pages_unique)
-for pages_del in pages_list_of:
-    del pages_unique[pages_unique.index(pages_del)] 
+for page_del in pages_list_of:
+    del pages_unique[pages_unique.index(page_del)] 
 
 
 # save
@@ -251,21 +257,22 @@ df.to_csv('pages_unique.csv',quoting = csv.QUOTE_NONNUMERIC,quotechar='"',index=
 #        Extract out links       #
 ##################################
 
-# we remove deleted pages which generates errors
-del pages_unique[pages_unique.index('Cumulative frequency analysis')] 
 
 # TODO : delete links of templates from https://en.wikipedia.org/w/api.php?action=query&generator=links&titles=Template:Least_squares_and_regression_analysis&prop=titles&redirects&gpllimit=500&gplnamespace=0 
 # get templates of a page : 
+error_pages = []
 pages_links = {}
 for page in pages_unique:
-    links = get_page_links(page)
-    links_sel = [] # we keep only links in the pages selection (pages_unique)
-    for link in links:
-        if link in pages_unique:
-            links_sel.append(link)
-    pages_links[page] = links_sel # key = page 'from', value = page 'to'
-    sleep(0.5)
-
+    try :
+        links = get_page_links(page)
+        links_sel = [] # we keep only links in the pages selection (pages_unique)
+        for link in links:
+            if link in pages_unique:
+                links_sel.append(link)
+        pages_links[page] = links_sel # key = page 'from', value = page 'to'
+#        sleep(0.5)
+    except : # error if the page is deleted for example
+        error_pages = error_pages + [page]
 
 # save dict in JSON
 with open('statistics_links_data.json','wb') as f:
@@ -281,6 +288,11 @@ for orig in pages_links.keys():
 df = pd.DataFrame(edges)
 df.to_csv('edges.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
 
+
+# for the first solution we save the category of vertices :
+vertex = []
+for orig in pages_links.keys():
+    vertex = vertex + [{ "name":orig, "category": pages_category[orig] }]
 
 
 ###############################
