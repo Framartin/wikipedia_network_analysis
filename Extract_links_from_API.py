@@ -270,7 +270,7 @@ for page in pages_unique:
             if link in pages_unique:
                 links_sel.append(link)
         pages_links[page] = links_sel # key = page 'from', value = page 'to'
-#        sleep(0.5)
+        sleep(0.5)
     except : # error if the page is deleted for example
         error_pages = error_pages + [page]
 
@@ -282,7 +282,7 @@ with open('statistics_links_data.json','wb') as f:
 edges = []
 for orig in pages_links.keys():
     for dest in pages_links[orig]:
-        if dest in pages_links.keys() & dest!=orig: # we make sure that links are in our pages selection and that we have not loop-link (self-link) which can append due to templates
+        if (dest in pages_links.keys()) & (dest!=orig) : # we make sure that links are in our pages selection and that we have not loop-link (self-link) which can append due to templates
             edges = edges + [{ "from":orig, "to":dest }]
 
 df = pd.DataFrame(edges)
@@ -295,6 +295,10 @@ for orig in pages_links.keys():
     vertex = vertex + [{ "name":orig, "category": pages_category[orig] }]
 
 
+df = pd.DataFrame(vertex)
+df.to_csv('vertex.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
+
+
 ###############################
 #        Auxiliary code       #
 ###############################
@@ -305,10 +309,6 @@ for orig in pages_links.keys():
 #f = open('statistics_links_data.json') 
 #data = json.load(f) 
 #f.close()
-
-
-#df = pd.DataFrame(edges)
-#df.to_csv('edges.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
 
 
 
