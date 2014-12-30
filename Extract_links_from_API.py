@@ -312,7 +312,7 @@ df.to_csv('edges.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False,
 
 pages_length = {}
 for page in pages_links.keys() :
-    pages_length[page] = get_page_length(page)
+    pages_length[page] = get_page_length(page)[0]
     sleep(0.5)
 
 # stubs
