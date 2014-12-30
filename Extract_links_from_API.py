@@ -411,7 +411,10 @@ for orig in pages_links.keys():
             cats_dest = pages_category[dest]
             for cat_orig in cats_orig : # category *of* the origin page
                 for cat_dest in cats_dest : # category *of* the destination page
-                    edges_agg[cat_orig+"|||"+cat_dest] =+1 # increment the counter
+                    try :
+                        edges_agg[cat_orig+"|||"+cat_dest] +=1 # increment the counter
+                    except :
+                        edges_agg[cat_orig+"|||"+cat_dest] =1
 
 # construct the edges dataframe
 edges_agg2 = []
@@ -426,7 +429,10 @@ df.to_csv('edges2_aggregated.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',
 size_cats = {}
 for page in pages_links.keys():
     for cat in pages_category[page]:
-        size_cats[cat]=+1
+        try :
+            size_cats[cat]+=1
+        except:
+            size_cats[cat] = 1
 
 # construct the vertex dataframe
 vertex_agg = []

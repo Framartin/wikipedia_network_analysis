@@ -1,200 +1,200 @@
 "name","size"
-"Category:Biostatistics",1
-"Category:Point processes",1
-"Category:Statistical inference",1
-"Category:Data analysis",1
-"Category:Statistical laws",1
-"Category:Scale statistics",1
-"Category:Missing data",1
-"Category:Uncertainty of numbers",1
-"Category:Point estimation performance",1
-"Category:Sequential methods",1
-"Category:Statistical data agreements",1
-"Category:Signal processing",1
-"Category:Population statistics",1
-"Category:Stochastic processes",1
-"Category:Statistical distance measures",1
-"Category:Robust regression",1
-"Category:Statistics-related lists",1
-"Category:Time series models",1
-"Category:Decision theory paradoxes",1
-"Category:Forensic statistics",1
+"Category:Biostatistics",38
+"Category:Point processes",6
+"Category:Statistical inference",55
+"Category:Data analysis",79
+"Category:Statistical laws",23
+"Category:Scale statistics",6
+"Category:Missing data",6
+"Category:Uncertainty of numbers",9
+"Category:Point estimation performance",8
+"Category:Sequential methods",9
+"Category:Statistical data agreements",2
+"Category:Signal processing",47
+"Category:Population statistics",3
+"Category:Stochastic processes",153
+"Category:Statistical distance measures",22
+"Category:Robust regression",5
+"Category:Statistics-related lists",9
+"Category:Time series models",15
+"Category:Decision theory paradoxes",3
+"Category:Forensic statistics",8
 "Category:Market research statistics",1
-"Category:Monte Carlo methods",1
-"Category:Sequential experiments",1
-"Category:Comparison of assessments",1
-"Category:Statistical outliers",1
-"Category:Theory of probability distributions",1
-"Category:Logic and statistics",1
-"Category:Hypothesis testing",1
-"Category:Bioinformatics",1
-"Category:Generalized linear models",1
-"Category:Markov chain Monte Carlo",1
-"Category:Engineering statistics",1
-"Category:Statistical theorems",1
-"Category:Bayesian statistics",1
-"Category:Multiple comparisons",1
+"Category:Monte Carlo methods",25
+"Category:Sequential experiments",6
+"Category:Comparison of assessments",16
+"Category:Statistical outliers",11
+"Category:Theory of probability distributions",69
+"Category:Logic and statistics",14
+"Category:Hypothesis testing",32
+"Category:Bioinformatics",16
+"Category:Generalized linear models",9
+"Category:Markov chain Monte Carlo",6
+"Category:Engineering statistics",12
+"Category:Statistical theorems",52
+"Category:Bayesian statistics",58
+"Category:Multiple comparisons",17
 "Category:Risk factors",1
-"Category:Inter-rater reliability",1
-"Category:Actuarial science",1
-"Category:Probability theory",1
-"Category:Statistical theory",1
-"Category:Sampling techniques",1
-"Category:Graphical models",1
-"Category:Covariance and correlation",1
-"Category:Loss functions",1
-"Category:Cross-sectional analysis",1
-"Category:Poisson processes",1
-"Category:Statistics stubs",1
-"Category:Statistical ratios",1
-"Category:Simultaneous equation methods (econometrics)",1
-"Category:Decision trees",1
-"Category:Tails of probability distributions",1
-"Category:Statistical paradoxes",1
-"Category:Sampling (statistics)",1
-"Category:Means",1
-"Category:Markov processes",1
-"Category:Statistical principles",1
-"Category:Probability distributions with non-finite variance",1
-"Category:Random matrices",1
-"Category:Statistical tests",1
-"Category:Population ecology",1
-"Category:Cohort study methods",1
-"Category:Statistical classification",1
-"Category:Statistical charts and diagrams",1
-"Category:Classification algorithms",1
-"Category:Statistical programming languages",1
-"Category:Algebra of random variables",1
-"Category:Survey methodology",1
-"Category:Statistical intervals",1
-"Category:Social statistics",1
-"Category:Stochastic models",1
-"Category:Statistical approximations",1
-"Category:Bayesian networks",1
-"Category:Environmental statistics",1
-"Category:Statistical natural language processing",1
-"Category:Economic data",1
-"Category:Mathematical finance",1
-"Category:Statistical mechanics",1
-"Category:Data collection",1
-"Category:Regression variable selection",1
-"Category:Robust statistics",1
-"Category:Probability interpretations",1
-"Category:Martingale theory",1
-"Category:Observational study",1
-"Category:Statistical dependence",1
-"Category:Markov models",1
-"Category:Statistical deviation and dispersion",1
-"Category:Statistical data types",1
-"Category:Detection theory",1
-"Category:Non-parametric statistics",1
-"Category:Survival analysis",1
-"Category:Summary statistics for contingency tables",1
-"Category:Parametric statistics",1
-"Category:Computational statistics",1
-"Category:Statistical genetics",1
-"Category:Distributions with conjugate priors",1
-"Category:Continuous distributions",1
-"Category:Statistical algorithms",1
-"Category:Multivariate time series analysis",1
-"Category:Regression with time series structure",1
-"Category:Risk analysis",1
-"Category:Dimension reduction",1
-"Category:Probability stubs",1
-"Category:Evidence-based medicine",1
-"Category:Spatial data analysis",1
-"Category:Econometrics",1
-"Category:Estimation of densities",1
-"Category:Latent variable models",1
-"Category:Applications of Bayesian inference",1
-"Category:Regression analysis",1
-"Category:Cluster analysis",1
-"Category:Latin squares",1
-"Category:Bayesian inference",1
-"Category:Exploratory data analysis",1
-"Category:Population models",1
-"Category:Statistical terminology",1
-"Category:Non-uniform random numbers",1
-"Category:Normality tests",1
-"Category:Index numbers",1
-"Category:Factor analysis",1
-"Category:Extreme value data",1
-"Category:Algorithmic inference",1
-"Category:Probability distributions",1
-"Category:Psychometrics",1
-"Category:Exponential family distributions",1
-"Category:Geostatistics",1
-"Category:History of statistics",1
+"Category:Inter-rater reliability",8
+"Category:Actuarial science",30
+"Category:Probability theory",86
+"Category:Statistical theory",70
+"Category:Sampling techniques",19
+"Category:Graphical models",14
+"Category:Covariance and correlation",51
+"Category:Loss functions",5
+"Category:Cross-sectional analysis",3
+"Category:Poisson processes",11
+"Category:Statistics stubs",229
+"Category:Statistical ratios",61
+"Category:Simultaneous equation methods (econometrics)",4
+"Category:Decision trees",3
+"Category:Tails of probability distributions",10
+"Category:Statistical paradoxes",14
+"Category:Sampling (statistics)",53
+"Category:Means",25
+"Category:Markov processes",20
+"Category:Statistical principles",12
+"Category:Probability distributions with non-finite variance",23
+"Category:Random matrices",8
+"Category:Statistical tests",103
+"Category:Population ecology",9
+"Category:Cohort study methods",4
+"Category:Statistical classification",31
+"Category:Statistical charts and diagrams",81
+"Category:Classification algorithms",25
+"Category:Statistical programming languages",13
+"Category:Algebra of random variables",14
+"Category:Survey methodology",18
+"Category:Statistical intervals",6
+"Category:Social statistics",9
+"Category:Stochastic models",5
+"Category:Statistical approximations",22
+"Category:Bayesian networks",11
+"Category:Environmental statistics",12
+"Category:Statistical natural language processing",16
+"Category:Economic data",4
+"Category:Mathematical finance",21
+"Category:Statistical mechanics",14
+"Category:Data collection",7
+"Category:Regression variable selection",12
+"Category:Robust statistics",25
+"Category:Probability interpretations",17
+"Category:Martingale theory",17
+"Category:Observational study",9
+"Category:Statistical dependence",38
+"Category:Markov models",21
+"Category:Statistical deviation and dispersion",64
+"Category:Statistical data types",28
+"Category:Detection theory",7
+"Category:Non-parametric statistics",56
+"Category:Survival analysis",29
+"Category:Summary statistics for contingency tables",21
+"Category:Parametric statistics",14
+"Category:Computational statistics",26
+"Category:Statistical genetics",18
+"Category:Distributions with conjugate priors",5
+"Category:Continuous distributions",143
+"Category:Statistical algorithms",26
+"Category:Multivariate time series analysis",6
+"Category:Regression with time series structure",5
+"Category:Risk analysis",4
+"Category:Dimension reduction",13
+"Category:Probability stubs",50
+"Category:Evidence-based medicine",3
+"Category:Spatial data analysis",30
+"Category:Econometrics",92
+"Category:Estimation of densities",8
+"Category:Latent variable models",21
+"Category:Applications of Bayesian inference",3
+"Category:Regression analysis",124
+"Category:Cluster analysis",11
+"Category:Latin squares",5
+"Category:Bayesian inference",14
+"Category:Exploratory data analysis",8
+"Category:Population models",4
+"Category:Statistical terminology",178
+"Category:Non-uniform random numbers",8
+"Category:Normality tests",10
+"Category:Index numbers",14
+"Category:Factor analysis",6
+"Category:Extreme value data",8
+"Category:Algorithmic inference",3
+"Category:Probability distributions",192
+"Category:Psychometrics",57
+"Category:Exponential family distributions",31
+"Category:Geostatistics",19
+"Category:History of statistics",5
 "Category:Fundamental analysis",1
-"Category:Decision theory",1
-"Category:Semi-parametric models",1
-"Category:Social statistics data",1
-"Category:Design of experiments",1
-"Category:Statistical randomness",1
-"Category:Queueing theory",1
-"Category:Statisticians",1
-"Category:Least squares",1
-"Category:Resampling (statistics)",1
-"Category:Statistical forecasting",1
-"Category:Meta-analysis",1
-"Category:Probability",1
-"Category:Multivariate continuous distributions",1
-"Category:Statistical data sets",1
-"Category:Variance reduction",1
-"Category:F-divergences",1
+"Category:Decision theory",29
+"Category:Semi-parametric models",2
+"Category:Social statistics data",2
+"Category:Design of experiments",107
+"Category:Statistical randomness",11
+"Category:Queueing theory",23
+"Category:Statisticians",2
+"Category:Least squares",21
+"Category:Resampling (statistics)",5
+"Category:Statistical forecasting",15
+"Category:Meta-analysis",16
+"Category:Probability",4
+"Category:Multivariate continuous distributions",17
+"Category:Statistical data sets",4
+"Category:Variance reduction",5
+"Category:F-divergences",5
 "Category:Economic forecasting",1
-"Category:Operations research",1
-"Category:Estimation theory",1
-"Category:Psephology",1
-"Category:Directional statistics",1
-"Category:Data mining",1
-"Category:Statistics articles needing expert attention",1
-"Category:Statistical models",1
-"Category:Multivariate discrete distributions",1
-"Category:Statistical software",1
-"Category:Statistics",1
-"Category:Fields of application of statistics",1
+"Category:Operations research",15
+"Category:Estimation theory",98
+"Category:Psephology",3
+"Category:Directional statistics",16
+"Category:Data mining",12
+"Category:Statistics articles needing expert attention",49
+"Category:Statistical models",66
+"Category:Multivariate discrete distributions",4
+"Category:Statistical software",57
+"Category:Statistics",6
+"Category:Fields of application of statistics",20
 "Category:Statistics education",1
-"Category:Asymptotic statistical theory",1
-"Category:Epidemiology",1
-"Category:Summary statistics",1
-"Category:Types of probability distributions",1
-"Category:Non-parametric Bayesian methods",1
-"Category:Statistical inequalities",1
+"Category:Asymptotic statistical theory",12
+"Category:Epidemiology",52
+"Category:Summary statistics",43
+"Category:Types of probability distributions",30
+"Category:Non-parametric Bayesian methods",8
+"Category:Statistical inequalities",21
 "Category:Statistical organizations",1
-"Category:Econometric models",1
-"Category:Conjugate prior distributions",1
-"Category:Misuse of statistics",1
-"Category:Quality control",1
-"Category:Nonlinear time series analysis",1
-"Category:Statistics books",1
-"Category:Cheminformatics",1
-"Category:Effect size",1
-"Category:Clustering criteria",1
-"Category:Information theory",1
-"Category:Ethics and statistics",1
-"Category:Climate and weather statistics",1
-"Category:Nonparametric regression",1
-"Category:Causal inference",1
-"Category:Summary statistics for categorical data",1
+"Category:Econometric models",8
+"Category:Conjugate prior distributions",11
+"Category:Misuse of statistics",18
+"Category:Quality control",16
+"Category:Nonlinear time series analysis",8
+"Category:Statistics books",3
+"Category:Cheminformatics",4
+"Category:Effect size",2
+"Category:Clustering criteria",7
+"Category:Information theory",26
+"Category:Ethics and statistics",10
+"Category:Climate and weather statistics",12
+"Category:Nonparametric regression",5
+"Category:Causal inference",18
+"Category:Summary statistics for categorical data",3
 "Category:Cohort studies",1
-"Category:Statistical methods",1
-"Category:Demography",1
-"Category:Categorical data",1
-"Category:Characterization of probability distributions",1
-"Category:Data clustering algorithms",1
-"Category:Data analysis software",1
+"Category:Statistical methods",22
+"Category:Demography",33
+"Category:Categorical data",40
+"Category:Characterization of probability distributions",5
+"Category:Data clustering algorithms",20
+"Category:Data analysis software",4
 "Category:Sports records and statistics",1
-"Category:Sensitivity analysis",1
-"Category:Statistical data coding",1
-"Category:Laymen and statistics",1
-"Category:Model selection",1
-"Category:Optimal decisions",1
-"Category:Discrete distributions",1
-"Category:Validity (statistics)",1
-"Category:Regression diagnostics",1
-"Category:Time series analysis",1
-"Category:Analysis of variance",1
+"Category:Sensitivity analysis",3
+"Category:Statistical data coding",3
+"Category:Laymen and statistics",8
+"Category:Model selection",12
+"Category:Optimal decisions",15
+"Category:Discrete distributions",41
+"Category:Validity (statistics)",10
+"Category:Regression diagnostics",18
+"Category:Time series analysis",81
+"Category:Analysis of variance",45
 "Category:Pharmaceutical statistics",1
-"Category:Medical statistics",1
-"Category:Multivariate statistics",1
+"Category:Medical statistics",61
+"Category:Multivariate statistics",75
