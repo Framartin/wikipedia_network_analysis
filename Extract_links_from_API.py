@@ -306,6 +306,59 @@ df = pd.DataFrame(edges)
 df.to_csv('edges.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
 
 
+########################################################################
+#        Other solution for categories : extract them from pages       #
+########################################################################
+
+# extract categories list in a page
+def get_categories_page(page):
+    query = {'action': 'query',
+             'prop': 'links',
+             'titles': page,
+             'pllimit': '500',
+             'plnamespace': '14'}
+    results = wikipedia_query(query) # do the query
+    page_id = results['pages'].keys()[0]
+    if len(results['pages'].keys())>0: #sometimes there are no links
+        outlist = [link_id['title'] for link_id in results['pages'][page_id]['links']] # clean up outlinks
+    else:
+        outlist = [] # return empty list if no outlinks
+    
+    return outlist
+
+# extract categories of a specific page
+def get_categories_of_page(page):
+    query = {'action': 'query',
+             'prop': 'categories',
+             'titles': page,
+             'cllimit': '500'}
+    results = wikipedia_query(query) # do the query
+    page_id = results['pages'].keys()[0]
+    if len(results['pages'].keys())>0: #sometimes there are no links
+        outlist = [link_id['title'] for link_id in results['pages'][page_id]['categories']] # clean up outlinks
+    else:
+        outlist = [] # return empty list if no outlinks
+    
+    return outlist
+
+
+# https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Statistics/List_of_statistics_categories
+statistical_categories = get_categories_page("Wikipedia:WikiProject_Statistics/List_of_statistics_categories")
+
+pages_category = {}
+for page in pages_links.keys() :
+    temp = get_categories_of_page(page)
+    pages_category[page] = []
+    for cat in temp :
+        if cat in statistical_categories :
+            pages_category[page] = pages_category[page]+[cat]
+
+# #pages whithout categories
+n=0
+for page in pages_category.keys() :
+    if pages_category[page] == [] :
+        n=n+1
+
 ###################################################
 #        Extract other infos about articles       #
 ###################################################
@@ -341,6 +394,7 @@ for page in pages_links.keys() :
 
 df = pd.DataFrame(vertex)
 df.to_csv('vertex.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
+
 
 ###############################
 #        Auxiliary code       #
