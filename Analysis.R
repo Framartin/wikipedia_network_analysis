@@ -63,6 +63,62 @@ hist(s_out, breaks = 50, col="pink", xlab="Vertex Out-Strength", ylab="Frequency
 #   Second solution : pages from list    #
 ##########################################
 
+# agregated network
+
+edges2_agg = read.csv("data/edges2_aggregated.csv", colClasses = c("character", "character", "integer"))
+edges2_agg$from = sub("Category:", "", edges2_agg$from)
+edges2_agg$to = sub("Category:", "", edges2_agg$to)
+
+vertex2_agg = read.csv("data/vertex2_aggregated.csv", colClasses = c("character", "integer"))
+vertex2_agg$name = sub("Category:", "", vertex2_agg$name)
+graph <- graph.data.frame(edges2_agg, directed=TRUE, vertices=vertex2_agg)
+vcount(graph)
+ecount(graph)
+hist(E(graph)$weight, xlim=c(0,1000), breaks=2000)
+
+# graph selection
+
+# size of categories
+summary(V(graph)$size)
+hist(V(graph)$size, breaks=50)
+table(V(graph)$size)
+V(graph)$name[V(graph)$size>26]
+sum(V(graph)$size<14)
+sum(V(graph)$size<26)
+# sélection des 50 plus grands
+quantile(V(graph)$size, probs=(1-20/vcount(graph))) # 26 pour 50 vertices, 50 pour 30 vertices, 61 pour 20 vertices
+
+# selection of vertex
+vertex_to_delete = V(graph)[V(graph)$size<61] # médiane = 14
+graph = graph - vertex_to_delete
+
+# weights
+summary(E(graph)$weight)
+hist(E(graph)$weight, breaks=50)
+sum(E(graph)$weight<7)
+
+# selection of edges
+length(E(graph)$weight[E(graph)$weight<364.0]) # ou 68
+edges_to_delete = E(graph)[E(graph)$weight<364.0]
+
+# we reduce our graph
+
+graph = graph - edges(edges_to_delete)
+
+vcount(graph)
+ecount(graph)
+
+cat.size <- V(graph)$size
+plot(graph, vertex.size=sqrt(cat.size)/1.5, vertex.label=V(graph)$name, vertex.label.color=rainbow(length(V(graph)), alpha=1),
+     vertex.color=rainbow(length(V(graph)), alpha=0.3), edge.width=sqrt(E(graph)$weight)/30,
+     edge.arrow.size=0.2, layout=layout.kamada.kawai, vertex.label.cex=0.8)
+# vertex.label.dist=1.5,
+# vertex.color=V(graph.c)
+# layout : layout.drl layout.kamada.kawai layout.circle layout.fruchterman.reingold
+# vertex.label.color=rainbow(length(V(graph)), alpha=1)
+
+# non-agregated network
+
 edges2 = read.csv("data/edges2.csv", colClasses = c("character", "character"))
 vertex2 = read.csv("data/vertex2.csv", colClasses = c("character", "character", "character", "integer"))
 # name first
