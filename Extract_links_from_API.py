@@ -303,7 +303,7 @@ for orig in pages_links.keys():
             edges = edges + [{ "from":orig, "to":dest }]
 
 df = pd.DataFrame(edges)
-df.to_csv('edges.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
+df.to_csv('edges2.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
 
 
 ########################################################################
@@ -359,6 +359,9 @@ for page in pages_category.keys() :
     if pages_category[page] == [] :
         n=n+1
 
+print n # 148 for the second solution
+
+
 ###################################################
 #        Extract other infos about articles       #
 ###################################################
@@ -395,6 +398,43 @@ for page in pages_links.keys() :
 df = pd.DataFrame(vertex)
 df.to_csv('vertex.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
 
+
+# edges and vertices for the second solution with not unique categories
+# aggregation of the network by categories
+# with the alternatives solutions, a page is rarely in a unique category : we duplicate links
+# because we are interesting in categories which referred a specific category
+edges_agg = {} # dict key : category_origin|||category_destination -> #links (weight of the edge in the aggregated network)
+for orig in pages_links.keys():
+    for dest in pages_links[orig]:
+        if (dest in pages_links.keys()) & (dest!=orig) : # we make sure that links are in our pages selection and that we have not loop-link (self-link) which can append due to templates
+            cats_orig = pages_category[orig]
+            cats_dest = pages_category[dest]
+            for cat_orig in cats_orig : # category *of* the origin page
+                for cat_dest in cats_dest : # category *of* the destination page
+                    edges_agg[cat_orig+"|||"+cat_dest] =+1 # increment the counter
+
+# construct the edges dataframe
+edges_agg2 = []
+for cats_key in edges_agg.keys():
+    cat_orig,cat_dest = str.split(str(cats_key), "|||")
+    edges_agg2 = edges_agg2 + [{ "from":cat_orig, "to":cat_dest, "weight": edges_agg[cats_key]}]
+
+df = pd.DataFrame(edges_agg2)
+df.to_csv('edges2_aggregated.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
+
+# compute the size of each vertex
+size_cats = {}
+for page in pages_links.keys():
+    for cat in pages_category[page]:
+        size_cats[cat]=+1
+
+# construct the vertex dataframe
+vertex_agg = []
+for cat in size_cats.keys():
+    vertex_agg = vertex_agg + [{ "name":cat, "size": size_cats[cat]}]
+
+df = pd.DataFrame(vertex_agg)
+df.to_csv('vertex2_aggregated.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
 
 ###############################
 #        Auxiliary code       #
