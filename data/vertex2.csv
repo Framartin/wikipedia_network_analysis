@@ -1,1055 +1,2564 @@
-"expertneeded","name","stub","length"
-False,"Leftover hash lemma",False,4237
-False,"Moment-generating function",False,12062
-False,"Burke's theorem",False,3414
-False,"Generalized randomized block design",False,6494
-False,"CP decomposition",False,5649
-False,"Reification (statistics)",True,774
-False,"Risk–benefit ratio",False,3066
-False,"Curve fitting",False,14277
-False,"Reversible dynamics",True,2861
-False,"Bessel's correction",False,18546
-False,"Generalized estimating equation",False,6892
-False,"Prosecutor's fallacy",False,20623
-False,"Wiener filter",False,12981
-False,"Consumption distribution",False,606
-False,"Local independence",False,3068
-False,"Law of the iterated logarithm",False,5723
-False,"Dendrogram",True,1876
-False,"Stationary subspace analysis",False,4041
-False,"Multiple baseline design",False,6934
-False,"Predictive inference",False,1567
-False,"Strong Law of Small Numbers",False,2407
-False,"Hodges–Lehmann estimator",False,8698
-False,"Heavy-tailed distribution",False,11760
-False,"Simultaneous equations model",False,14020
-False,"Layered hidden Markov model",False,4551
-False,"Dyadic distribution",False,1106
-False,"Multivariate Pareto distribution",False,7108
-True,"Explained sum of squares",False,8668
-False,"Regression diagnostic",True,2791
-False,"Index of coincidence",False,14923
-False,"Correlation does not imply causation",False,28075
-False,"Credal set",False,1992
-False,"Belt transect",False,2966
-False,"Stochastic process",False,19025
-False,"Realization (probability)",False,2234
-False,"Detection theory",False,14703
-False,"Cox's theorem",False,10804
-False,"Design effect",False,2640
-False,"Watterson estimator",False,2294
-False,"Factorial moment",False,5470
-False,"Pareto principle",False,17488
-False,"Geospatial predictive modeling",False,4132
-False,"Radar chart",False,10847
-False,"Welch's method",False,3139
-False,"D'Agostino's K-squared test",False,8880
-False,"Hartley's test",False,3369
-False,"Ogden tables",False,5648
-False,"Iteratively reweighted least squares",False,5661
-False,"Comparison of statistical packages",False,52337
-False,"Probit model",False,11869
-True,"Complete-linkage clustering",False,5811
-False,"GAUSS (software)",False,4532
-False,"Systematic error",False,8141
-False,"Continuity correction",False,2512
-False,"Probabilistic classification",False,5062
-False,"Statistical relational learning",False,4852
-False,"Probability distribution function",False,616
-False,"Statistical inference",False,34591
-False,"Probability matching",True,1789
-False,"Pocock boundary",False,3776
-False,"Template:Statistics topics sidebar",False,646
-False,"Variance-gamma distribution",False,5577
-False,"Trispectrum",False,1959
-False,"False positive paradox",False,10304
-False,"Pearson distribution",False,22726
-False,"Conservatism (belief revision)",False,3883
-False,"MinHash",False,17804
-True,"Higher-order statistics",True,1934
-False,"Twisting properties",False,8484
-False,"Mann–Whitney U test",False,31683
-False,"Survey methodology",False,16737
-False,"Maximum entropy spectral estimation",False,3093
-False,"Inherent zero",False,499
-False,"Mark and recapture",False,16853
-False,"T-statistic",False,5988
-False,"Population model",False,6037
-False,"Regression toward the mean",False,36231
-False,"Root mean square",False,15099
-False,"Sørensen–Dice coefficient",False,8227
-False,"Point estimation",False,4514
-False,"Upper and lower probabilities",False,3170
-False,"Aggregate data",True,1321
-False,"Concordance correlation coefficient",False,5781
-False,"Factor graph",False,6920
-False,"Geometric standard deviation",False,3297
-False,"Partial regression plot",False,4912
-False,"Likelihood ratios in diagnostic testing",False,8142
-False,"Rubin causal model",False,29834
-False,"Whipple's index",False,4868
-False,"Master equation",False,9028
-False,"Failure rate",False,16592
-False,"Reliability block diagram",False,3363
-False,"Limited dependent variable",True,2451
-False,"Recursive partitioning",False,5330
-False,"Hoeffding's independence test",True,2061
-False,"Inverse distribution",False,5909
-False,"Generalized chi-squared distribution",False,8522
-False,"Geostatistics",False,14835
-False,"Hierarchical clustering",False,15872
-False,"Bayesian average",True,3757
-True,"Gaussian process emulator",True,3001
-False,"Cross-sectional study",False,9368
-False,"Order of a kernel",True,234
-False,"Absorbing Markov chain",False,8090
-False,"Ziggurat algorithm",False,16819
-False,"Medoid",False,2258
-False,"Credible interval",False,5060
-False,"Plot (graphics)",False,18274
-False,"Subgroup analysis",False,639
-False,"Mode (statistics)",False,21357
-False,"Yamartino method",False,4868
-False,"Bartlett's theorem",False,1060
-False,"Quadratic form (statistics)",False,5472
-False,"Weight function",False,6673
-False,"Occupancy frequency distribution",False,16209
-False,"Natural experiment",False,12383
-False,"Box–Jenkins",False,10733
-False,"Elliptical distribution",False,5332
-False,"Beta distribution",False,236401
-False,"Exchangeable random variables",False,15690
-False,"Data generating process",False,885
-False,"Wald test",False,7285
-False,"Matthews correlation coefficient",False,7725
-False,"Noncentral chi distribution",False,5806
-False,"Analytic and enumerative statistical studies",True,2994
-False,"Univariate analysis",False,3659
-False,"Dunnett's test",False,13591
-False,"Coefficient of variation",False,14261
-True,"Davies–Bouldin index",False,5285
-False,"Data reduction",False,2695
-False,"Wrapped Lévy distribution",False,2405
-False,"State-space representation",False,25580
-False,"Methods engineering",False,4642
-False,"System identification",False,8296
-False,"Cox–Ingersoll–Ross model",False,6961
-False,"Principal component analysis",False,73849
-False,"Multivariate statistics",False,10432
-False,"Berry–Esseen theorem",False,12528
-False,"People v. Collins",False,2968
-False,"Formal science",False,7367
-False,"Cramér–Rao bound",False,19026
-False,"Bayesian search theory",False,7956
-False,"Comparison of general and generalized linear models",True,1641
-False,"Mean value analysis",False,6260
-False,"Quartile",False,7074
-False,"Median polish",True,1026
-False,"Low birth-weight paradox",False,4380
-False,"Transmission risks and rates",False,5870
-False,"Log-normal distribution",False,33778
-False,"Statistics Online Computational Resource",False,2522
-False,"Extremum estimator",False,4993
-False,"Total variation distance of probability measures",False,2075
-False,"Degrees of freedom (statistics)",False,25150
-False,"Statistical assembly",True,1161
-False,"Gamma process",False,2426
-False,"Non-linear iterative partial least squares",True,2440
-False,"Breusch–Godfrey test",False,5914
-False,"Logistic distribution",False,10433
-False,"White noise",False,23797
-False,"Dependent and independent variables",False,9728
-False,"Jonckheere's trend test",False,10352
-False,"L-moment",False,17162
-False,"Allan variance",False,58627
-False,"Nearest-neighbor chain algorithm",False,20288
-False,"Inverse probability",False,3339
-False,"Mean difference",False,11361
-False,"Tyranny of averages",True,1560
-False,"Multinomial probit",False,3768
-False,"Differential entropy",False,20830
-False,"Accidental sampling",True,2068
-False,"GLIM (software)",False,5103
-False,"Chapman–Kolmogorov equation",False,3723
-False,"Bean machine",False,3778
-False,"Isserlis' theorem",False,6108
-False,"Bertrand's ballot theorem",False,12654
-False,"Mantel test",False,4795
-False,"Crime statistics",False,12460
-False,"Flood risk assessment",False,6613
-False,"Exploratory factor analysis",False,28101
-False,"Negative binomial distribution",False,30836
-False,"Q-exponential distribution",False,5468
-False,"Data fusion",False,8973
-False,"Exponential-logarithmic distribution",False,7503
-False,"Multilevel model",False,22565
-False,"Statistical arbitrage",False,14472
-False,"Beta negative binomial distribution",False,4886
-False,"Exponentiated Weibull distribution",False,6183
-False,"Crossover study",False,7974
-False,"Sampling distribution",False,7190
-False,"Sequential estimation",True,915
-False,"Template:Statistics",False,12025
-False,"Predictive analytics",False,50890
-False,"Pitman closeness criterion",False,3680
-False,"Structural change",False,3838
-False,"Multiclass classification",False,4078
-False,"Feature extraction",False,4863
-False,"Paid survey",False,3389
-False,"Regression control chart",True,1150
-False,"Von Mises distribution",False,12954
-False,"Fraction of variance unexplained",False,3369
-False,"Procrustes analysis",False,11320
-False,"Homogeneity (statistics)",False,4685
-False,"Generalized additive model",False,4578
-False,"Conditional change model",True,857
-False,"Epi Info",False,15508
-False,"Proportionality (mathematics)",False,9781
-False,"Policy capturing",False,2536
-True,"Cointegration",False,10943
-False,"Statistical parsing",False,4661
-False,"Standard error",False,14286
-False,"Receiver operating characteristic",False,43385
-False,"Laplace principle (large deviations theory)",False,2650
-False,"Generalizability theory",False,6530
-False,"Bayes error rate",True,2119
-False,"Divergence (statistics)",False,7775
-False,"Filtering problem (stochastic processes)",False,8286
-False,"Guess value",False,2159
-False,"Age stratification",False,3571
-False,"Binomial regression",False,12353
-False,"Empirical Bayes method",False,14661
-False,"Robust regression",False,20498
-False,"Coherence (philosophical gambling strategy)",False,5428
-False,"Kish grid",True,2279
-False,"Mean time between failures",False,8040
-False,"Multivariate stable distribution",False,8850
-False,"Distribution fitting",False,12678
-False,"Best linear unbiased prediction",False,5520
-False,"Power transform",False,12422
-False,"Open-label trial",False,1490
-False,"Statistical proof",False,18878
-False,"Specification (regression)",False,3329
-False,"Mean-preserving spread",False,4357
-False,"Control chart",False,27500
-False,"Lot quality assurance sampling",True,2769
-False,"Statistical semantics",False,14263
-False,"Linguistic demography",False,4172
-False,"Extended negative binomial distribution",False,3825
-False,"SAS language",False,1910
-False,"P-chart",False,7593
-False,"Pooled variance",False,5198
-False,"Generalized method of moments",False,19937
-False,"Cluster-weighted modeling",False,5898
-False,"High-dimensional statistics",False,4526
-False,"Inverse matrix gamma distribution",False,2468
-False,"Spatial dependence",False,2469
-False,"F-divergence",False,6474
-False,"Average",False,14558
-False,"Moffat distribution",False,2067
-False,"Additive model",False,2563
-False,"Population viability analysis",False,11646
-False,"Checking whether a coin is fair",False,17165
-False,"Probability-generating function",False,9376
-False,"Freidlin–Wentzell theorem",False,3322
-False,"Congruence coefficient",False,2708
-False,"Non-linear least squares",False,25418
-False,"Stimulus–response model",True,3486
-False,"False discovery rate",False,28008
-False,"Brownian excursion",False,10711
-False,"Reversible-jump Markov chain Monte Carlo",False,3079
-False,"Glossary of probability and statistics",False,17720
-False,"Fourier analysis",False,30521
-False,"Fishburn–Shepp inequality",False,1615
-False,"Local asymptotic normality",False,5255
-False,"Score test",False,6542
-False,"Wrapped Cauchy distribution",False,7750
-False,"Irwin–Hall distribution",False,6201
-False,"Feller process",False,4285
-False,"Economic data",False,14141
-False,"Cross-spectrum",False,2492
-False,"Quantile function",False,11822
-False,"Nested case-control study",False,5258
-False,"Lindley equation",False,3028
-False,"Test statistic",False,3125
-False,"Multidimensional Chebyshev's inequality",False,1629
-True,"Data binning",True,2425
-False,"Inverse Gaussian distribution",False,10781
-False,"Balanced repeated replication",False,4620
-False,"Elston–Stewart algorithm",True,1502
-False,"Cliodynamics",False,10558
-False,"Normal distribution",False,119123
-False,"Guesstimate",False,3927
-False,"Composite bar chart",True,701
-False,"Transition rate matrix",False,1554
-True,"Likelihood-ratio test",False,13526
-False,"Discrete frequency domain",False,1220
-False,"Morisita's overlap index",True,2631
-False,"Canopy clustering algorithm",False,2728
-False,"Probabilistic design",False,3745
-False,"Buzen's algorithm",False,4447
-False,"Bapat–Beg theorem",False,4811
-False,"Davis distribution",False,3410
-False,"Cochrane–Orcutt estimation",False,3720
-False,"Tampering (quality control)",True,1304
-False,"McCullagh's parametrization of the Cauchy distributions",False,3940
-False,"Lady tasting tea",False,6265
-False,"Tikhonov regularization",False,13553
-False,"Banburismus",False,20773
-False,"Bates distribution",False,2874
-False,"Random variable",False,28444
-False,"Conditional probability",False,19195
-False,"Bispectrum",False,3401
-False,"Wiener process",False,24104
-False,"Törnqvist index",False,9756
-False,"Scan statistic",False,1149
-False,"Quasireversibility",False,4137
-False,"Smoothness (probability theory)",False,1985
-False,"Statistical epidemiology",False,3120
-False,"Moran's I",False,3205
-False,"Marcum Q-function",True,1718
-False,"Goodman and Kruskal's lambda",False,3354
-False,"Language model",False,10025
-False,"Kullback–Leibler divergence",False,40541
-False,"Sampling bias",False,18925
-False,"Positive and negative predictive values",False,10174
-False,"Akaike information criterion",False,25540
-False,"Post-hoc analysis",False,12704
-False,"Comonotonicity",False,11706
-False,"Secular variation",False,5694
-True,"Uncertainty coefficient",False,4748
-False,"Statistical theory",False,12331
-True,"Random effects model",False,7795
-False,"SigmaStat",False,1995
-False,"Slice sampling",False,14303
-False,"Multivariate normal distribution",False,44555
-False,"Statistical regularity",False,1917
-False,"Ruin theory",False,8847
-False,"Data assimilation",False,14603
-False,"Grubbs' test for outliers",False,3954
-False,"All-pairs testing",False,9193
-False,"S (programming language)",False,6345
-False,"Simulation",False,84667
-False,"Grand mean",False,1237
-False,"CURE data clustering algorithm",False,5461
-False,"Utility maximization problem",False,3457
-False,"Control limits",True,2288
-False,"Winsorized mean",False,2192
-False,"Proportional hazards model",False,15072
-False,"Bayesian approaches to brain function",False,14557
-False,"Pivotal quantity",False,6482
-False,"Principle of maximum entropy",False,23342
-False,"Linear classifier",False,5852
-False,"Scott's Pi",False,2702
-False,"Principal component regression",False,34456
-False,"Linear probability model",False,2323
-False,"Neutral vector",False,2818
-False,"Memorylessness",False,6021
-False,"Energy distance",False,15540
-False,"Scatter matrix",True,2056
-False,"Errors-in-variables models",False,33671
-False,"Noncentral t-distribution",False,14497
-False,"Mixture (probability)",True,981
-False,"Novikov's condition",False,1787
-False,"Hidden Markov model",False,55080
-False,"Kingman's formula",False,1510
-False,"Entropy (information theory)",False,49739
-False,"Risk factor",False,6416
-False,"Cohen's kappa",False,19405
-False,"Latent variable model",False,2822
-False,"Proportional reduction in loss",False,2706
-False,"Multivariate probit model",False,3423
-False,"Testing hypotheses suggested by the data",False,6292
-False,"SCORUS",True,635
-False,"Stein's unbiased risk estimate",False,4566
-False,"Umbrella sampling",False,5222
-False,"Poisson process",False,15124
-False,"Point pattern analysis",False,3853
-False,"History of statistics",False,58704
-False,"Concordant pair",False,2149
-False,"Pitman–Yor process",False,4268
-False,"Goodhart's law",False,2988
-False,"Bingham distribution",False,2236
-False,"Bonferroni correction",False,11050
-False,"Optimal design",False,45431
-False,"Record value",False,692
-False,"Closed testing procedure",False,2573
-False,"Trimmed estimator",False,4210
-False,"Population dynamics",False,14155
-False,"Functional boxplot",False,5821
-False,"Bangdiwala's B",False,4642
-False,"Projection pursuit regression",False,6592
-False,"Quantitative marketing research",False,9841
-False,"Tajima's D",False,15627
-False,"Stepwise regression",False,10742
-False,"Concomitant (statistics)",False,3031
-False,"Rademacher distribution",False,4810
-False,"Mixing (mathematics)",False,15533
-False,"Bühlmann model",False,7370
-False,"Felsenstein's tree-pruning algorithm",True,826
-False,"Unmatched count",False,3687
-False,"Central limit theorem",False,54314
-False,"Lomax distribution",False,4626
-False,"McDonald–Kreitman test",False,15928
-False,"Compound probability distribution",False,8191
-False,"Round robin test",False,1888
-False,"Martingale (probability theory)",False,20524
-False,"Uncertainty",False,26269
-False,"Omnibus test",False,46015
-False,"Isotonic regression",False,5218
-False,"Statistical dispersion",False,6208
-False,"Fisher's noncentral hypergeometric distribution",False,13405
-False,"Univariate distribution",True,2517
-False,"Hat matrix",False,7014
-False,"Plackett–Burman design",False,38557
-False,"Group family",True,973
-False,"Canonical analysis",False,4657
-False,"Mathematical sciences",False,1972
-False,"Fides (reliability)",False,8217
-False,"Principle of indifference",False,15341
-False,"Spectral density",False,33059
-False,"Galton's problem",False,16850
-False,"Heteroscedasticity",False,18770
-False,"Hidden Markov random field",False,1755
-False,"Multiple correspondence analysis",False,8245
-False,"Barnes interpolation",False,5223
-False,"Sampling frame",False,8934
-False,"Calculus of predispositions",False,4307
-False,"Testimator",False,1791
-False,"Cauchy–Schwarz inequality",False,21610
-False,"Unevenly spaced time series",False,5542
-False,"Test score",False,2828
-False,"OxMetrics",False,3391
-False,"miaou",False,31
-False,"Econometrics",False,32106
-False,"Exponential dispersion model",False,1766
-False,"Distance correlation",False,19899
-False,"Ordered probit",True,2034
-False,"X-bar chart",False,1671
-False,"Sampling fraction",True,752
-False,"Iris flower data set",False,15066
-False,"Parametric family",False,2133
-False,"Combinatorics",False,22020
-False,"Probability density function",False,24722
-False,"SUDAAN",False,3420
-False,"Configural frequency analysis",False,8575
-False,"Mean reciprocal rank",False,2078
-False,"Error correction model",False,4878
-False,"Life table",False,10480
-False,"Dummy variable (statistics)",False,29623
-False,"Variance decomposition of forecast errors",False,2971
-False,"Nonparametric statistics",False,11891
-False,"Circular error probable",False,4930
-False,"Bayesian inference",False,49876
-False,"Autocovariance",False,3285
-False,"Simulated annealing",False,27303
-False,"Coalescent theory",False,20570
-False,"Transiogram",True,1277
-False,"Statistical parameter",False,3763
-False,"Time reversibility",False,3800
-False,"U-chart",False,2585
-False,"Change detection (GIS)",False,1104
-False,"Fast Fourier transform",False,38029
-False,"Latent variable",False,5456
-False,"Slutsky's theorem",False,3257
-False,"Statistical model",False,11004
-False,"Human subject research",False,39839
-False,"Sammon mapping",True,3561
-False,"Additive smoothing",False,4329
-False,"68–95–99.7 rule",False,9359
-False,"Data",False,8626
-False,"Behrens–Fisher problem",False,13301
-False,"Brownian motion",False,47431
-False,"Alignments of random points",False,8127
-False,"Bayesian network",False,52485
-False,"Census",False,29283
-False,"Latent Dirichlet allocation",False,28047
-False,"Semiparametric model",False,3635
-True,"Exact test",False,5188
-False,"Howland will forgery trial",False,3922
-False,"Stochastic gradient descent",False,13279
-False,"Consistency (statistics)",False,3377
-False,"Sparse binary polynomial hashing",True,659
-False,"Maximum spacing estimation",False,25136
-False,"X-12-ARIMA",True,1899
-False,"Detailed balance",False,32928
-False,"Bayes classifier",False,2336
-False,"Negative relationship",True,906
-False,"Logit-normal distribution",False,9903
-False,"Correlation ratio",False,5303
-False,"Multivariate adaptive regression splines",False,21533
-False,"Sum of normally distributed random variables",False,10102
-False,"Gallagher Index",False,7909
-False,"Scoring algorithm",False,2084
-False,"Consensus-based assessment",False,10421
-False,"Sensitivity analysis",False,45426
-False,"Mabinogion sheep problem",False,2034
-False,"Stopping time",False,11368
-True,"Page's trend test",False,4234
-False,"Structural break",False,4606
-False,"Multiple-indicator kriging",False,737
-False,"Coherence (statistics)",False,1944
-False,"Dixon's Q test",False,4945
-False,"Correlation function (quantum field theory)",False,1284
-False,"Durbin–Watson statistic",False,13772
-False,"BMDP",False,742
-False,"Law of truly large numbers",False,3691
-False,"Main effect",True,1425
-False,"Generalized expected utility",False,2539
-False,"Expected value",False,33648
-False,"Winsorising",True,3180
-False,"Taguchi loss function",False,1257
-False,"Chain rule for Kolmogorov complexity",False,4457
-False,"Gambler's ruin",False,12693
-False,"Polynomial and rational function modeling",False,12400
-False,"Descriptive research",True,3774
-False,"Polynomial chaos",False,6691
-False,"Replication (statistics)",False,3301
-False,"Geometric median",False,18515
-False,"Gauss–Markov process",False,2839
-False,"Mean absolute percentage error",False,2960
-False,"Particle filter",False,22354
-False,"Classical test theory",False,12878
-False,"Accuracy and precision",False,16602
-False,"Absolute risk reduction",False,3564
-False,"Compositional data",False,5540
-False,"Randomized controlled trial",False,78678
-False,"Poly-Weibull distribution",True,1122
-False,"Rossmo's formula",False,7064
-False,"Focused information criterion",False,5900
-False,"SPSS Modeler",False,7825
-False,"Survey data collection",False,15851
-False,"Rasch model estimation",False,4153
-False,"Optimal decision",False,3807
-False,"Order of integration",False,2034
-False,"Mean square quantization error",False,525
-False,"Parabolic fractal distribution",False,1454
-False,"Response bias",False,30995
-False,"Bayesian",False,1147
-False,"Kernel density estimation",False,28227
-False,"Antithetic variates",False,3746
-False,"Experimental design diagram",False,1373
-False,"Zipf–Mandelbrot law",False,6231
-False,"Morris method",False,5925
-False,"Seasonally adjusted annual rate",False,905
-False,"Crystal Ball function",False,2511
-False,"Cochran's C test",False,6992
-False,"T distribution",False,327
-False,"Information theory",False,40726
-False,"Wrapped exponential distribution",False,4201
-False,"Scaled inverse chi-squared distribution",False,12836
-False,"Mean integrated squared error",True,926
-False,"Multivariate kernel density estimation",False,27377
-False,"ANOVA on ranks",False,11464
-False,"Root mean square fluctuation",False,1101
-False,"Multiple-try Metropolis",False,6943
-False,"Fowlkes–Mallows index",False,5486
-False,"Ergodic theory",False,22884
-False,"Logistic regression",False,76870
-False,"Probability theory",False,21446
-False,"Acquiescence bias",True,3369
-False,"Cluster analysis",False,47715
-False,"Eddy covariance",False,11408
-False,"Mean",False,13392
-False,"Chebyshev center",False,6684
-False,"Projection pursuit",True,4546
-False,"CMA-ES",False,43929
-False,"Normal-exponential-gamma distribution",True,2469
-False,"D'",True,2193
-False,"Finite-dimensional distribution",False,3084
-False,"Factorial code",False,2643
-False,"GLUE (uncertainty assessment)",False,2509
-False,"Holm–Bonferroni method",False,12030
-False,"Probability distribution",False,26263
-False,"KPSS test",False,1441
-False,"Lévy flight",False,10671
-False,"Pythagorean expectation",False,19548
-False,"Uncorrelated",False,4109
-False,"Freedman's paradox",True,1436
-False,"Schramm–Loewner evolution",False,17627
-False,"Unimodality",False,12072
-False,"Fisher information",False,33196
-False,"Restricted randomization",False,23106
-False,"Labour Force Survey",False,6136
-False,"Mixture model",False,49699
-False,"Deviation analysis",False,456
-False,"Rounding",False,37358
-False,"Correct sampling",True,1160
-False,"Free statistical software",False,27418
-False,"Correlate summation analysis",False,5371
-False,"Total least squares",False,19824
-False,"Welch–Satterthwaite equation",False,2946
-False,"Chi distribution",False,6884
-False,"German tank problem",False,32284
-False,"G/G/1 queue",False,2583
-False,"Kumaraswamy distribution",False,6911
-False,"Threshold model",False,3959
-False,"Common-method variance",True,4163
-False,"Observational study",False,10094
-False,"Interquartile range",False,5842
-False,"Little's law",False,9056
-False,"Heston model",False,11079
-False,"Discrepancy function",True,1833
-False,"Challenge–dechallenge–rechallenge",False,6056
-False,"Pareto interpolation",False,2390
-False,"Diversity index",False,18270
-False,"Generalized linear model",False,29915
-False,"Pseudomedian",True,2116
-False,"Location test",True,5167
-False,"Midhinge",False,1312
-False,"Ridit scoring",False,3185
-False,"Martingale difference sequence",False,1454
-False,"Experimental event rate",True,1568
-False,"Convolution random number generator",False,1783
-False,"A priori probability",False,2165
-False,"Lorenz curve",False,13064
-False,"Fuzzy logic",False,32584
-False,"Acceptance sampling",False,5318
-False,"Data point",True,2017
-False,"Random graph",False,11587
-False,"Barnard's test",False,5212
-False,"Variance gamma process",False,9902
-False,"Wike's law of low odd primes",False,1675
-False,"Statistical randomness",False,6779
-False,"Bhatia–Davis inequality",False,1256
-False,"P-value",False,37129
-False,"Vysochanskij–Petunin inequality",False,2686
-False,"Range (statistics)",False,5664
-False,"Lilliefors test",False,2975
-False,"Hurst exponent",False,13083
-False,"Foster's theorem",False,1511
-False,"Experimental uncertainty analysis",False,86403
-False,"Dirichlet-multinomial distribution",False,30213
-False,"Lumpability",False,4117
-False,"Doomsday argument",False,50610
-False,"Degenerate distribution",False,3943
-False,"Inclusion probability",False,1502
-False,"Cepstrum",False,9288
-False,"Interim analysis",False,4727
-False,"Cartography",False,39601
-False,"Relative risk reduction",False,1216
-False,"Aggregate pattern",True,2493
-False,"De Moivre–Laplace theorem",False,7050
-False,"Variable-order Bayesian network",False,2844
-False,"Reproducibility",False,13547
-False,"Alpha beta filter",False,15247
-False,"Energy statistics",False,3146
-False,"Data cleansing",False,16088
-False,"Generalized additive model for location, scale and shape",False,10235
-False,"Moral graph",False,1602
-False,"Non-negative matrix factorization",False,35654
-False,"Hedonic regression",False,13657
-False,"Multivariate random variable",False,10821
-False,"Markov chain mixing time",False,3950
-False,"Spearman's rank correlation coefficient",False,17020
-False,"Empirical orthogonal functions",True,3354
-False,"Method of simulated moments",True,2099
-True,"Explained variation",False,5834
-False,"Bayes linear statistics",False,7237
-False,"Matrix population models",False,4704
-False,"Log-linear model",False,1588
-False,"Np-chart",False,2157
-False,"Base rate",False,3508
-False,"Hoeffding's inequality",False,11751
-False,"XploRe",False,1796
-False,"Clinical endpoint",False,8852
-False,"Missing data",False,15132
-False,"Confidence and prediction bands",False,7972
-False,"Earth mover's distance",False,8306
-False,"Data classification (business intelligence)",False,2733
-False,"Probabilistic proposition",True,777
-False,"Spatial descriptive statistics",False,5106
-False,"Kriging",False,27778
-False,"Self-organizing map",False,26312
-False,"Template talk:List resources",False,27
-False,"Matrix t-distribution",False,8585
-False,"Random compact set",False,3399
-True,"Political forecasting",False,3638
-False,"Outlier",False,20118
-False,"Normal variance-mean mixture",False,2525
-False,"Null distribution",True,452
-False,"Quantitative parasitology",False,7994
-False,"Multiple of the median",False,2413
-False,"Additive white Gaussian noise",False,14563
-False,"Marginal distribution",False,9518
-False,"Quantum (Statistical programming language)",False,1045
-False,"Minitab",True,4692
-False,"Inverse Mills ratio",False,3333
-False,"Analyse-it",False,3410
-False,"Institutional review board",False,23104
-False,"Pearson product-moment correlation coefficient",False,37842
-False,"Kendall tau distance",False,5085
-False,"Fiducial inference",False,12424
-False,"Hyperbolic distribution",False,3959
-False,"Relevance vector machine",False,2678
-False,"Exponentially modified Gaussian distribution",False,9866
-False,"Probable error",False,2105
-False,"Cramér–von Mises criterion",False,6053
-False,"Logistic function",False,21363
-False,"Dirichlet process",False,26471
-False,"Choropleth map",False,9663
-False,"Bayesian game",False,15433
-False,"Association mapping",False,5991
-False,"Study heterogeneity",False,4017
-False,"Rind et al. controversy",False,53500
-False,"Correspondence analysis",False,6427
-False,"Nominal category",False,2046
-False,"Factorial experiment",False,10649
-False,"Path space",False,492
-False,"Volatility (finance)",False,18537
-False,"Propagation of uncertainty",False,22611
-False,"Minimum viable population",False,6023
-False,"Single-equation methods (econometrics)",True,763
-False,"Itō isometry",False,1822
-False,"Probability",False,29531
-False,"Placebo-controlled study",False,34713
-False,"Seasonal adjustment",False,6145
-False,"Calculating demand forecast accuracy",False,3605
-False,"Renewal theory",False,15714
-False,"Area compatibility factor",True,1212
-False,"Almost surely",False,10718
-False,"Homogenization (climate)",False,18281
-False,"Negative multinomial distribution",False,11353
-False,"Separation test",True,613
-False,"Ignorability",False,1276
-False,"Maximum likelihood",False,49881
-False,"Lincoln index",False,4543
-False,"Probability and statistics",False,947
-False,"Player wins",False,399
-False,"Recall bias",False,2387
-False,"Kaplan–Meier estimator",False,7517
-False,"Metropolis–Hastings algorithm",False,21793
-False,"Bayesian probability",False,25431
-False,"Demand forecasting",False,1768
-False,"Root-mean-square deviation of atomic positions",False,7231
-False,"Observational error",False,3352
-False,"Law of averages",False,3610
-False,"Adapted process",False,3237
-False,"Signal-to-noise statistic",True,1654
-False,"Method of support",True,934
-False,"Probability of error",True,2240
-False,"Correction for attenuation",False,5717
-False,"Resampling (statistics)",False,32345
-False,"Lander–Green algorithm",True,1165
-False,"Partial leverage",False,3175
-False,"Template talk:Outline footer",False,2683
-False,"Phase-type distribution",False,13118
-False,"Indecomposable distribution",False,5906
-False,"SimFiT",True,2453
-False,"Pareto distribution",False,33537
-False,"P-rep",False,5246
-False,"Mendelian randomization",False,6404
-False,"Quantile regression",False,15456
-False,"Statistical unit",False,5216
-False,"Humanities",False,39715
-False,"Epidemiology",False,57902
-False,"Friendship paradox",False,9547
-False,"Bernoulli process",False,18346
-False,"Law (stochastic processes)",False,1954
-False,"Randomized block design",False,13727
-False,"Mallows's Cp",False,5479
-False,"Observational equivalence",True,2493
-False,"Zipf's law",False,21470
-False,"Lag windowing",False,703
-False,"Data Desk",False,2606
-False,"Multiple comparisons problem",False,25306
-False,"Marginal model",True,1520
-False,"Hazard ratio",False,13852
-False,"Markov's inequality",False,6398
-False,"Hellin's law",True,1917
-False,"JMulTi",False,1660
-False,"Topic model",False,11317
-False,"Group testing",False,14425
-False,"Length time bias",False,2125
-False,"Luby transform code",False,9668
-False,"Random measure",False,3161
-True,"Most probable number",False,3001
-False,"Log-Laplace distribution",False,2304
-False,"Meta-regression",False,7035
-False,"Erlang (unit)",False,21457
-False,"Expected value of sample information",False,8212
-False,"Ecological study",False,8103
-False,"Mean absolute scaled error",False,2652
-False,"Serial dependence",True,1187
-False,"Gerschenkron effect",False,1384
-True,"V-optimal histograms",False,9194
-False,"Wang and Landau algorithm",False,9636
-False,"Theory of conjoint measurement",False,45510
-False,"Voigt profile",False,9619
-False,"Empirical process",False,5369
-False,"Panjer recursion",False,4073
-False,"Ceiling effect (statistics)",False,12229
-False,"Tweedie distribution",False,44434
-False,"Variance-stabilizing transformation",False,2339
-False,"Ensemble Kalman filter",False,22771
-False,"Mathematical modelling of infectious disease",False,13802
-False,"Bootstrap error-adjusted single-sample technique",False,4524
-False,"Probability interpretations",False,34796
-False,"Fast Kalman filter",False,10658
-False,"Generalized Pareto distribution",False,9113
-False,"Auxiliary particle filter",True,2242
-False,"Neyman construction",False,1179
-False,"Qualitative property",False,2420
-False,"Empirical probability",False,5292
-False,"Markov renewal process",False,3975
-False,"Statistical benchmarking",False,4643
-False,"Craps principle",False,3920
-False,"Randomization",False,4922
-False,"Normalization (statistics)",True,5019
-False,"Shannon–Hartley theorem",False,18610
-False,"Deviation (statistics)",True,3102
-False,"Engineering statistics",False,5649
-False,"Yates analysis",False,7983
-False,"Markov chain Monte Carlo",False,13890
-False,"Kernel regression",False,6901
-False,"Linear model",False,4687
-True,"Vuong's closeness test",False,3409
-False,"Sample space",False,7491
-False,"Taguchi methods",False,25193
-False,"Spatial distribution",True,1485
-False,"Lukacs's proportion-sum independence theorem",False,2062
-False,"Collectively exhaustive events",False,3812
-False,"ViSta, The Visual Statistics system",False,1860
-False,"Mean squared error",False,17227
-False,"Mixed-design analysis of variance",False,10998
-False,"Autoregressive conditional duration",False,1413
-False,"Founders of statistics",False,27676
-False,"Business statistics",True,1988
-False,"Variogram",False,9829
-False,"Overdispersion",False,7607
-False,"Data set",False,5406
-False,"K-means clustering",False,39909
-False,"Cramér's theorem",False,4122
-False,"LaplacesDemon",False,4779
-False,"Multidimensional scaling",False,14773
-False,"Dominating decision rule",True,918
-False,"GenStat",False,2965
-False,"Leverage (statistics)",False,3084
-False,"Continuous-time stochastic process",False,1501
-False,"Seismic to simulation",False,12933
-False,"Cyclostationary process",False,5306
-False,"Zero–one law",False,780
-False,"Studentized range",False,6270
-False,"Shrinkage (statistics)",True,1592
-False,"Continuous stochastic process",False,6155
-True,"Independent component analysis",False,35056
-False,"Ecological fallacy",False,16375
-False,"Truncated normal distribution",False,10158
-False,"Spatial variability",False,987
-False,"Statistical significance",False,18227
-False,"F-test",False,18107
-False,"Ordered logit",False,4760
-False,"U-quadratic distribution",False,2769
-False,"Scheffé's method",False,4213
-False,"Sliced inverse regression",False,13490
-False,"Latin square",False,22024
-False,"Standard probability space",False,28711
-False,"Poisson regression",False,11438
-False,"Classification rule",False,11023
-False,"Conjugate prior",False,32056
-False,"Truncated distribution",False,8190
-False,"Subindependence",False,2459
-False,"National accounts",False,18147
-False,"Kolmogorov's criterion",False,2092
-False,"Sequential probability ratio test",False,10297
-False,"NCSS (statistical software)",False,1615
-False,"Intraclass correlation",False,17271
-False,"Regenerative process",False,3577
-False,"Lusser's law",True,720
-False,"Beta prime distribution",False,6823
-False,"Epidata",False,2884
-False,"Bootstrapping populations",False,10283
-False,"Cox process",True,1472
-False,"Regret (decision theory)",False,7664
-False,"Polynomial regression",False,13406
-False,"CUSUM",False,5898
-False,"Hannan–Quinn information criterion",False,2185
-False,"Graph cuts in computer vision",False,12649
-False,"Dilution assay",False,6124
-False,"Shrinkage estimator",False,5157
-False,"Cross-sectional regression",True,2219
-False,"Event study",False,9255
-False,"SPC XL",False,1343
-False,"Standard score",False,6150
-False,"Common cause and special cause (statistics)",False,19227
-False,"Influence diagram",False,12318
-False,"Chow test",False,3901
-False,"Centerpoint (geometry)",False,4213
-False,"McKay's approximation for the coefficient of variation",False,3310
-False,"Fleming–Viot process",False,1441
-False,"Doubly stochastic model",False,2235
-False,"Uniformly most powerful test",False,5776
-False,"Conway–Maxwell–Poisson distribution",False,10836
-False,"Jaccard index",False,12549
-False,"Quadratic classifier",False,5333
-False,"Stochastic modelling (insurance)",False,8371
-False,"Polykay",True,778
-False,"Forward measure",False,3770
-False,"Astrostatistics",True,1315
-False,"Survey sampling",False,11554
-True,"Mean squared prediction error",False,2894
-False,"Empirical likelihood",False,2148
-False,"Hypoexponential distribution",False,8714
-False,"Inverse-chi-squared distribution",False,5057
-False,"Elastic map",False,12474
-False,"Augmented Dickey–Fuller test",False,7131
-False,"Khmaladze transformation",False,7413
-False,"Density estimation",False,9759
-False,"RV coefficient",False,4261
-False,"Central moment",False,5889
-False,"Lehmann–Scheffé theorem",True,2046
-False,"Sampling risk",False,5526
-False,"Beverton–Holt model",False,3769
-False,"Ljung–Box test",False,4680
-False,"Reliability engineering",False,72273
-False,"Function approximation",True,1967
-False,"Medical statistics",True,6317
-False,"Detrended fluctuation analysis",False,11005
-False,"Multiple Indicator Cluster Surveys",False,15902
-False,"Robust Bayesian analysis",False,7553
-False,"Microdata (statistics)",True,2549
-False,"Skewness",False,19739
-False,"Generalized least squares",False,11827
-False,"Bayes' theorem",False,25712
-False,"Reliability theory",False,3125
-False,"Cross-validation (statistics)",False,20566
-False,"Queuing delay",False,4782
-False,"Wide and narrow data",False,1931
-False,"Z-factor",False,7217
-False,"Spectral clustering",False,7009
-False,"Non-response bias",False,2491
-False,"Bayesian tool for methylation analysis",False,9750
-False,"Fokker–Planck equation",False,20541
-False,"Geometric mean",False,19556
-False,"Local convex hull",False,7370
-False,"Statistic",False,5745
-False,"Least squares",False,34206
-False,"Spaghetti plot",False,11048
-False,"Design matrix",False,6572
-False,"Eaton's inequality",False,4829
-False,"Rule of succession",False,23459
-False,"Quasi-likelihood",False,3177
-False,"Markovian arrival process",False,4465
-False,"Exact statistics",False,5249
-False,"Periodogram",False,4305
-False,"Hoover index",False,3868
-False,"Time-use survey",False,1617
-False,"Forecasting",False,20217
-False,"Sample maximum and minimum",False,7962
-False,"Actuarial science",False,32643
-False,"Monte Carlo method",False,46902
-False,"Berlin procedure",False,2371
-False,"One- and two-tailed tests",False,11606
-False,"Variable rules analysis",False,3170
-False,"Multinomial logistic regression",False,30899
-False,"Error bar",True,1463
-False,"GraphPad Prism",False,2932
-False,"Chauvenet's criterion",False,6670
-False,"Nelson rules",False,4999
-False,"Matrix gamma distribution",False,2520
-False,"Epidemiological method",False,7140
-False,"Categorical distribution",False,25190
-False,"Inter-rater reliability",False,15281
-False,"Streamgraph",True,1577
-False,"Frequency domain",False,6762
-False,"Survival rate",True,4867
-False,"Natural process variation",False,2985
-False,"Smoothing",False,5909
-False,"Moment (mathematics)",False,15362
-False,"Inverse probability weighting",False,3431
-False,"Fisher's inequality",False,3342
-False,"Wishart distribution",False,19541
-False,"ANOVA–simultaneous component analysis",False,6600
-False,"N of 1 trial",False,4872
-False,"Phase dispersion minimization",False,6080
-False,"F-test of equality of variances",False,5435
-False,"Sparsity-of-effects principle",False,1595
-False,"Hyperprior",False,4401
-False,"Window function",False,60170
-False,"Confounding",False,26088
-False,"Student's t-distribution",False,49508
-False,"Product distribution",False,6531
-False,"Black–Scholes model",False,49893
-False,"Goodness of fit",False,8986
-False,"Borel–Cantelli lemma",False,10702
-False,"Monte Carlo method for photon transport",False,20534
-False,"TPL Tables",False,5528
-False,"Omitted-variable bias",False,6466
-False,"Engineering tolerance",False,12378
-False,"Normal-gamma distribution",False,12391
-False,"Gy's sampling theory",False,4327
-False,"Probability space",False,25133
-False,"Neighbourhood components analysis",False,6365
-False,"Gumbel distribution",False,10463
-False,"100-year flood",False,13427
-False,"Boolean analysis",False,8342
-False,"Cornish–Fisher expansion",False,4603
-False,"D/M/1 queue",False,2325
-False,"Samuelson's inequality",False,3929
-False,"Algorithmic inference",False,17438
-False,"ARGUS distribution",False,4613
-False,"Support vector machine",False,38833
-False,"Relativistic Breit–Wigner distribution",False,4965
-False,"Multidimensional analysis",True,1616
-False,"Jensen's inequality",False,20634
-False,"Generative model",False,3760
-False,"Pensim2",True,725
-False,"Geometric stable distribution",False,9684
-False,"Berkson error model",True,1159
-False,"Stochastic drift",False,5481
-False,"Doob–Meyer decomposition theorem",False,2869
-False,"Steiner system",False,16347
-False,"Constant elasticity of substitution",False,6921
-False,"Autoregressive–moving-average model",False,14394
-True,"Quasi-maximum likelihood",True,2807
-False,"Linear discriminant analysis",False,23561
-False,"Relative change and difference",False,15951
-False,"Exploratory data analysis",False,14285
-False,"Uncomfortable science",False,2351
-False,"Thurstone scale",False,4850
-False,"A posteriori probability",False,257
-False,"Pairwise independence",False,4114
-False,"Doob decomposition theorem",False,12059
-False,"Empirical measure",False,5557
-False,"Generalized normal distribution",False,15398
-False,"Inverse-gamma distribution",False,7251
-False,"Brownian bridge",False,4444
-False,"Statistical signal processing",True,3818
-False,"Impulse response",False,9395
-False,"Sample (statistics)",False,6592
-False,"MINQUE",False,1426
-False,"Expectation propagation",False,1087
-False,"Smearing retransformation",True,615
-False,"Analysis of molecular variance",True,2372
-False,"Delaporte distribution",False,5866
-False,"Covariance matrix",False,19969
-False,"Rank-size distribution",False,7985
-False,"Instrumental variable",False,32728
-False,"Evolutionary data mining",False,4138
-False,"Calibration (statistics)",False,5977
-False,"Wallenius' noncentral hypergeometric distribution",False,15380
-False,"Binary classification",False,9830
-False,"Cumulative distribution function",False,13257
-False,"Observed information",False,3059
-False,"Interaction (statistics)",False,23598
-False,"Kolmogorov's zero–one law",False,3997
-False,"Erlang distribution",False,10712
-False,"Bayesian inference in marketing",False,21851
-False,"Generalized gamma distribution",False,4804
-False,"Glossary of experimental design",False,12471
-False,"Wick product",False,5018
-False,"Moment problem",False,5293
-False,"Beta-binomial distribution",False,18220
-False,"Newcastle–Ottawa scale",True,1312
-False,"Funnel plot",False,5377
-False,"Markov chain",False,63209
-False,"Kendall's W",False,5226
-False,"Wiener deconvolution",False,6655
-False,"Tschuprow's T",False,2908
-False,"Total correlation",False,7730
-False,"Spherical design",False,3839
-False,"Least squares support vector machine",False,16432
-False,"Tukey lambda distribution",False,6710
-False,"Poisson binomial distribution",False,6787
-False,"Coherence (signal processing)",False,7560
-False,"Censored regression model",True,2147
+"expertneeded","length","name","stub"
+False,4237,"Leftover hash lemma",False
+False,12062,"Moment-generating function",False
+False,3414,"Burke's theorem",False
+False,5649,"CP decomposition",False
+False,774,"Reification (statistics)",True
+False,3066,"Risk–benefit ratio",False
+False,2861,"Reversible dynamics",True
+False,2852,"Item-total correlation",True
+False,12981,"Wiener filter",False
+False,3249,"Random variate",False
+False,5723,"Law of the iterated logarithm",False
+False,6934,"Multiple baseline design",False
+False,2407,"Strong Law of Small Numbers",False
+False,14020,"Simultaneous equations model",False
+False,4551,"Layered hidden Markov model",False
+False,1106,"Dyadic distribution",False
+False,7108,"Multivariate Pareto distribution",False
+False,10702,"Borel–Cantelli lemma",False
+True,8668,"Explained sum of squares",False
+False,2791,"Regression diagnostic",True
+False,14923,"Index of coincidence",False
+False,28075,"Correlation does not imply causation",False
+False,2966,"Belt transect",False
+False,19025,"Stochastic process",False
+False,29588,"Probability box",False
+False,2640,"Design effect",False
+False,2294,"Watterson estimator",False
+False,5470,"Factorial moment",False
+False,10847,"Radar chart",False
+False,3369,"Hartley's test",False
+False,5661,"Iteratively reweighted least squares",False
+False,11869,"Probit model",False
+True,5811,"Complete-linkage clustering",False
+False,4532,"GAUSS (software)",False
+False,2512,"Continuity correction",False
+False,4852,"Statistical relational learning",False
+False,616,"Probability distribution function",False
+False,34591,"Statistical inference",False
+False,3776,"Pocock boundary",False
+False,5577,"Variance-gamma distribution",False
+False,88507,"List of statistics articles",False
+False,17804,"MinHash",False
+True,1934,"Higher-order statistics",True
+False,8484,"Twisting properties",False
+False,16737,"Survey methodology",False
+False,1367,"Barber–Johnson diagram",False
+False,3093,"Maximum entropy spectral estimation",False
+False,36231,"Regression toward the mean",False
+False,5772,"Outline of statistics",False
+False,15099,"Root mean square",False
+False,8227,"Sørensen–Dice coefficient",False
+False,4514,"Point estimation",False
+False,3170,"Upper and lower probabilities",False
+False,1321,"Aggregate data",True
+False,5526,"Sampling risk",False
+False,8142,"Likelihood ratios in diagnostic testing",False
+False,4868,"Whipple's index",False
+False,9028,"Master equation",False
+False,16592,"Failure rate",False
+False,3363,"Reliability block diagram",False
+False,2451,"Limited dependent variable",True
+False,2061,"Hoeffding's independence test",True
+False,5909,"Inverse distribution",False
+False,8522,"Generalized chi-squared distribution",False
+False,15872,"Hierarchical clustering",False
+True,3001,"Gaussian process emulator",True
+False,234,"Order of a kernel",True
+False,8090,"Absorbing Markov chain",False
+False,2259,"Pollyanna Creep",False
+False,16819,"Ziggurat algorithm",False
+False,4868,"Yamartino method",False
+False,5447,"Poisson limit theorem",False
+False,1060,"Bartlett's theorem",False
+False,5472,"Quadratic form (statistics)",False
+False,16209,"Occupancy frequency distribution",False
+False,12383,"Natural experiment",False
+False,29623,"Dummy variable (statistics)",False
+False,3301,"Partial residual plot",False
+False,15690,"Exchangeable random variables",False
+False,7725,"Matthews correlation coefficient",False
+False,5806,"Noncentral chi distribution",False
+False,2994,"Analytic and enumerative statistical studies",True
+False,3659,"Univariate analysis",False
+False,13591,"Dunnett's test",False
+False,14261,"Coefficient of variation",False
+False,25580,"State-space representation",False
+False,19026,"Cramér–Rao bound",False
+False,7956,"Bayesian search theory",False
+False,1641,"Comparison of general and generalized linear models",True
+False,6260,"Mean value analysis",False
+False,7074,"Quartile",False
+False,1026,"Median polish",True
+False,4380,"Low birth-weight paradox",False
+False,5870,"Transmission risks and rates",False
+False,33778,"Log-normal distribution",False
+False,4993,"Extremum estimator",False
+False,25150,"Degrees of freedom (statistics)",False
+False,2426,"Gamma process",False
+False,2440,"Non-linear iterative partial least squares",True
+False,5914,"Breusch–Godfrey test",False
+False,23797,"White noise",False
+False,10352,"Jonckheere's trend test",False
+False,58627,"Allan variance",False
+False,3339,"Inverse probability",False
+False,1560,"Tyranny of averages",True
+False,20830,"Differential entropy",False
+False,2068,"Accidental sampling",True
+False,5103,"GLIM (software)",False
+False,9790,"Hotelling's T-squared distribution",False
+False,6108,"Isserlis' theorem",False
+False,9684,"Geometric stable distribution",False
+False,30836,"Negative binomial distribution",False
+False,7503,"Exponential-logarithmic distribution",False
+False,22565,"Multilevel model",False
+False,14472,"Statistical arbitrage",False
+False,4886,"Beta negative binomial distribution",False
+False,7190,"Sampling distribution",False
+False,50890,"Predictive analytics",False
+False,3680,"Pitman closeness criterion",False
+False,4863,"Feature extraction",False
+False,1150,"Regression control chart",True
+False,12954,"Von Mises distribution",False
+False,3369,"Fraction of variance unexplained",False
+False,15508,"Epi Info",False
+False,2536,"Policy capturing",False
+False,14286,"Standard error",False
+False,7974,"Crossover study",False
+False,7775,"Divergence (statistics)",False
+False,13571,"Continuous-time Markov chain",False
+False,5428,"Coherence (philosophical gambling strategy)",False
+False,2279,"Kish grid",True
+False,11464,"ANOVA on ranks",False
+False,5358,"Dynamic topic model",False
+False,2769,"Lot quality assurance sampling",True
+False,7593,"P-chart",False
+False,19937,"Generalized method of moments",False
+False,4526,"High-dimensional statistics",False
+False,2468,"Inverse matrix gamma distribution",False
+False,2469,"Spatial dependence",False
+False,6474,"F-divergence",False
+False,2067,"Moffat distribution",False
+False,17165,"Checking whether a coin is fair",False
+False,9376,"Probability-generating function",False
+False,5125,"Plate notation",False
+False,1975,"Empirical statistical laws",False
+False,3391,"OxMetrics",False
+False,10711,"Brownian excursion",False
+False,3079,"Reversible-jump Markov chain Monte Carlo",False
+False,1615,"Fishburn–Shepp inequality",False
+False,6542,"Score test",False
+False,6201,"Irwin–Hall distribution",False
+False,906,"Negative relationship",True
+False,11822,"Quantile function",False
+False,5258,"Nested case-control study",False
+False,1629,"Multidimensional Chebyshev's inequality",False
+False,1502,"Elston–Stewart algorithm",True
+False,119123,"Normal distribution",False
+False,3927,"Guesstimate",False
+False,25609,"St. Petersburg paradox",False
+False,2631,"Morisita's overlap index",True
+False,2728,"Canopy clustering algorithm",False
+False,3745,"Probabilistic design",False
+False,4447,"Buzen's algorithm",False
+False,3410,"Davis distribution",False
+False,3720,"Cochrane–Orcutt estimation",False
+False,6265,"Lady tasting tea",False
+False,3146,"Energy statistics",False
+False,2874,"Bates distribution",False
+False,28444,"Random variable",False
+False,19195,"Conditional probability",False
+False,3401,"Bispectrum",False
+False,24104,"Wiener process",False
+False,9756,"Törnqvist index",False
+False,1149,"Scan statistic",False
+False,13259,"Lists of countries and territories",False
+False,40541,"Kullback–Leibler divergence",False
+False,18925,"Sampling bias",False
+False,10174,"Positive and negative predictive values",False
+False,25541,"Akaike information criterion",False
+False,12704,"Post-hoc analysis",False
+True,4748,"Uncertainty coefficient",False
+False,1995,"SigmaStat",False
+False,14303,"Slice sampling",False
+False,14603,"Data assimilation",False
+False,3954,"Grubbs' test for outliers",False
+False,9193,"All-pairs testing",False
+False,6345,"S (programming language)",False
+False,84667,"Simulation",False
+False,14557,"Bayesian approaches to brain function",False
+False,23342,"Principle of maximum entropy",False
+False,2702,"Scott's Pi",False
+False,1463,"Error bar",True
+False,34456,"Principal component regression",False
+False,2818,"Neutral vector",False
+False,6021,"Memorylessness",False
+False,15540,"Energy distance",False
+False,2056,"Scatter matrix",True
+False,14656,"Noncentral t-distribution",False
+False,981,"Mixture (probability)",True
+False,1787,"Novikov's condition",False
+False,1510,"Kingman's formula",False
+False,6416,"Risk factor",False
+False,19405,"Cohen's kappa",False
+False,4566,"Stein's unbiased risk estimate",False
+False,5222,"Umbrella sampling",False
+False,2149,"Concordant pair",False
+False,4268,"Pitman–Yor process",False
+False,2988,"Goodhart's law",False
+False,4292,"Convolution of probability distributions",False
+False,692,"Record value",False
+False,4210,"Trimmed estimator",False
+False,14155,"Population dynamics",False
+False,5821,"Functional boxplot",False
+False,4642,"Bangdiwala's B",False
+False,6592,"Projection pursuit regression",False
+False,9841,"Quantitative marketing research",False
+False,15627,"Tajima's D",False
+False,10742,"Stepwise regression",False
+False,826,"Felsenstein's tree-pruning algorithm",True
+False,3883,"Conservatism (belief revision)",False
+False,23104,"Institutional review board",False
+False,4912,"Partial regression plot",False
+False,8191,"Compound probability distribution",False
+False,639,"Subgroup analysis",False
+False,46015,"Omnibus test",False
+False,5218,"Isotonic regression",False
+False,6208,"Statistical dispersion",False
+False,3205,"Moran's I",False
+False,2517,"Univariate distribution",True
+False,38557,"Plackett–Burman design",False
+False,15341,"Principle of indifference",False
+False,2332,"Gauss's inequality",False
+False,3571,"Age stratification",False
+False,8040,"Mean time between failures",False
+False,4307,"Calculus of predispositions",False
+False,3825,"Extended negative binomial distribution",False
+False,2828,"Test score",False
+False,30521,"Fourier analysis",False
+False,32106,"Econometrics",False
+False,2034,"Ordered probit",True
+False,15066,"Iris flower data set",False
+False,10025,"Language model",False
+False,22020,"Combinatorics",False
+False,8575,"Configural frequency analysis",False
+False,10480,"Life table",False
+False,3853,"Point pattern analysis",False
+False,4930,"Circular error probable",False
+False,20570,"Coalescent theory",False
+False,1277,"Transiogram",True
+False,3763,"Statistical parameter",False
+False,2585,"U-chart",False
+False,11004,"Statistical model",False
+False,3561,"Sammon mapping",True
+False,13301,"Behrens–Fisher problem",False
+False,29283,"Census",False
+False,4153,"Rasch model estimation",False
+False,1441,"KPSS test",False
+False,3922,"Howland will forgery trial",False
+False,13279,"Stochastic gradient descent",False
+False,3377,"Consistency (statistics)",False
+False,3369,"Acquiescence bias",True
+False,32928,"Detailed balance",False
+False,10094,"Observational study",False
+False,9903,"Logit-normal distribution",False
+False,5303,"Correlation ratio",False
+False,21533,"Multivariate adaptive regression splines",False
+False,10102,"Sum of normally distributed random variables",False
+False,2034,"Mabinogion sheep problem",False
+False,11368,"Stopping time",False
+False,2733,"Data classification (business intelligence)",False
+False,4945,"Dixon's Q test",False
+False,13772,"Durbin–Watson statistic",False
+False,3691,"Law of truly large numbers",False
+False,597,"Paradigm (experimental)",False
+False,12693,"Gambler's ruin",False
+False,9093,"Statistical finance",False
+False,3774,"Descriptive research",True
+False,3564,"Absolute risk reduction",False
+False,1988,"Business statistics",True
+True,6303,"Blocking (statistics)",False
+False,39909,"K-means clustering",False
+False,5900,"Focused information criterion",False
+False,20634,"Jensen's inequality",False
+False,6005,"Minimum-variance unbiased estimator",False
+False,22024,"Latin square",False
+False,525,"Mean square quantization error",False
+False,3959,"Hyperbolic distribution",False
+False,28227,"Kernel density estimation",False
+False,3746,"Antithetic variates",False
+False,1373,"Experimental design diagram",False
+False,7270,"Multivariate t-distribution",False
+False,610,"Anchor test",False
+False,20566,"Cross-validation (statistics)",False
+False,4201,"Wrapped exponential distribution",False
+False,926,"Mean integrated squared error",True
+False,5486,"Fowlkes–Mallows index",False
+False,10453,"Location estimation in sensor networks",False
+False,21446,"Probability theory",False
+False,47715,"Cluster analysis",False
+False,13392,"Mean",False
+False,6684,"Chebyshev center",False
+False,4546,"Projection pursuit",True
+False,3084,"Finite-dimensional distribution",False
+False,2643,"Factorial code",False
+False,4584,"Random field",False
+False,63209,"Markov chain",False
+False,2261,"Standard normal deviate",True
+False,44187,"Random walk",False
+False,23106,"Restricted randomization",False
+False,456,"Deviation analysis",False
+False,27418,"Free statistical software",False
+False,5371,"Correlate summation analysis",False
+False,19824,"Total least squares",False
+False,6884,"Chi distribution",False
+False,2583,"G/G/1 queue",False
+False,5842,"Interquartile range",False
+False,11079,"Heston model",False
+False,1833,"Discrepancy function",True
+False,5167,"Location test",True
+False,3185,"Ridit scoring",False
+False,1454,"Martingale difference sequence",False
+False,1568,"Experimental event rate",True
+False,1783,"Convolution random number generator",False
+False,13064,"Lorenz curve",False
+False,32584,"Fuzzy logic",False
+False,2017,"Data point",True
+True,10943,"Cointegration",False
+False,38833,"Support vector machine",False
+False,1675,"Wike's law of low odd primes",False
+False,10712,"Erlang distribution",False
+False,2686,"Vysochanskij–Petunin inequality",False
+False,14285,"Exploratory data analysis",False
+False,1511,"Foster's theorem",False
+False,2372,"Analysis of molecular variance",True
+False,4117,"Lumpability",False
+False,1718,"Marcum Q-function",True
+False,3943,"Degenerate distribution",False
+False,1502,"Inclusion probability",False
+False,9288,"Cepstrum",False
+False,1216,"Relative risk reduction",False
+False,13547,"Reproducibility",False
+False,15124,"Poisson process",False
+False,10235,"Generalized additive model for location, scale and shape",False
+False,1602,"Moral graph",False
+False,8304,"Atkinson index",False
+False,17020,"Spearman's rank correlation coefficient",False
+False,3354,"Empirical orthogonal functions",True
+False,21357,"Mode (statistics)",False
+True,5834,"Explained variation",False
+False,1588,"Log-linear model",False
+False,10421,"Consensus-based assessment",False
+False,15132,"Missing data",False
+False,3457,"Utility maximization problem",False
+False,8714,"Hypoexponential distribution",False
+False,777,"Probabilistic proposition",True
+False,2034,"Order of integration",False
+False,26312,"Self-organizing map",False
+False,3829,"Dot plot (statistics)",False
+False,6943,"Multiple-try Metropolis",False
+True,3638,"Political forecasting",False
+False,20118,"Outlier",False
+False,18107,"F-test",False
+False,3752,"Fisher kernel",False
+False,3333,"Inverse Mills ratio",False
+False,3410,"Analyse-it",False
+False,5085,"Kendall tau distance",False
+False,12424,"Fiducial inference",False
+False,2678,"Relevance vector machine",False
+False,2105,"Probable error",False
+False,4017,"Study heterogeneity",False
+False,2046,"Nominal category",False
+False,492,"Path space",False
+False,18346,"Bernoulli process",False
+False,22611,"Propagation of uncertainty",False
+False,6023,"Minimum viable population",False
+False,763,"Single-equation methods (econometrics)",True
+False,29531,"Probability",False
+False,3605,"Calculating demand forecast accuracy",False
+False,4287,"Association (statistics)",False
+False,10718,"Almost surely",False
+False,18281,"Homogenization (climate)",False
+True,9489,"Matching pursuit",False
+False,1276,"Ignorability",False
+False,49881,"Maximum likelihood",False
+False,4543,"Lincoln index",False
+False,947,"Probability and statistics",False
+False,399,"Player wins",False
+False,2387,"Recall bias",False
+False,56600,"Government",False
+False,1768,"Demand forecasting",False
+False,7231,"Root-mean-square deviation of atomic positions",False
+False,5268,"Nakagami distribution",False
+False,3237,"Adapted process",False
+False,934,"Method of support",True
+False,2240,"Probability of error",True
+False,3557,"Count data",False
+False,1165,"Lander–Green algorithm",True
+False,3175,"Partial leverage",False
+False,13118,"Phase-type distribution",False
+False,5906,"Indecomposable distribution",False
+False,30899,"Multinomial logistic regression",False
+False,5246,"P-rep",False
+False,5216,"Statistical unit",False
+False,57902,"Epidemiology",False
+False,1954,"Law (stochastic processes)",False
+False,13727,"Randomized block design",False
+False,5479,"Mallows's Cp",False
+False,2493,"Observational equivalence",True
+False,703,"Lag windowing",False
+False,2606,"Data Desk",False
+False,1520,"Marginal model",True
+False,13852,"Hazard ratio",False
+False,1917,"Hellin's law",True
+False,1660,"JMulTi",False
+False,2125,"Length time bias",False
+False,8698,"Hodges–Lehmann estimator",False
+False,3161,"Random measure",False
+False,3139,"Welch's method",False
+False,21457,"Erlang (unit)",False
+False,8212,"Expected value of sample information",False
+False,8103,"Ecological study",False
+False,1384,"Gerschenkron effect",False
+True,9194,"V-optimal histograms",False
+False,45510,"Theory of conjoint measurement",False
+False,5369,"Empirical process",False
+False,2258,"Medoid",False
+False,12229,"Ceiling effect (statistics)",False
+False,12549,"Jaccard index",False
+False,2339,"Variance-stabilizing transformation",False
+False,22771,"Ensemble Kalman filter",False
+False,13802,"Mathematical modelling of infectious disease",False
+False,4524,"Bootstrap error-adjusted single-sample technique",False
+False,4329,"Additive smoothing",False
+False,2420,"Qualitative property",False
+False,4643,"Statistical benchmarking",False
+False,8447,"Process Window Index",False
+False,3920,"Craps principle",False
+False,4922,"Randomization",False
+False,18610,"Shannon–Hartley theorem",False
+False,20498,"Robust regression",False
+False,5649,"Engineering statistics",False
+False,7983,"Yates analysis",False
+False,6901,"Kernel regression",False
+False,4687,"Linear model",False
+False,25193,"Taguchi methods",False
+False,8222,"Index (economics)",False
+False,1485,"Spatial distribution",True
+False,3812,"Collectively exhaustive events",False
+False,1860,"ViSta, The Visual Statistics system",False
+False,17227,"Mean squared error",False
+False,10998,"Mixed-design analysis of variance",False
+False,1413,"Autoregressive conditional duration",False
+False,27676,"Founders of statistics",False
+False,14773,"Multidimensional scaling",False
+False,9829,"Variogram",False
+False,1654,"Signal-to-noise statistic",True
+False,2539,"Generalized expected utility",False
+False,4122,"Cramér's theorem",False
+False,4779,"LaplacesDemon",False
+False,918,"Dominating decision rule",True
+False,2965,"GenStat",False
+False,3084,"Leverage (statistics)",False
+False,1501,"Continuous-time stochastic process",False
+False,12933,"Seismic to simulation",False
+False,5306,"Cyclostationary process",False
+False,6270,"Studentized range",False
+False,3839,"Spherical design",False
+False,26224,"Wigner quasiprobability distribution",False
+False,1592,"Shrinkage (statistics)",True
+False,6155,"Continuous stochastic process",False
+True,35056,"Independent component analysis",False
+False,16375,"Ecological fallacy",False
+False,10158,"Truncated normal distribution",False
+False,18227,"Statistical significance",False
+False,2769,"U-quadratic distribution",False
+False,12072,"Unimodality",False
+False,11909,"Stochastic approximation",False
+False,11438,"Poisson regression",False
+False,2078,"Mean reciprocal rank",False
+False,8190,"Truncated distribution",False
+False,18147,"National accounts",False
+False,10297,"Sequential probability ratio test",False
+False,3577,"Regenerative process",False
+False,720,"Lusser's law",True
+False,7972,"Confidence and prediction bands",False
+False,10283,"Bootstrapping populations",False
+False,7664,"Regret (decision theory)",False
+False,13406,"Polynomial regression",False
+False,9547,"Friendship paradox",False
+False,12649,"Graph cuts in computer vision",False
+False,6124,"Dilution assay",False
+False,2219,"Cross-sectional regression",True
+False,9255,"Event study",False
+False,6150,"Standard score",False
+False,19227,"Common cause and special cause (statistics)",False
+False,3901,"Chow test",False
+False,4213,"Centerpoint (geometry)",False
+False,3310,"McKay's approximation for the coefficient of variation",False
+False,1663,"Markov information source",False
+False,1441,"Fleming–Viot process",False
+False,10836,"Conway–Maxwell–Poisson distribution",False
+False,5333,"Quadratic classifier",False
+False,8371,"Stochastic modelling (insurance)",False
+False,778,"Polykay",True
+False,3770,"Forward measure",False
+False,1315,"Astrostatistics",True
+False,11554,"Survey sampling",False
+True,2894,"Mean squared prediction error",False
+False,5057,"Inverse-chi-squared distribution",False
+False,12474,"Elastic map",False
+False,11606,"One- and two-tailed tests",False
+False,7591,"Anomaly detection",False
+False,3769,"Beverton–Holt model",False
+False,6608,"Recurrence period density entropy",False
+False,4680,"Ljung–Box test",False
+False,72273,"Reliability engineering",False
+False,2785,"Intervening variable",True
+False,6317,"Medical statistics",True
+False,11005,"Detrended fluctuation analysis",False
+False,15902,"Multiple Indicator Cluster Surveys",False
+False,26532,"Bias of an estimator",False
+False,19739,"Skewness",False
+False,11827,"Generalized least squares",False
+False,60170,"Window function",False
+False,4782,"Queuing delay",False
+False,1931,"Wide and narrow data",False
+False,5557,"Empirical measure",False
+False,7009,"Spectral clustering",False
+False,2491,"Non-response bias",False
+False,9750,"Bayesian tool for methylation analysis",False
+False,20541,"Fokker–Planck equation",False
+False,7370,"Local convex hull",False
+False,11048,"Spaghetti plot",False
+False,4829,"Eaton's inequality",False
+False,23459,"Rule of succession",False
+False,4465,"Markovian arrival process",False
+False,5249,"Exact statistics",False
+False,4305,"Periodogram",False
+False,3868,"Hoover index",False
+False,20217,"Forecasting",False
+False,2371,"Berlin procedure",False
+False,1554,"Transition rate matrix",False
+False,3170,"Variable rules analysis",False
+True,2807,"Quasi-maximum likelihood",True
+False,2932,"GraphPad Prism",False
+False,6670,"Chauvenet's criterion",False
+True,2425,"Data binning",True
+False,2520,"Matrix gamma distribution",False
+False,7140,"Epidemiological method",False
+False,25190,"Categorical distribution",False
+False,15281,"Inter-rater reliability",False
+False,15362,"Moment (mathematics)",False
+False,6762,"Frequency domain",False
+False,2985,"Natural process variation",False
+False,5909,"Smoothing",False
+False,3340,"Statistical Lab",False
+False,55080,"Hidden Markov model",False
+False,3342,"Fisher's inequality",False
+False,19541,"Wishart distribution",False
+False,4872,"N of 1 trial",False
+False,5288,"Prior knowledge for pattern recognition",False
+False,5435,"F-test of equality of variances",False
+False,1595,"Sparsity-of-effects principle",False
+False,4401,"Hyperprior",False
+False,26088,"Confounding",False
+False,49508,"Student's t-distribution",False
+False,4457,"Chain rule for Kolmogorov complexity",False
+False,5528,"TPL Tables",False
+False,6466,"Omitted-variable bias",False
+False,12391,"Normal-gamma distribution",False
+False,4327,"Gy's sampling theory",False
+False,25133,"Probability space",False
+False,32284,"German tank problem",False
+False,2390,"Pareto interpolation",False
+False,13427,"100-year flood",False
+False,1179,"Neyman construction",False
+False,2325,"D/M/1 queue",False
+False,3929,"Samuelson's inequality",False
+False,4613,"ARGUS distribution",False
+False,1237,"Grand mean",False
+False,4965,"Relativistic Breit–Wigner distribution",False
+False,1616,"Multidimensional analysis",True
+False,1708,"Hosmer–Lemeshow test",False
+False,725,"Pensim2",True
+False,1087,"Expectation propagation",False
+False,1159,"Berkson error model",True
+False,6921,"Constant elasticity of substitution",False
+False,25306,"Multiple comparisons problem",False
+False,23561,"Linear discriminant analysis",False
+False,4850,"Thurstone scale",False
+False,4444,"Brownian bridge",False
+False,3818,"Statistical signal processing",True
+False,9395,"Impulse response",False
+False,6592,"Sample (statistics)",False
+False,615,"Smearing retransformation",True
+False,60113,"Artificial neural network",False
+False,19969,"Covariance matrix",False
+False,7985,"Rank-size distribution",False
+False,32728,"Instrumental variable",False
+False,15894,"Population ecology",False
+False,4100,"Marginal likelihood",False
+False,15380,"Wallenius' noncentral hypergeometric distribution",False
+False,3059,"Observed information",False
+False,23598,"Interaction (statistics)",False
+False,3997,"Kolmogorov's zero–one law",False
+False,15178,"Queueing theory",False
+False,4804,"Generalized gamma distribution",False
+False,5018,"Wick product",False
+False,5293,"Moment problem",False
+False,18220,"Beta-binomial distribution",False
+False,1312,"Newcastle–Ottawa scale",True
+False,5377,"Funnel plot",False
+False,17438,"Algorithmic inference",False
+False,6655,"Wiener deconvolution",False
+False,9113,"Generalized Pareto distribution",False
+False,2908,"Tschuprow's T",False
+False,6710,"Tukey lambda distribution",False
+False,6787,"Poisson binomial distribution",False
+False,7560,"Coherence (signal processing)",False
+False,2147,"Censored regression model",True
+False,5988,"T-statistic",False
+False,3068,"Local independence",False
+False,18546,"Bessel's correction",False
+False,20623,"Prosecutor's fallacy",False
+False,606,"Consumption distribution",False
+False,34796,"Probability interpretations",False
+False,7251,"Inverse-gamma distribution",False
+False,1876,"Dendrogram",True
+False,4041,"Stationary subspace analysis",False
+False,1567,"Predictive inference",False
+False,4811,"Bapat–Beg theorem",False
+False,2472,"Covariate",False
+False,23691,"Stable distribution",False
+False,1992,"Credal set",False
+False,2405,"Wrapped Lévy distribution",False
+False,2234,"Realization (probability)",False
+False,10804,"Cox's theorem",False
+False,17488,"Pareto principle",False
+False,8880,"D'Agostino's K-squared test",False
+False,12353,"Binomial regression",False
+False,5648,"Ogden tables",False
+False,1624,"Rayleigh mixture distribution",False
+False,5062,"Probabilistic classification",False
+False,1789,"Probability matching",True
+False,7607,"Overdispersion",False
+False,10304,"False positive paradox",False
+False,1814,"Transect",False
+False,3031,"Concomitant (statistics)",False
+False,19899,"Distance correlation",False
+False,31683,"Mann–Whitney U test",False
+False,18841,"Repeated measures design",False
+False,499,"Inherent zero",False
+False,16853,"Mark and recapture",False
+False,2565,"One-factor-at-a-time method",False
+False,4114,"Pairwise independence",False
+False,3297,"Geometric standard deviation",False
+False,11320,"Procrustes analysis",False
+False,15851,"Survey data collection",False
+False,1454,"Parabolic fractal distribution",False
+False,6992,"Cochran's C test",False
+False,5330,"Recursive partitioning",False
+False,2469,"Normal-exponential-gamma distribution",True
+False,33196,"Fisher information",False
+False,3757,"Bayesian average",True
+False,9368,"Cross-sectional study",False
+False,6056,"Challenge–dechallenge–rechallenge",False
+False,5060,"Credible interval",False
+False,18274,"Plot (graphics)",False
+False,2099,"Method of simulated moments",True
+False,8306,"Earth mover's distance",False
+False,10733,"Box–Jenkins",False
+False,5332,"Elliptical distribution",False
+False,7517,"Kaplan–Meier estimator",False
+False,3352,"Observational error",False
+False,7285,"Wald test",False
+False,2453,"SimFiT",True
+False,20534,"Monte Carlo method for photon transport",False
+True,5285,"Davies–Bouldin index",False
+False,3016,"Pareto analysis",False
+False,3102,"Deviation (statistics)",True
+False,4642,"Methods engineering",False
+False,8449,"Joint probability distribution",False
+False,73849,"Principal component analysis",False
+False,10432,"Multivariate statistics",False
+False,12528,"Berry–Esseen theorem",False
+False,2968,"People v. Collins",False
+False,7367,"Formal science",False
+False,11023,"Classification rule",False
+False,1615,"NCSS (statistical software)",False
+False,5898,"CUSUM",False
+False,5157,"Shrinkage estimator",False
+False,12318,"Influence diagram",False
+False,2522,"Statistics Online Computational Resource",False
+False,2075,"Total variation distance of probability measures",False
+False,1161,"Statistical assembly",True
+False,9728,"Dependent and independent variables",False
+False,17162,"L-moment",False
+False,20288,"Nearest-neighbor chain algorithm",False
+False,4999,"Nelson rules",False
+False,11361,"Mean difference",False
+False,3768,"Multinomial probit",False
+False,19587,"Percentile",False
+False,3778,"Bean machine",False
+False,12654,"Bertrand's ballot theorem",False
+False,12460,"Crime statistics",False
+False,6613,"Flood risk assessment",False
+False,15398,"Generalized normal distribution",False
+False,5468,"Q-exponential distribution",False
+False,8973,"Data fusion",False
+False,2884,"Epidata",False
+False,5226,"Kendall's W",False
+False,7730,"Total correlation",False
+False,6183,"Exponentiated Weibull distribution",False
+False,2650,"Laplace principle (large deviations theory)",False
+False,7909,"Gallagher Index",False
+False,22726,"Pearson distribution",False
+False,4078,"Multiclass classification",False
+False,3389,"Paid survey",False
+False,4685,"Homogeneity (statistics)",False
+False,4578,"Generalized additive model",False
+False,1126,"Interclass correlation",False
+False,857,"Conditional change model",True
+False,17185,"Kolmogorov–Smirnov test",False
+False,32345,"Resampling (statistics)",False
+False,28101,"Exploratory factor analysis",False
+False,43385,"Receiver operating characteristic",False
+False,6530,"Generalizability theory",False
+False,2119,"Bayes error rate",True
+False,2404,"Quota sampling",False
+False,2159,"Guess value",False
+False,14661,"Empirical Bayes method",False
+False,5255,"Local asymptotic normality",False
+False,2492,"Cross-spectrum",False
+False,29342,"Nonparametric skew",False
+False,8850,"Multivariate stable distribution",False
+False,12678,"Distribution fitting",False
+False,5520,"Best linear unbiased prediction",False
+False,5998,"Berkson's paradox",False
+False,12422,"Power transform",False
+False,18878,"Statistical proof",False
+False,3329,"Specification (regression)",False
+False,4357,"Mean-preserving spread",False
+True,3409,"Vuong's closeness test",False
+False,14263,"Statistical semantics",False
+False,4172,"Linguistic demography",False
+False,5198,"Pooled variance",False
+False,5898,"Cluster-weighted modeling",False
+False,32075,"Rasch model",False
+False,15533,"Mixing (mathematics)",False
+False,14558,"Average",False
+False,1888,"Round robin test",False
+False,3992,"Predictive validity",False
+False,3322,"Freidlin–Wentzell theorem",False
+False,6779,"Statistical randomness",False
+False,3486,"Stimulus–response model",True
+False,28008,"False discovery rate",False
+False,9359,"68–95–99.7 rule",False
+False,8127,"Alignments of random points",False
+False,7750,"Wrapped Cauchy distribution",False
+False,4285,"Feller process",False
+False,6404,"Mendelian randomization",False
+False,3028,"Lindley equation",False
+False,3125,"Test statistic",False
+False,752,"Sampling fraction",True
+False,10781,"Inverse Gaussian distribution",False
+False,4620,"Balanced repeated replication",False
+False,2331,"Lexis diagram",True
+False,1220,"Discrete frequency domain",False
+False,7451,"Geometric Brownian motion",False
+False,18270,"Diversity index",False
+False,1312,"Midhinge",False
+False,1304,"Tampering (quality control)",True
+False,3940,"McCullagh's parametrization of the Cauchy distributions",False
+False,2525,"Normal variance-mean mixture",False
+False,6792,"Asymptotic theory (statistics)",False
+False,4137,"Quasireversibility",False
+False,1985,"Smoothness (probability theory)",False
+False,3120,"Statistical epidemiology",False
+False,1490,"Open-label trial",False
+False,3354,"Goodman and Kruskal's lambda",False
+False,3723,"Chapman–Kolmogorov equation",False
+False,5694,"Secular variation",False
+False,12331,"Statistical theory",False
+False,44555,"Multivariate normal distribution",False
+False,13890,"Markov chain Monte Carlo",False
+False,8847,"Ruin theory",False
+False,2288,"Control limits",True
+False,2092,"Kolmogorov's criterion",False
+False,15072,"Proportional hazards model",False
+False,6482,"Pivotal quantity",False
+False,5852,"Linear classifier",False
+False,2323,"Linear probability model",False
+False,2549,"Microdata (statistics)",True
+False,33671,"Errors-in-variables models",False
+False,5745,"Statistic",False
+False,6572,"Design matrix",False
+False,7193,"Triangular distribution",False
+False,49739,"Entropy (information theory)",False
+False,2822,"Latent variable model",False
+False,2706,"Proportional reduction in loss",False
+False,3423,"Multivariate probit model",False
+False,6292,"Testing hypotheses suggested by the data",False
+False,635,"SCORUS",True
+False,58704,"History of statistics",False
+False,2236,"Bingham distribution",False
+False,11050,"Bonferroni correction",False
+False,45431,"Optimal design",False
+False,1426,"MINQUE",False
+False,9830,"Binary classification",False
+False,2573,"Closed testing procedure",False
+False,13083,"Hurst exponent",False
+False,4810,"Rademacher distribution",False
+False,1329,"Distance sampling",True
+False,7370,"Bühlmann model",False
+False,3687,"Unmatched count",False
+False,4626,"Lomax distribution",False
+False,15928,"McDonald–Kreitman test",False
+False,20524,"Martingale (probability theory)",False
+False,26269,"Uncertainty",False
+False,2563,"Additive model",False
+False,13405,"Fisher's noncentral hypergeometric distribution",False
+False,973,"Group family",True
+False,4657,"Canonical analysis",False
+False,1972,"Mathematical sciences",False
+False,8217,"Fides (reliability)",False
+False,33059,"Spectral density",False
+False,16850,"Galton's problem",False
+False,18770,"Heteroscedasticity",False
+False,1755,"Hidden Markov random field",False
+False,5223,"Barnes interpolation",False
+False,8934,"Sampling frame",False
+False,1791,"Testimator",False
+False,5542,"Unevenly spaced time series",False
+False,2708,"Congruence coefficient",False
+False,1766,"Exponential dispersion model",False
+False,1671,"X-bar chart",False
+False,39715,"Humanities",False
+False,24722,"Probability density function",False
+False,3420,"SUDAAN",False
+False,4878,"Error correction model",False
+False,236401,"Beta distribution",False
+False,2971,"Variance decomposition of forecast errors",False
+False,11891,"Nonparametric statistics",False
+False,3285,"Autocovariance",False
+False,27303,"Simulated annealing",False
+False,3800,"Time reversibility",False
+False,11073,"Mahalanobis distance",False
+False,1104,"Change detection (GIS)",False
+False,38029,"Fast Fourier transform",False
+False,5456,"Latent variable",False
+False,3257,"Slutsky's theorem",False
+False,49876,"Bayesian inference",False
+False,39839,"Human subject research",False
+False,47431,"Brownian motion",False
+False,8626,"Data",False
+False,14002,"Moderation (statistics)",False
+False,52485,"Bayesian network",False
+False,18515,"Geometric median",False
+False,28047,"Latent Dirichlet allocation",False
+False,3635,"Semiparametric model",False
+False,30995,"Response bias",False
+False,327,"T distribution",False
+False,659,"Sparse binary polynomial hashing",True
+False,25136,"Maximum spacing estimation",False
+False,1899,"X-12-ARIMA",True
+False,2336,"Bayes classifier",False
+False,14141,"Economic data",False
+False,2116,"Pseudomedian",True
+False,6823,"Beta prime distribution",False
+False,2084,"Scoring algorithm",False
+False,45426,"Sensitivity analysis",False
+True,4234,"Page's trend test",False
+False,737,"Multiple-indicator kriging",False
+False,1944,"Coherence (statistics)",False
+False,1284,"Correlation function (quantum field theory)",False
+False,742,"BMDP",False
+False,34713,"Placebo-controlled study",False
+False,4213,"Scheffé's method",False
+False,3180,"Winsorising",True
+False,1257,"Taguchi loss function",False
+False,12400,"Polynomial and rational function modeling",False
+False,6691,"Polynomial chaos",False
+False,3301,"Replication (statistics)",False
+False,2839,"Gauss–Markov process",False
+False,2960,"Mean absolute percentage error",False
+False,22354,"Particle filter",False
+False,12878,"Classical test theory",False
+False,16602,"Accuracy and precision",False
+False,7491,"Sample space",False
+False,5540,"Compositional data",False
+False,78678,"Randomized controlled trial",False
+False,1122,"Poly-Weibull distribution",True
+False,8540,"Heckman correction",False
+False,987,"Spatial variability",False
+False,3807,"Optimal decision",False
+False,4603,"Cornish–Fisher expansion",False
+False,7413,"Khmaladze transformation",False
+False,6231,"Zipf–Mandelbrot law",False
+False,5925,"Morris method",False
+False,8986,"Goodness of fit",False
+False,7131,"Augmented Dickey–Fuller test",False
+False,40726,"Information theory",False
+False,19556,"Geometric mean",False
+False,12836,"Scaled inverse chi-squared distribution",False
+False,3177,"Quasi-likelihood",False
+False,27377,"Multivariate kernel density estimation",False
+False,1101,"Root mean square fluctuation",False
+False,8585,"Matrix t-distribution",False
+False,76870,"Logistic regression",False
+False,3077,"Entropy power inequality",False
+False,11408,"Eddy covariance",False
+False,49893,"Black–Scholes model",False
+False,2193,"D'",True
+False,5481,"Stochastic drift",False
+False,2509,"GLUE (uncertainty assessment)",False
+False,12030,"Holm–Bonferroni method",False
+False,26263,"Probability distribution",False
+False,10671,"Lévy flight",False
+False,19548,"Pythagorean expectation",False
+False,4132,"Geospatial predictive modeling",False
+False,4109,"Uncorrelated",False
+False,1436,"Freedman's paradox",True
+False,17627,"Schramm–Loewner evolution",False
+False,37129,"P-value",False
+False,6136,"Labour Force Survey",False
+False,37358,"Rounding",False
+False,1160,"Correct sampling",True
+False,2946,"Welch–Satterthwaite equation",False
+False,4430,"Multi-vari chart",False
+False,6911,"Kumaraswamy distribution",False
+False,4163,"Common-method variance",True
+False,9056,"Little's law",False
+False,14467,"Tracy–Widom distribution",False
+False,4085,"GEH statistic",False
+False,29915,"Generalized linear model",False
+False,5318,"Acceptance sampling",False
+False,11587,"Random graph",False
+False,5212,"Barnard's test",False
+False,9902,"Variance gamma process",False
+False,12471,"Glossary of experimental design",False
+False,3610,"Law of averages",False
+False,11454,"Tolerance interval",False
+False,5664,"Range (statistics)",False
+False,2975,"Lilliefors test",False
+False,5216,"Rencontres numbers",False
+False,86403,"Experimental uncertainty analysis",False
+False,30213,"Dirichlet-multinomial distribution",False
+False,50610,"Doomsday argument",False
+False,2046,"Lehmann–Scheffé theorem",True
+False,4727,"Interim analysis",False
+False,39601,"Cartography",False
+False,2493,"Aggregate pattern",True
+False,7050,"De Moivre–Laplace theorem",False
+False,2844,"Variable-order Bayesian network",False
+False,15247,"Alpha beta filter",False
+False,16088,"Data cleansing",False
+False,7013,"Robust measures of scale",False
+False,35654,"Non-negative matrix factorization",False
+False,13657,"Hedonic regression",False
+False,10821,"Multivariate random variable",False
+False,3950,"Markov chain mixing time",False
+False,4704,"Matrix population models",False
+False,21368,"Logistic function",False
+False,2157,"Np-chart",False
+False,3508,"Base rate",False
+False,11751,"Hoeffding's inequality",False
+False,1796,"XploRe",False
+False,8852,"Clinical endpoint",False
+False,16432,"Least squares support vector machine",False
+False,31552,"Pattern recognition",False
+False,7064,"Rossmo's formula",False
+False,5106,"Spatial descriptive statistics",False
+False,27778,"Kriging",False
+False,12378,"Engineering tolerance",False
+False,3399,"Random compact set",False
+False,4384,"Control variates",False
+False,452,"Null distribution",True
+False,7994,"Quantitative parasitology",False
+False,2413,"Multiple of the median",False
+False,14563,"Additive white Gaussian noise",False
+False,4692,"Minitab",True
+False,2564,"Preference regression",False
+False,9866,"Exponentially modified Gaussian distribution",False
+False,6053,"Cramér–von Mises criterion",False
+False,2959,"Minimisation (clinical trials)",False
+False,9663,"Choropleth map",False
+False,15433,"Bayesian game",False
+False,5991,"Association mapping",False
+False,5406,"Data set",False
+False,13084,"Random element",False
+False,1369,"Inverse-variance weighting",True
+False,18537,"Volatility (finance)",False
+False,8127,"Heteroscedasticity-consistent standard errors",False
+False,1822,"Itō isometry",False
+False,5292,"Empirical probability",False
+False,15714,"Renewal theory",False
+False,2062,"Lukacs's proportion-sum independence theorem",False
+False,11353,"Negative multinomial distribution",False
+False,4760,"Ordered logit",False
+False,10649,"Factorial experiment",False
+False,21793,"Metropolis–Hastings algorithm",False
+False,25431,"Bayesian probability",False
+False,2235,"Doubly stochastic model",False
+False,2017,"Cumulative incidence",False
+False,46902,"Monte Carlo method",False
+False,5717,"Correction for attenuation",False
+False,34206,"Least squares",False
+False,21610,"Cauchy–Schwarz inequality",False
+False,33537,"Pareto distribution",False
+False,15456,"Quantile regression",False
+False,6600,"ANOVA–simultaneous component analysis",False
+False,6080,"Phase dispersion minimization",False
+False,25712,"Bayes' theorem",False
+False,21470,"Zipf's law",False
+False,14394,"Autoregressive–moving-average model",False
+False,15951,"Relative change and difference",False
+False,6398,"Markov's inequality",False
+False,13257,"Cumulative distribution function",False
+False,11317,"Topic model",False
+False,14425,"Group testing",False
+False,9668,"Luby transform code",False
+True,3001,"Most probable number",False
+False,2304,"Log-Laplace distribution",False
+False,7035,"Meta-regression",False
+False,2652,"Mean absolute scaled error",False
+False,1187,"Serial dependence",True
+False,2209,"Shape of the distribution",False
+False,9619,"Voigt profile",False
+False,4073,"Panjer recursion",False
+False,7598,"Stratified sampling",False
+False,2259,"Chernoff's distribution",True
+False,10658,"Fast Kalman filter",False
+False,2405,"Matérn covariance function",False
+False,2242,"Auxiliary particle filter",True
+False,22170,"Delphi method",False
+False,1186,"Stationary sequence",False
+False,2149,"Freedman–Diaconis rule",True
+False,11221,"Generalized beta distribution",False
+False,10738,"K-medoids",False
+False,3251,"Silhouette (clustering)",False
+False,6389,"Regression fallacy",False
+False,12291,"Jadad scale",False
+True,2707,"Wilks's lambda distribution",False
+False,46616,"Poisson distribution",False
+False,8045,"Kernel smoother",False
+False,6169,"Stem-and-leaf display",False
+False,20577,"Bilinear time–frequency distribution",False
+True,3711,"Varimax rotation",True
+False,7047,"Efficient estimator",False
+False,9422,"Stochastic optimization",False
+False,66035,"Geographic information system",False
+False,5057,"Boole's inequality",False
+False,11154,"Sobel test",False
+False,9620,"Average treatment effect",False
+False,24162,"Chemometrics",False
+False,3343,"Upside potential ratio",False
+False,3223,"Law of total covariance",False
+False,19809,"Random forest",False
+False,4394,"Truncation (statistics)",False
+False,1268,"Higher-order factor analysis",False
+False,6574,"Contact process (mathematics)",False
+False,27829,"Autoregressive model",False
+False,4474,"Ranklet",False
+False,3880,"Partial autocorrelation function",False
+False,4466,"Donsker's theorem",False
+False,13281,"Large deviations theory",False
+False,366,"Utilization distribution",True
+False,28846,"Bayesian inference in phylogeny",False
+False,1230,"ASReml",False
+False,6726,"Noncentral F-distribution",False
+False,9434,"Stationary process",False
+True,25564,"Validity (statistics)",False
+False,2473,"Paley–Zygmund inequality",False
+False,3171,"Martingale representation theorem",False
+False,9452,"Kernel (statistics)",False
+False,2844,"LISREL",False
+False,16360,"Outline (list)",False
+False,1419,"Demographic statistics",False
+False,35164,"Hardy–Weinberg principle",False
+False,12607,"Data dredging",False
+False,23139,"Law of large numbers",False
+False,30734,"Monte Carlo methods in finance",False
+False,8708,"Therapeutic effect",False
+False,20161,"Markov decision process",False
+False,7685,"Fan chart (time series)",False
+False,15191,"Bertrand's box paradox",False
+False,4683,"Rule of three (statistics)",False
+False,16290,"Time–frequency analysis",False
+False,5967,"Variable kernel density estimation",False
+False,13614,"History of probability",False
+False,3168,"Run chart",False
+False,4104,"M/D/1 queue",False
+False,4138,"Evolutionary data mining",False
+False,5373,"Cluster randomised controlled trial",False
+False,24324,"Baseball statistics",False
+False,2650,"Multistage sampling",False
+False,16358,"Autoregressive conditional heteroskedasticity",False
+False,2626,"Bias (statistics)",False
+False,12043,"Unit root",False
+False,5977,"Calibration (statistics)",False
+False,2472,"Telegraph process",False
+False,14928,"Systematic review",False
+False,9034,"Significance analysis of microarrays",False
+False,2443,"Attack rate",False
+False,19082,"Minimax",False
+False,988,"Wait list control group",True
+False,20654,"Sally Clark",False
+True,5996,"Breusch–Pagan test",False
+False,6009,"Panel data",False
+False,12639,"Maximum entropy probability distribution",False
+False,6011,"Standardized mortality ratio",False
+False,3969,"Youden's J statistic",True
+False,2243,"Littlewood's law",False
+False,58160,"Factor analysis",False
+False,8209,"Box plot",False
+False,3754,"Discrete phase-type distribution",False
+False,4627,"Gauss–Kuzmin distribution",False
+False,13969,"Covariance",False
+False,4187,"Kushner equation",False
+False,5247,"SETAR (model)",False
+False,8193,"Random sequence",False
+False,26308,"Binomial distribution",False
+False,7925,"Generalized Dirichlet distribution",False
+False,6089,"Zeta distribution",False
+False,4440,"Minimum chi-square estimation",False
+False,775,"Encyclopedia of Statistical Sciences",True
+False,6957,"Law of total cumulance",False
+False,1204,"Unit root test",True
+False,14142,"Geometric distribution",False
+False,2575,"Stochastic investment model",False
+False,3512,"Brown–Forsythe test",False
+False,3214,"Random regular graph",False
+False,4735,"Hubbert curve",False
+True,6164,"Randomness tests",False
+False,587,"Innovations vector",True
+False,2573,"Median test",False
+False,11216,"Biostatistics",False
+False,11551,"Cochran's theorem",False
+False,30235,"Official statistics",False
+False,3375,"Progressively measurable process",False
+False,21851,"Bayesian inference in marketing",False
+False,14567,"Iterative proportional fitting",False
+False,20305,"Orthogonal array",False
+False,1729,"Non-sampling error",True
+False,11965,"Absolute deviation",False
+False,2676,"Statistical shape analysis",True
+False,2962,"Gaussian isoperimetric inequality",False
+False,2695,"Quasi-birth–death process",False
+False,29835,"Long-tail traffic",False
+False,4619,"Basu's theorem",False
+False,3581,"Health care analytics",False
+False,19642,"Recursive least squares filter",False
+False,2806,"Ramsey RESET test",False
+False,8152,"Log-rank test",False
+False,34298,"Multimodal distribution",False
+False,468,"Increasing process",False
+False,11262,"L-estimator",False
+False,3843,"Treatment and control groups",True
+False,2105,"Bayesian additive regression kernels",True
+False,5376,"Half-normal distribution",False
+False,7875,"Chernoff face",False
+False,5928,"Anscombe's quartet",False
+False,3601,"Probability of precipitation",False
+False,1133,"Sampling design",True
+False,8060,"Stratonovich integral",False
+False,14493,"Familywise error rate",False
+False,4224,"Fan chart (statistics)",False
+False,28680,"Dirichlet distribution",False
+False,23299,"Autocorrelation",False
+False,6608,"Variance inflation factor",False
+False,1542,"Control event rate",True
+False,13700,"Markov random field",False
+False,1687,"Generalized linear mixed model",False
+False,6858,"Squared deviations",False
+False,14164,"Itō's lemma",False
+False,23027,"Latent semantic analysis",False
+False,425,"Dataplot",False
+False,13171,"Multifactor dimensionality reduction",False
+False,783,"Statistical noise",True
+False,3902,"Inverse relation",False
+False,38155,"Design of experiments",False
+False,4449,"Statgraphics",False
+False,6567,"Latent class model",False
+False,7267,"Cross-entropy method",False
+False,8403,"Semimartingale",False
+False,13246,"Self-similar process",False
+False,4307,"Additive Markov chain",False
+False,3662,"Fréchet mean",False
+False,3615,"Five-number summary",False
+False,3414,"Law of the unconscious statistician",False
+False,10069,"Group method of data handling",False
+False,3435,"Limiting density of discrete points",False
+False,8906,"Guttman scale",False
+False,9629,"Wrapped normal distribution",False
+False,4238,"Transferable belief model",False
+False,5302,"Doob's martingale inequality",False
+False,14631,"Stochastic dominance",False
+False,809,"Size (statistics)",True
+False,7460,"Sampling error",False
+True,2008,"Sinkov statistic",True
+False,3119,"Balding–Nichols model",False
+False,1411,"Interdecile range",False
+False,30719,"Randomness",False
+False,3647,"Self-similarity matrix",False
+False,14115,"Step detection",False
+False,2848,"Adaptive estimator",False
+False,4132,"Listwise deletion",False
+False,36060,"H-index",False
+False,16418,"Survival analysis",False
+False,7417,"Deviance information criterion",False
+False,12926,"Erdős–Rényi model",False
+False,2555,"Nonlinear autoregressive exogenous model",False
+False,3041,"Horvitz–Thompson estimator",False
+False,1589,"Mean percentage error",False
+False,5415,"Diffusion-limited aggregation",False
+False,10889,"Statistical literacy",False
+False,7568,"Delta method",False
+False,2349,"Sample-continuous process",False
+False,23935,"Sigma-algebra",False
+False,40465,"Long tail",False
+False,1221,"Maximal ergodic theorem",False
+False,6892,"Generalized estimating equation",False
+False,6494,"Generalized randomized block design",False
+False,4130,"Sign test",False
+False,6050,"Ergodicity",False
+False,14277,"Curve fitting",False
+False,3354,"VEGAS algorithm",False
+False,2495,"Stochastic equicontinuity",False
+False,11760,"Heavy-tailed distribution",False
+False,5879,"Independent and identically distributed random variables",False
+False,8917,"Proebsting's paradox",False
+True,19333,"Histogram",False
+False,2651,"Ursell function",False
+False,14703,"Detection theory",False
+False,19288,"Peirce's criterion",False
+False,6706,"Relative survival",False
+False,33304,"Null hypothesis",False
+False,10743,"Compound Poisson distribution",False
+False,3236,"Landau distribution",False
+False,3726,"Modifiable areal unit problem",False
+False,17991,"Sensitivity and specificity",False
+False,18054,"Gravity model of trade",False
+False,30341,"Lists of country-related topics",False
+False,52337,"Comparison of statistical packages",False
+False,16940,"Reliability (psychometrics)",False
+False,15634,"Sexual dimorphism measures",False
+False,8141,"Systematic error",False
+False,1616,"Forecast bias",False
+False,2388,"Violin plot",False
+False,12467,"Gambling and information theory",False
+True,13526,"Likelihood-ratio test",False
+False,2285,"Percentile rank",True
+False,3398,"Residual sum of squares",False
+False,3248,"Fisher–Tippett–Gnedenko theorem",True
+False,2180,"Semivariance",False
+False,5045,"Statistical assumption",False
+False,6105,"Fisher consistency",False
+False,3912,"Lotka's law",False
+False,5320,"Randomized response",False
+False,4787,"Pseudo-random number sampling",False
+False,2846,"Quadrat",False
+False,4764,"Normal curve equivalent",False
+False,13231,"Human Genetic Diversity: Lewontin's Fallacy",False
+False,8519,"Maximum a posteriori estimation",False
+False,6575,"Truncated mean",False
+False,19626,"Unbiased estimation of standard deviation",False
+False,7773,"Law of total expectation",False
+False,28278,"Error function",False
+False,2334,"Predictive informatics",True
+False,16388,"JMP (statistical software)",False
+False,12143,"Sufficient dimension reduction",False
+False,1022,"XLispStat",False
+False,6920,"Factor graph",False
+False,17496,"Stochastic",False
+False,29834,"Rubin causal model",False
+False,39604,"Data analysis",False
+False,1106,"Epps effect",True
+False,68704,"Exponential family",False
+False,14835,"Geostatistics",False
+False,2926,"Principal stratification",True
+False,14377,"Monte Carlo methods for option pricing",False
+False,7088,"Nested sampling algorithm",False
+False,10166,"Pedometric mapping",False
+False,561,"Robbins lemma",False
+True,48161,"Effect size",False
+False,5606,"Posterior probability",False
+False,2820,"Neyer d-optimal test",False
+False,16486,"Mixture distribution",False
+False,6673,"Weight function",False
+False,4707,"Binomial test",False
+False,3408,"Slash distribution",False
+False,885,"Data generating process",False
+False,964,"Analysis of rhythmic variance",True
+False,63439,"Abductive reasoning",False
+False,11242,"Selection bias",False
+False,1218,"Ordinal regression",True
+False,7159,"Kruskal–Wallis one-way analysis of variance",False
+False,2148,"Empirical likelihood",False
+False,2695,"Data reduction",False
+False,11506,"Log-linear analysis",False
+False,8296,"System identification",False
+False,6961,"Cox–Ingersoll–Ross model",False
+False,2830,"Online NMF",False
+False,6902,"Regression model validation",False
+False,3954,"Spearman–Brown prediction formula",False
+False,3086,"Ordination (statistics)",False
+False,2907,"Junction tree algorithm",False
+False,3823,"Matrix analytic method",False
+False,8371,"Analysis of covariance",False
+False,13153,"Law of comparative judgment",False
+False,1068,"Generalized multidimensional scaling",False
+False,5412,"Systematic sampling",False
+False,10433,"Logistic distribution",False
+False,4809,"Assumed mean",False
+False,7217,"Z-factor",False
+False,6561,"Anscombe transform",False
+True,5259,"Single-linkage clustering",False
+False,47118,"Bioinformatics",False
+False,5056,"Variance reduction",False
+False,2069,"Nelson–Aalen estimator",False
+False,8536,"Continuous mapping theorem",False
+False,6388,"Median absolute deviation",False
+False,5941,"Unistat",False
+False,7691,"Cosmic variance",False
+False,10625,"Box–Muller transform",False
+False,915,"Sequential estimation",True
+False,1698,"Estimation of signal parameters via rotational invariance techniques",False
+False,11626,"Beta function",False
+False,6049,"Predictive intake modelling",False
+False,3838,"Structural change",False
+False,2044,"Markov blanket",False
+False,22547,"Confidence distribution",False
+False,3675,"Owen's T function",True
+False,6812,"Simple random sample",False
+False,3028,"Fano factor",False
+False,5752,"Shapiro–Wilk test",False
+False,1077,"Underprivileged area score",False
+False,4297,"Parametric statistics",False
+False,8057,"Matrix normal distribution",False
+False,8265,"Monotone likelihood ratio",False
+False,6015,"Candlestick chart",False
+False,8286,"Filtering problem (stochastic processes)",False
+False,49315,"Mediation (statistics)",False
+False,8983,"Tobit model",False
+False,3698,"Marchenko–Pastur distribution",False
+False,3141,"Self-selection bias",False
+False,10045,"Fleiss' kappa",False
+False,7669,"Endogeneity (econometrics)",False
+False,1967,"Function approximation",True
+False,7903,"Diagnostic odds ratio",False
+False,20376,"Weighted arithmetic mean",False
+True,2668,"Johnson SU distribution",False
+False,1910,"SAS language",False
+False,1098,"Singular distribution",True
+False,17727,"Vector autoregression",False
+False,11646,"Population viability analysis",False
+False,2729,"Lead time bias",False
+False,7607,"Goldfeld–Quandt test",False
+False,16019,"Rice distribution",False
+False,5644,"Laboratory quality control",False
+False,59884,"Linear regression",False
+False,11402,"Seemingly unrelated regressions",False
+False,12687,"Convergence of measures",False
+False,3975,"Markov renewal process",False
+False,3295,"Sum of squares",False
+False,1888,"Lists of statistics topics",False
+False,17720,"Glossary of probability and statistics",False
+False,30791,"Gamma distribution",False
+False,1365,"Disorder problem",False
+False,3735,"DFFITS",False
+False,2623,"Piecewise-deterministic Markov process",False
+False,8456,"Statistical parametric mapping",False
+False,3418,"Forecast error",False
+False,3081,"Johansen test",True
+False,11134,"Consistent estimator",False
+False,7825,"SPSS Modeler",False
+False,43004,"Power law",False
+False,5580,"Discrete time and continuous time",False
+False,29863,"Semantic similarity",False
+False,9418,"Qualitative comparative analysis",False
+False,10662,"Bills of mortality",False
+False,26647,"Probability bounds analysis",False
+False,3784,"Poincaré plot",False
+False,6063,"Minimum distance estimation",False
+False,17720,"Moran process",False
+False,13553,"Tikhonov regularization",False
+False,8460,"1.96",False
+False,15705,"Determining the number of clusters in a data set",False
+False,13644,"Experimenter's bias",False
+False,20068,"Ratio estimator",False
+False,2578,"Collider (epidemiology)",False
+False,37842,"Pearson product-moment correlation coefficient",False
+False,13794,"Ranking",False
+False,6427,"Correspondence analysis",False
+False,5004,"Gretl",False
+False,17867,"Regression discontinuity design",False
+False,24896,"Random matrix",False
+False,5709,"Conditional probability distribution",False
+False,21519,"Categorical variable",False
+False,3352,"Quantile normalization",False
+False,11706,"Comonotonicity",False
+False,3517,"Relative index of inequality",False
+True,7795,"Random effects model",False
+False,15448,"Statistical classification",False
+False,40246,"Misuse of statistics",False
+False,3299,"Seven-number summary",False
+False,1771,"Equipossibility",False
+False,5236,"Bernstein inequalities (probability theory)",False
+False,1696,"Poisson sampling",True
+False,1002,"FNN algorithm",False
+False,11138,"Discriminant function analysis",False
+False,5461,"CURE data clustering algorithm",False
+False,17036,"M-estimator",False
+False,2192,"Winsorized mean",False
+False,9814,"Scaling pattern of occupancy",False
+False,23913,"Pearson's chi-squared test",False
+False,468,"Double exponential distribution",False
+False,37629,"Cumulant",False
+False,6868,"Jarque–Bera test",False
+False,17305,"Granger causality",False
+False,2044,"Cuzick–Edwards test",False
+False,12237,"Approximate entropy",False
+False,17284,"Order statistic",False
+False,1948,"Ecological regression",False
+False,9443,"V-statistic",False
+False,10649,"Reliability theory of aging and longevity",False
+False,688,"Generalized Wiener process",True
+False,6775,"Overfitting",False
+False,18126,"Multicollinearity",False
+False,4422,"Cantor distribution",False
+False,7085,"Scatter plot",False
+False,3030,"Marcinkiewicz–Zygmund inequality",False
+False,8402,"Thompson sampling",False
+True,6903,"Blind deconvolution",False
+False,79025,"Gini coefficient",False
+False,16298,"Harmonic mean",False
+False,9506,"OpenEpi",False
+False,8850,"Orthogonality principle",False
+False,16932,"Sample size determination",False
+False,7606,"Process control",False
+False,3339,"C-chart",False
+False,3386,"Zakai equation",False
+False,57977,"Analysis of variance",False
+False,26614,"Text mining",False
+False,9841,"Markov process",False
+False,11511,"Entropic uncertainty",False
+False,4260,"CHAID",False
+False,2062,"Ross's conjecture",False
+False,1257,"Bayesian econometrics",True
+False,9846,"Skellam distribution",False
+False,3716,"Sinusoidal model",False
+False,16042,"Partial least squares regression",False
+False,20832,"Kurtosis",False
+True,4093,"Generalized p-value",False
+False,3452,"Moving-average model",False
+False,20055,"Q–Q plot",False
+False,4425,"Method of moments (statistics)",False
+False,7889,"Confidence region",False
+False,2827,"Khintchine inequality",False
+False,5441,"Interval estimation",False
+False,2779,"Cochran–Mantel–Haenszel statistics",True
+False,5278,"Multifactor design of experiments software",False
+False,2351,"Varadhan's lemma",False
+False,7014,"Hat matrix",False
+False,1681,"One-class classification",True
+False,142285,"Info-gap decision theory",False
+False,8501,"Response rate",False
+False,6443,"Rescaled range",False
+False,764,"Intra-rater reliability",True
+False,27980,"Expected utility hypothesis",False
+False,9821,"Bayesian experimental design",False
+False,2845,"Cophenetic correlation",False
+False,27732,"Beta (finance)",False
+False,578,"Observable variable",True
+False,786,"DataDetective",False
+False,8706,"Bernoulli scheme",False
+False,4266,"Fair coin",False
+False,1790,"Etemadi's inequality",False
+False,3084,"Lists of people",False
+False,1543,"Geo-imputation",False
+False,96169,"Confirmation bias",False
+False,2474,"Bennett's inequality",False
+False,7489,"Distributed lag",False
+False,2090,"PRESS statistic",True
+False,1242,"Unseen species problem",True
+False,16943,"Likelihood principle",False
+False,2191,"Seasonal subseries plot",False
+False,4315,"Halton sequence",False
+False,6352,"Empirical evidence",False
+False,7368,"Skew normal distribution",False
+False,2585,"Pinsker's inequality",False
+False,1846,"Proxy (statistics)",True
+False,22199,"Theil–Sen estimator",False
+False,9716,"Spurious relationship",False
+False,9479,"Theil index",False
+False,9087,"Fuzzy measure theory",False
+False,8809,"Well-behaved statistic",False
+False,3675,"Stein's lemma",False
+False,2609,"Half-logistic distribution",False
+False,1641,"Wombling",True
+False,10808,"Bregman divergence",False
+False,2640,"Nash–Sutcliffe model efficiency coefficient",False
+False,9640,"De Finetti's theorem",False
+False,780,"Zero–one law",False
+False,2703,"Covariance and correlation",True
+False,2437,"Cohort (statistics)",False
+False,24453,"RANSAC",False
+False,25265,"Data visualization",False
+True,5188,"Exact test",False
+False,5286,"Folded normal distribution",False
+False,43073,"Savitzky–Golay filter",False
+False,7531,"Vasicek model",False
+False,6229,"Age adjustment",False
+False,5982,"Path analysis (statistics)",False
+False,2217,"Forecast skill",False
+False,3714,"Generalized linear array model",False
+False,5223,"Wigner semicircle distribution",False
+False,20773,"Banburismus",False
+False,4606,"Structural break",False
+False,6285,"Marsaglia polar method",False
+False,39675,"Opinion poll",False
+False,7066,"Probabilistic latent semantic analysis",False
+False,6083,"Huber loss",False
+False,1712,"Falconer's formula",True
+False,2484,"Decision boundary",False
+False,4789,"Siegel–Tukey test",False
+False,7569,"Nonprobability sampling",False
+False,5222,"Benini distribution",False
+False,8443,"Lévy process",False
+False,3561,"Data collection",False
+False,24739,"Gaussian function",False
+True,1802,"Jump process",False
+False,9644,"Item tree analysis",False
+False,51107,"Meta-analysis",False
+False,3286,"Kuder–Richardson Formula 20",False
+False,4099,"Logarithmic distribution",False
+False,6647,"Demographics",False
+False,8615,"Stochastic matrix",False
+False,14917,"Graeco-Latin square",False
+False,7123,"Methodological advisor",False
+False,3821,"Gaussian q-distribution",False
+False,6609,"Shifted Gompertz distribution",False
+False,9228,"Quality control",False
+False,4776,"Trend stationary",False
+False,4220,"Kuiper's test",False
+False,2729,"Bartlett's method",True
+False,3465,"Raised cosine distribution",False
+False,19774,"Risk perception",False
+False,11829,"F-distribution",False
+False,7626,"Score (statistics)",False
+False,35165,"Gambler's fallacy",False
+False,11108,"Response surface methodology",False
+False,4102,"Averaged one-dependence estimators",False
+False,7128,"Bootstrap aggregating",False
+False,4826,"Generalized multivariate log-gamma distribution",False
+False,6871,"Xbar and s chart",False
+False,7602,"Entropy estimation",False
+False,33276,"Machine learning",False
+False,5449,"Markov model",False
+False,9538,"Random assignment",False
+False,15746,"Gauss–Newton algorithm",False
+False,14124,"Stochastic differential equation",False
+False,3375,"Stochastic calculus",False
+False,5891,"Computational statistics",False
+False,8548,"Bayesian multivariate linear regression",False
+False,9924,"Chinese restaurant process",False
+False,3365,"Aumann's agreement theorem",False
+False,2630,"Treynor ratio",False
+False,28711,"Standard probability space",False
+False,9187,"Fork–join queue",False
+False,5834,"Economic statistics",False
+False,2207,"Markov additive process",False
+False,18498,"Publication bias",False
+False,31322,"Cauchy distribution",False
+False,717,"Statistical genetics",False
+False,2149,"Cunningham function",True
+False,3529,"Statistical interference",False
+False,2974,"Portmanteau test",True
+False,4130,"Phi coefficient",False
+False,14803,"Mathematical statistics",False
+False,22685,"Biclustering",False
+False,10937,"Jeffreys prior",False
+False,5119,"Chou's invariance theorem",False
+False,1178,"Statisticians' and engineers' cross-reference of statistical terms",False
+False,1433,"Diffusion process",False
+False,956,"Latin rectangle",False
+False,2966,"Writer invariant",False
+False,6606,"Doob's martingale convergence theorems",False
+False,21855,"Snowball sampling",False
+False,14304,"Barabási–Albert model",False
+False,7753,"Multitaper",False
+False,8708,"Data stream clustering",False
+False,10552,"Clustering high-dimensional data",False
+False,6752,"Bernoulli trial",False
+True,2519,"Equiprobability",False
+False,2186,"Pignistic probability",False
+False,10755,"Financial models with long-tailed distributions and volatility clustering",False
+False,13722,"Log-logistic distribution",False
+False,8209,"Confusion of the inverse",False
+False,27941,"Odds",False
+False,3843,"Gaussian noise",False
+False,11305,"NumXL",False
+False,20500,"Extended Kalman filter",False
+True,1640,"Mean signed difference",True
+False,42001,"Variance",False
+False,625,"Constraint (information theory)",True
+False,3148,"Knightian uncertainty",False
+False,5085,"Statistical distance",False
+False,6038,"Idempotent matrix",False
+False,743,"Probabilistic relational model",True
+False,1957,"Feller's coin-tossing constants",False
+False,7140,"Infinite divisibility (probability)",False
+False,27062,"Lucia de Berk",False
+False,25429,"Moving average",False
+False,3284,"Pseudo-determinant",False
+False,6939,"Examples of Markov chains",False
+False,32504,"Likelihood function",False
+False,1774,"Phillips–Perron test",False
+False,5717,"Equating",False
+False,13245,"Galton–Watson process",False
+False,23400,"Bayes estimator",False
+False,4156,"Markov kernel",False
+False,6008,"Probability mass function",False
+False,13950,"Diagnostic test",False
+False,8268,"Mixed model",False
+False,6271,"Friedman test",False
+False,73535,"Clinical trial",False
+False,12529,"Errors and residuals in statistics",False
+False,7935,"Tukey's range test",False
+False,765,"Raw score",True
+False,2927,"Nicholson–Bailey model",False
+False,5399,"Completely randomized design",False
+False,1045,"Quantum (Statistical programming language)",False
+False,2600,"Shape parameter",False
+False,5795,"Conjoint analysis (healthcare)",False
+False,3283,"Quadrant count ratio",True
+False,1507,"Innovation (signal processing)",False
+False,10976,"Preferential attachment",False
+False,11785,"Canonical correlation",False
+False,2359,"Cover's theorem",True
+False,14559,"Quantitative research",False
+False,94058,"Statistical hypothesis testing",False
+False,7133,"Injury prevention",False
+False,24854,"Estimation of covariance matrices",False
+False,3144,"Expander walk sampling",False
+False,5786,"Ward's method",False
+False,16437,"Estimator",False
+False,1120,"Double counting (fallacy)",True
+False,1940,"Formation matrix",True
+False,19468,"Binomial proportion confidence interval",False
+False,577,"Q-statistic",True
+False,7670,"Hellinger distance",False
+False,19491,"Point process",False
+False,2125,"Mixed-data sampling",True
+False,5900,"Clinical study design",False
+False,4051,"Outline of regression analysis",False
+False,12309,"Ellsberg paradox",False
+False,10527,"Kernel method",False
+False,1212,"Area compatibility factor",True
+False,2827,"Pickands–Balkema–de Haan theorem",False
+False,3956,"Climate ensemble",False
+False,4033,"Autoregressive fractionally integrated moving average",False
+False,1099,"Line-intercept sampling",True
+False,3874,"BCMP network",False
+False,2461,"Generalized Procrustes analysis",False
+False,1865,"Stochastic grammar",False
+False,3129,"Trimean",False
+False,5849,"Biplot",False
+False,3392,"Stanine",False
+False,921,"Strong prior",True
+False,21665,"Structural equation modeling",False
+False,824,"Outliers ratio",True
+False,3301,"Hájek–Le Cam convolution theorem",False
+False,7112,"Correlation clustering",False
+False,46805,"Benford's law",False
+False,4580,"Location-scale family",False
+False,6794,"Kendall's notation",False
+False,17154,"Monte Carlo integration",False
+False,3935,"Central composite design",False
+False,7392,"Empirical distribution function",False
+False,12000,"Contingency table",False
+False,3349,"Covariance intersection",False
+False,9765,"Rejection sampling",False
+False,11978,"Clinical significance",False
+False,4552,"OpenBUGS",False
+False,61645,"Chebyshev's inequality",False
+False,4663,"Welch's t test",False
+False,3317,"Statistical population",False
+False,2898,"Big O in probability notation",False
+False,10961,"Longitudinal study",False
+False,1990,"DAP (software)",False
+False,19066,"Epidemic model",False
+False,5829,"Evidence under Bayes theorem",False
+False,11130,"Mauchly's sphericity test",False
+False,17955,"Correlation function (statistical mechanics)",False
+False,9636,"Wang and Landau algorithm",False
+False,4608,"Markov logic network",False
+False,7413,"Ethical problems using children in clinical trials",False
+False,1801,"MedCalc",False
+False,1497,"Lexis ratio",True
+False,15913,"Trend estimation",False
+False,1472,"Cox process",True
+False,2337,"GraphPad InStat",False
+True,5633,"Complete spatial randomness",False
+False,17989,"Seriation (archaeology)",False
+False,1211,"Causal Markov condition",True
+False,2982,"Gordon–Newell theorem",False
+False,5019,"Normalization (statistics)",True
+False,42080,"Discrete choice",False
+False,27500,"Control chart",False
+False,10149,"Admissible decision rule",False
+False,17179,"Łukaszyk–Karmowski metric",False
+False,7023,"Field experiment",False
+False,32488,"Minimum mean square error",False
+False,31534,"Information geometry",False
+False,19440,"Quasi-experiment",False
+False,30728,"Combinatorial design",False
+False,5319,"F1 score",False
+False,1346,"Per capita",True
+False,1850,"Climograph",False
+False,2306,"Training set",False
+False,3854,"Volcano plot (statistics)",False
+False,4022,"Harris chain",False
+False,10168,"M/M/1 queue",False
+False,26900,"Time series",False
+False,4153,"Coverage probability",False
+False,24615,"Demography",False
+False,17353,"Hypergeometric distribution",False
+False,6441,"Stress majorization",False
+False,1638,"Armitage–Doll multistage model of carcinogenesis",True
+False,18489,"Inference",False
+False,9199,"Sethi model",False
+False,4933,"The Unscrambler",False
+False,2435,"Tsallis distribution",False
+False,27043,"Algorithms for calculating variance",False
+False,41703,"Item response theory",False
+False,4661,"Statistical parsing",False
+False,4282,"Bar chart",False
+False,11331,"Sharpe ratio",False
+False,18301,"Signal-to-noise ratio",False
+False,13779,"Relative risk",False
+False,6433,"Probabilistic forecasting",False
+False,32056,"Conjugate prior",False
+False,3887,"Symmetric mean absolute percentage error",False
+False,41720,"Expectation–maximization algorithm",False
+False,6928,"Cluster sampling",False
+False,4548,"Square root biased sampling",False
+False,4573,"Dagum distribution",False
+False,20946,"Regression-kriging",False
+False,5124,"Circular uniform distribution",False
+False,7549,"Incidence (epidemiology)",False
+False,20725,"Directional statistics",False
+False,34347,"Type I and type II errors",False
+False,23752,"Schuette–Nesbitt formula",False
+False,10618,"Bhattacharyya distance",False
+False,18913,"Consensus clustering",False
+False,12122,"Scoring rule",False
+False,13495,"Gauss–Markov theorem",False
+False,1351,"Barnardisation",True
+False,12689,"Local regression",False
+False,2647,"Reciprocal distribution",False
+False,997,"Resentful demoralization",False
+False,2696,"Bartlett's test",False
+False,29329,"Chi-squared distribution",False
+False,5776,"Uniformly most powerful test",False
+False,2459,"Subindependence",False
+False,6468,"Noncentral beta distribution",False
+False,3142,"Champernowne distribution",True
+False,8687,"Taleb distribution",False
+False,4726,"Constant false alarm rate",False
+False,20181,"Population pyramid",False
+False,10162,"Shewhart individuals control chart",False
+False,11845,"Fixed effects model",False
+False,1917,"Statistical regularity",False
+False,9218,"Regression dilution",False
+False,2943,"Rectified Gaussian distribution",False
+False,2188,"Total sum of squares",False
+False,1317,"Unit of observation",True
+False,2833,"Kirkwood approximation",False
+False,7353,"Balance equation",False
+False,6696,"Logit",False
+False,9759,"Density estimation",False
+False,6143,"Multivariate analysis",False
+False,4261,"RV coefficient",False
+False,755,"StatXact",True
+False,5889,"Central moment",False
+False,3170,"How to Lie with Statistics",False
+False,1964,"Skorokhod's representation theorem",False
+False,5594,"Econometric model",False
+False,9110,"Parametric model",False
+False,6227,"Normal probability plot",False
+False,10558,"Cliodynamics",False
+False,41138,"Wavelet",False
+False,2707,"Psephology",False
+False,4205,"Asymptotic distribution",False
+False,10498,"Z-test",False
+False,5866,"Delaporte distribution",False
+False,14629,"Neighbor joining",False
+False,2739,"Restricted maximum likelihood",True
+False,3125,"Reliability theory",False
+False,12946,"Anderson–Darling test",False
+False,5184,"Van Houtum distribution",False
+False,1643,"Ehrenfest model",False
+False,6773,"Idealised population",False
+False,3297,"Indicators of spatial association",False
+False,7455,"Birnbaum–Saunders distribution",False
+False,6896,"Cost-of-living index",False
+False,20489,"Precision and recall",False
+False,3108,"Null result",False
+False,18960,"Prior probability",False
+False,4037,"White test",True
+False,60420,"Taylor's law",False
+False,17742,"Model output statistics",False
+False,31869,"Exponential distribution",False
+False,6025,"Repeatability",False
+False,9781,"Proportionality (mathematics)",False
+False,701,"Composite bar chart",True
+False,10740,"Negentropy",False
+False,7092,"Càdlàg",False
+False,3743,"Simon model",False
+True,4242,"Park test",False
+False,33648,"Expected value",False
+False,2594,"Controlling for a variable",True
+False,1577,"Streamgraph",True
+False,14844,"Conditional expectation",False
+True,16707,"Unit-weighted regression",False
+False,1597,"Counting process",False
+False,32055,"Experiment",False
+False,3431,"Inverse probability weighting",False
+False,52540,"Maximum parsimony (phylogenetics)",False
+False,12059,"Doob decomposition theorem",False
+False,9218,"Fractional factorial design",False
+False,5447,"Information ratio",False
+False,5360,"Logarithmic mean",False
+False,1189,"Raikov's theorem",False
+False,14040,"Imprecise probability",False
+False,1157,"First-in-man study",True
+False,6531,"Product distribution",False
+False,2215,"Relative standard deviation",True
+False,10713,"Topological data analysis",False
+False,2991,"Bayesian vector autoregression",True
+False,1521,"Deep sampling",False
+False,2170,"Percentage point",False
+False,6112,"Root-mean-square deviation",False
+False,6365,"Neighbourhood components analysis",False
+False,1629,"Geometric data analysis",False
+False,10463,"Gumbel distribution",False
+False,8342,"Boolean analysis",False
+False,3775,"Yates's correction for continuity",False
+False,19740,"Matched filter",False
+False,4093,"Standardized coefficient",False
+False,12512,"Jackson network",False
+False,13003,"Bayes factor",False
+False,51276,"Population genetics",False
+False,1040,"Information source (mathematics)",True
+False,14635,"F-statistics",False
+False,48134,"Variational Bayesian methods",False
+False,6430,"Combinatorial meta-analysis",False
+False,16347,"Steiner system",False
+False,6712,"Computational learning theory",False
+False,4498,"Bivariate von Mises distribution",False
+False,9424,"Lack-of-fit sum of squares",False
+False,257,"A posteriori probability",False
+False,4059,"De Moivre's law",False
+False,4015,"Grouped data",False
+False,5934,"Kolmogorov extension theorem",False
+False,7299,"Law of total probability",False
+False,8553,"TinkerPlots",False
+False,4119,"Line chart",False
+False,4789,"Three-point estimation",False
+False,24408,"Coefficient of determination",False
+False,6546,"Recursive Bayesian estimation",False
+False,3280,"Selective recruitment",True
+False,845,"Linear least squares",False
+False,7893,"Reduced form",False
+False,11543,"Fractional Brownian motion",False
+False,1872,"Kolmogorov continuity theorem",False
+False,11210,"Case-control study",False
+False,2793,"Wald–Wolfowitz runs test",False
+False,4676,"Tukey's test of additivity",False
+False,19133,"Blind experiment",False
+False,38593,"Median",False
+False,10669,"Chi-square test",False
+False,18936,"Maxwell–Boltzmann distribution",False
+False,7746,"Sequential analysis",False
+False,39863,"Mathematical and theoretical biology",False
+False,28798,"Itō calculus",False
+False,2599,"Helmert–Wolf blocking",True
+False,928,"Nemenyi test",True
+False,2513,"Circular distribution",False
+False,18526,"Paired difference test",False
+False,4258,"Conjoint analysis",False
+False,3650,"Klecka's tau",False
+False,2446,"Polychoric correlation",False
+False,14640,"Least absolute deviations",False
+False,8346,"Stochastic ordering",False
+False,7542,"Law of total variance",False
+False,73557,"Data mining",False
+False,4432,"Heaps' law",False
+False,4661,"Arcsine distribution",False
+False,1608,"Ordered subset expectation maximization",True
+False,18722,"Simple linear regression",False
+False,3337,"Hyperparameter",False
+False,14736,"Herfindahl index",False
+False,3122,"Zelen's design",False
+False,8662,"Lévy distribution",False
+False,3026,"Pseudolikelihood",False
+False,1948,"Multistage testing",False
+False,6283,"Normally distributed and uncorrelated does not imply independent",False
+False,3729,"Spectrum continuation analysis",False
+False,2705,"Monte Carlo molecular modeling",False
+False,9850,"Propensity probability",False
+False,20658,"Stochastic simulation",False
+False,38564,"Operations research",False
+False,1403,"Manhattan plot",True
+False,20425,"Business",False
+False,2054,"Precision (statistics)",False
+False,6025,"The Design of Experiments",False
+False,4606,"Mean and predicted response",False
+False,10964,"Fisher's method",False
+False,2397,"Discriminative model",True
+False,3631,"Covariance function",False
+False,4112,"Optimal discriminant analysis",False
+False,10674,"Recurrence quantification analysis",False
+False,17469,"Association scheme",False
+False,3524,"Lindeberg's condition",False
+False,5203,"Pollaczek–Khinchine formula",False
+False,12521,"Contrast (statistics)",False
+False,38985,"Singular spectrum analysis",False
+False,3757,"Haybittle–Peto boundary",False
+False,4497,"Change detection",False
+False,20405,"Exponential smoothing",False
+False,48130,"Linear least squares (mathematics)",False
+False,3103,"Multidimensional panel data",False
+False,4168,"Deviance (statistics)",False
+False,15544,"Loss function",False
+False,3997,"Cochran's Q test",False
+False,59098,"Two envelopes problem",False
+False,1321,"Epitome (data processing)",True
+False,5471,"Multiresolution analysis",False
+False,3495,"S-PLUS",False
+False,1959,"Trispectrum",False
+False,2717,"Winpepi",False
+False,3269,"Least trimmed squares",False
+False,2051,"Stationary ergodic process",False
+False,6270,"Birth–death process",False
+False,33763,"Pre- and post-test probability",False
+False,12031,"James–Stein estimator",False
+False,20263,"Margin of error",False
+False,4720,"Box–Behnken design",False
+False,5612,"Maximal information coefficient",False
+False,5781,"Concordance correlation coefficient",False
+False,4165,"Multiscale decision-making",False
+False,8492,"Stata",False
+False,50880,"Life expectancy",False
+False,44246,"Foundations of statistics",False
+False,9633,"K-means++",False
+False,2133,"Geary's C",True
+False,62729,"Approximate Bayesian computation",False
+True,7686,"Bayesian information criterion",False
+False,10937,"Normality test",False
+False,5092,"Carpet plot",False
+False,9020,"Watts and Strogatz model",False
+False,16450,"Relationships among probability distributions",False
+False,18092,"Levenberg–Marquardt algorithm",False
+False,27119,"Safety in numbers",False
+False,8397,"Studentized residual",False
+False,5370,"Goodman and Kruskal's gamma",False
+False,10339,"Arithmetic mean",False
+False,5891,"VC dimension",False
+False,6231,"Time–frequency representation",False
+False,31721,"Psychometrics",False
+False,1260,"Bernoulli sampling",False
+False,5339,"Generalised hyperbolic distribution",False
+False,2308,"Correlation function (astronomy)",False
+False,2708,"Moving least squares",False
+False,6482,"Behrens–Fisher distribution",False
+False,8113,"Statistical syllogism",False
+False,7781,"Algebraic statistics",False
+False,14393,"Seasonality",False
+False,10296,"Edgeworth series",False
+False,5516,"Statistical graphics",False
+False,1241,"Quartile coefficient of dispersion",True
+False,2235,"Standardized moment",False
+False,4333,"General matrix notation of a VAR(p)",False
+False,15071,"McNemar's test",False
+False,6563,"Bland–Altman plot",False
+False,3925,"Burr distribution",False
+False,2723,"Stieltjes moment problem",False
+False,49994,"Prognostics",False
+False,26922,"Multi-armed bandit",False
+False,3773,"SOFA Statistics",False
+False,5319,"Multinomial test",False
+False,4534,"Latent growth modeling",False
+False,5010,"Pseudoreplication",False
+False,1343,"SPC XL",False
+False,3432,"Probability integral transform",False
+False,6779,"Polytree",False
+False,8033,"Kernel principal component analysis",False
+False,3028,"Species discovery curve",False
+False,11478,"Conjoint analysis (marketing)",False
+False,702,"Type-1 Gumbel distribution",False
+False,4972,"Interquartile mean",False
+False,9523,"Sample mean and sample covariance",False
+False,6047,"Normal-inverse Gaussian distribution",False
+False,10227,"Log-log plot",False
+False,6017,"Similarity matrix",False
+False,4795,"Mantel test",False
+False,6915,"Multitrait-multimethod matrix",False
+False,15523,"Statistical process control",False
+False,10457,"Wrapped distribution",False
+False,7393,"Bochner's theorem",False
+False,3645,"Mexican paradox",False
+False,44830,"Infinite monkey theorem",False
+False,3528,"Chapman–Robbins bound",False
+False,7962,"Sample maximum and minimum",False
+False,4117,"Newey–West estimator",False
+False,4806,"Schilder's theorem",False
+False,2079,"Structured data analysis (statistics)",True
+False,3317,"Stopped process",False
+False,6626,"Multilinear principal component analysis",False
+False,10821,"One-way analysis of variance",False
+False,19345,"Fisher information metric",False
+False,13821,"Survivorship bias",False
+False,50184,"Random permutation statistics",False
+False,13019,"Natural exponential family",False
+False,2253,"Soliton distribution",False
+False,6079,"Cromwell's rule",False
+False,1907,"Hoeffding's lemma",False
+False,6417,"Parameter identification problem",False
+False,5338,"EWMA chart",False
+False,9299,"Completeness (statistics)",False
+False,3681,"Noncentrality parameter",False
+False,3652,"Will Rogers phenomenon",False
+False,11533,"Lindley's paradox",False
+False,28352,"Radial basis function network",False
+False,8093,"Segmented regression",False
+False,2655,"Truncated regression model",True
+False,2331,"Martingale central limit theorem",False
+False,5072,"Hausman test",False
+False,7257,"Chronux",False
+False,2864,"Alternative hypothesis",False
+False,3827,"Hyperexponential distribution",False
+False,7695,"MANCOVA",False
+False,2088,"Location parameter",False
+False,3546,"Face validity",False
+False,9187,"Graphical models for protein structure",False
+False,8248,"Static analysis",False
+False,27101,"Level of measurement",False
+False,17217,"Cellular noise",False
+False,42548,"Independence of irrelevant alternatives",False
+False,6491,"Event (probability theory)",False
+False,4012,"Algebra of random variables",False
+False,835,"Stetson–Harrison method",False
+False,6637,"Shifting baseline",False
+False,5733,"Philosophy of statistics",False
+False,2007,"Double mass analysis",False
+False,15686,"Asymptotic equipartition property",False
+False,36330,"R (programming language)",False
+False,6156,"Multivariate analysis of variance",False
+False,13325,"Ornstein–Uhlenbeck process",False
+False,1048,"Time-varying covariate",True
+False,3562,"Conditional dependence",False
+False,19002,"Gillespie algorithm",False
+False,2511,"Crystal Ball function",False
+False,16574,"Predictive modelling",False
+False,6049,"Shifted log-logistic distribution",False
+False,4082,"FLAME clustering",False
+False,20876,"Tag cloud",False
+False,11033,"Nonparametric regression",False
+False,2408,"Structural estimation",True
+False,28738,"History of randomness",False
+False,3572,"K-medians clustering",True
+False,2929,"Circular analysis",True
+False,1655,"Type-2 Gumbel distribution",False
+False,7612,"Censoring (statistics)",False
+False,1999,"Spatial econometrics",True
+False,9012,"Branching process",False
+False,3256,"Tsallis statistics",False
+False,5245,"Genetic epidemiology",False
+False,5834,"Cook's distance",False
+False,14997,"Conditional random field",False
+False,8352,"Lies, damned lies, and statistics",False
+False,1866,"Network probability matrix",True
+False,16294,"Kernel Fisher discriminant analysis",False
+False,13455,"SPSS",False
+False,58110,"Outline of academic disciplines",False
+False,1776,"Variation ratio",False
+False,5566,"Hodges' estimator",False
+False,8327,"Deming regression",False
+False,4860,"Scale parameter",False
+False,6613,"Divisia monetary aggregates index",False
+False,7773,"Outline of probability",False
+False,5140,"Multiple correlation",False
+False,1972,"Top-coded",True
+False,5123,"Prais–Winsten estimation",False
+False,5538,"Gompertz–Makeham law of mortality",False
+False,9651,"Probit",False
+False,19976,"Chernoff bound",False
+False,49363,"Confidence interval",False
+False,12581,"Level of analysis",False
+False,4247,"Counternull",True
+False,6848,"Linear prediction",False
+False,1553,"Risk adjusted mortality rate",False
+False,3047,"Factor regression model",False
+False,22664,"Belief propagation",False
+False,16812,"Duncan's new multiple range test",False
+False,15603,"Cohort study",False
+False,1075,"Censoring (clinical trials)",False
+False,1827,"Univariate",False
+False,8798,"Dimensionality reduction",False
+False,18835,"Frequentist probability",False
+False,55808,"Statistics",False
+False,4812,"Algebraic formula for the variance",False
+False,11725,"Internal validity",False
+False,16694,"Quantile",False
+False,1298,"Environmental statistics",True
+False,10258,"Spectral density estimation",False
+False,3743,"Galbraith plot",False
+False,12022,"Partial correlation",False
+False,4939,"Wold's theorem",False
+False,46529,"Karhunen–Loève theorem",False
+False,7683,"Index of dispersion",False
+False,22743,"Least-squares spectral analysis",False
+False,15414,"Information bottleneck method",False
+False,2277,"Brownian tree",False
+False,39110,"Odds ratio",False
+False,6702,"Matching (statistics)",False
+False,15309,"Polytomous Rasch model",False
+False,4762,"Semi-log plot",False
+False,2907,"Estimating equations",False
+False,5932,"Reference class problem",False
+False,8167,"Correlogram",False
+False,54314,"Central limit theorem",False
+False,13100,"Parallel coordinates",False
+False,1818,"Probability plot",False
+False,8763,"Gompertz function",False
+False,12022,"Multinomial distribution",False
+False,904,"Support curve",True
+False,1191,"Tucker decomposition",True
+False,15154,"Ratio distribution",False
+True,8434,"Two-way analysis of variance",False
+False,3137,"Lévy's continuity theorem",False
+False,19863,"Fisher's exact test",False
+False,2040,"Studentization",False
+False,7725,"Central tendency",False
+False,8245,"Multiple correspondence analysis",False
+False,31074,"Gibbs sampling",False
+False,4206,"Complementary event",False
+False,1146,"Epilogism",False
+False,2133,"Parametric family",False
+False,1753,"SYSTAT (statistics)",False
+False,2847,"Information gain ratio",False
+False,21080,"Statistical power",False
+False,2182,"Sazonov's theorem",False
+False,2933,"Sargan test",True
+False,6750,"Girsanov theorem",False
+False,7709,"Markov property",False
+False,4666,"Arrival theorem",False
+False,2107,"Le Cam's theorem",False
+False,7047,"Odds algorithm",False
+False,10698,"Conditional independence",False
+False,15796,"Bayesian linear regression",False
+False,3597,"Rankit",False
+False,6808,"Quadratic variation",False
+False,5536,"Content validity",False
+False,29184,"Simpson's paradox",False
+False,4456,"Cramér's V",False
+False,8494,"First-hitting-time model",False
+False,905,"Seasonally adjusted annual rate",False
+False,22884,"Ergodic theory",False
+False,3005,"Conditionality principle",False
+False,5618,"FastICA",False
+False,5907,"Cancer cluster",False
+False,4439,"Van der Waerden test",False
+True,7764,"Fieller's theorem",False
+False,22063,"Uncertainty quantification",False
+False,14730,"Gittins index",False
+False,7331,"Reflected Brownian motion",False
+False,4329,"General linear model",False
+False,2487,"Hausdorff moment problem",False
+False,6426,"Contiguity (probability theory)",False
+False,1463,"Markov chain geostatistics",False
+False,1425,"Main effect",True
+False,9361,"Q-Gaussian distribution",False
+False,12519,"Laplace distribution",False
+False,8274,"Consensus forecast",False
+False,8869,"Meadow's law",False
+False,640,"Lambda distribution",False
+False,2917,"Hidden semi-Markov model",True
+False,4712,"Proof of Stein's example",False
+False,2349,"Dudley's theorem",False
+False,25646,"Correlation and dependence",False
+False,4498,"Maximum likelihood sequence estimation",False
+False,7531,"Holtsmark distribution",False
+False,6876,"Descriptive statistics",False
+False,1740,"Semantic mapping (statistics)",False
+False,6148,"False positive rate",False
+False,15435,"Estimation theory",False
+False,1957,"Cheeger bound",True
+False,7976,"Second moment method",False
+False,629,"Standardized rate",True
+False,8999,"U-statistic",False
+False,9977,"Mixed logit",False
+False,1147,"Bayesian",False
+False,5341,"Location testing for Gaussian scale mixture distributions",False
+False,7553,"Robust Bayesian analysis",False
+False,31694,"Block design",False
+False,8622,"Stein's example",False
+False,21871,"Seismic inversion",False
+False,4349,"Hitting time",False
+False,9513,"Prevalence",False
+False,4828,"P–P plot",False
+False,15914,"Uniform distribution (continuous)",False
+False,2420,"WinBUGS",False
+False,4314,"Centering matrix",False
+False,1743,"StatPlus",False
+False,7846,"Variable-order Markov model",False
+False,4494,"Extrapolation domain analysis",False
+False,1146,"Optimality criterion",False
+False,49699,"Mixture model",False
+False,6282,"Probability plot correlation coefficient plot",False
+False,13450,"Operational sex ratio",False
+False,22341,"Baum–Welch algorithm",False
+False,10663,"Bayes' rule",False
+False,1718,"Cohort effect",False
+False,3959,"Threshold model",False
+False,6037,"Population model",False
+False,1617,"Time-use survey",False
+False,2529,"Cognitive pretesting",False
+False,1944,"Jump diffusion",False
+False,3986,"Compound Poisson process",False
+False,8574,"Wilcoxon signed-rank test",False
+False,2553,"Functional data analysis",False
+False,5668,"Statistical conclusion validity",False
+False,6553,"R v Adams",False
+False,3387,"Generalized entropy index",False
+False,3042,"Fisher's z-distribution",False
+False,2835,"SDMX",False
+False,2165,"A priori probability",False
+False,2020,"Time domain",True
+False,7421,"Semiparametric regression",False
+False,1233,"Speed prior",True
+False,30347,"Z-transform",False
+False,1851,"Measurement invariance",True
+False,3501,"Panel analysis",False
+False,3856,"Weibull modulus",False
+False,3788,"Kolmogorov's inequality",False
+False,1256,"Bhatia–Davis inequality",False
+False,13549,"ADMB",False
+False,1990,"Rank abundance curve",False
+False,3473,"Social network change detection",False
+False,6881,"Maximum-entropy Markov model",False
+False,17271,"Intraclass correlation",False
+False,5895,"Dot plot (bioinformatics)",False
+False,2869,"Trend analysis",False
+False,707,"Principal geodesic analysis",True
+False,51494,"Qualitative variation",False
+False,8305,"Nonlinear regression",False
+False,21389,"Weibull distribution",False
+False,2487,"BV4.1 (software)",False
+False,16103,"Convex hull",False
+False,1758,"Multiple discriminant analysis",True
+False,8603,"Signed differential mapping",False
+False,10510,"Autoregressive integrated moving average",False
+False,13578,"Independence (probability theory)",False
+False,16315,"Short-rate model",False
+False,11527,"Jensen–Shannon divergence",False
+False,22412,"System dynamics",False
+False,2601,"Decomposition of time series",False
+False,7237,"Bayes linear statistics",False
+False,2910,"Bayesian statistics",False
+False,2035,"Normal score",False
+False,19517,"Noise reduction",False
+False,13585,"Difference in differences",False
+False,7421,"Rand index",False
+False,1987,"Feller-continuous process",False
+False,3618,"Rank product",False
+False,7848,"CDF-based nonparametric confidence interval",False
+False,1133,"Combinatorial data analysis",True
+False,2785,"Nuisance variable",False
+False,20416,"Vapnik–Chervonenkis theory",False
+False,7227,"Inverse transform sampling",False
+False,9518,"Marginal distribution",False
+False,3590,"Homoscedasticity",False
+False,4814,"Dvoretzky–Kiefer–Wolfowitz inequality",False
+False,6745,"Notation in probability and statistics",False
+False,12994,"Kendall tau rank correlation coefficient",False
+False,3470,"Mean of circular quantities",False
+False,13482,"Generalized extreme value distribution",False
+False,43929,"CMA-ES",False
+False,11133,"Statistical geography",False
+False,14643,"Data transformation (statistics)",False
+False,32397,"Sufficient statistic",False
+False,26471,"Dirichlet process",False
+False,33753,"Bootstrapping (statistics)",False
+False,8212,"Graphical model",False
+False,53500,"Rind et al. controversy",False
+False,10883,"World Programming System",False
+False,6506,"Computer experiment",False
+False,11134,"M/M/c queue",False
+False,49485,"Standard deviation",False
+False,16372,"Importance sampling",False
+False,1928,"Generalized canonical correlation",False
+False,44434,"Tweedie distribution",False
+False,16895,"Posterior predictive distribution",False
+False,1708,"Anomaly time series",False
+False,9961,"Geodemographic segmentation",False
+False,10678,"ABX test",False
+False,2108,"Traffic equations",False
+False,9431,"Optional stopping theorem",False
+False,4515,"Levene's test",False
+False,8533,"Glivenko–Cantelli theorem",False
+False,814,"Popoviciu's inequality on variances",False
+False,6938,"Yule–Simon distribution",False
+False,8590,"An Essay towards solving a Problem in the Doctrine of Chances",False
+False,9359,"Accelerated failure time model",False
+False,1044,"Area chart",True
+False,5100,"Kent distribution",False
+False,4509,"Accuracy paradox",False
+False,3431,"Acceptable quality limit",False
+False,855,"Poisson hidden Markov model",True
+False,38900,"Spatial analysis",False
+False,18949,"Discipline (academia)",False
+False,10504,"Split normal distribution",False
+False,7620,"Model selection",False
+False,20488,"Data quality",False
+False,4401,"Pareto index",False
+True,12330,"Extreme value theory",False
+False,8372,"Recurrence plot",False
+False,32479,"Mathematica",False
+False,4442,"Kolmogorov equations",False
+False,10844,"Inverse-Wishart distribution",False
+False,6081,"Orthogonal array testing",False
+False,9288,"Randomized experiment",False
+False,31008,"Chemotaxis",False
+False,9307,"Detrended correspondence analysis",False
+True,8380,"Partition of sums of squares",False
+False,6639,"Frequency (statistics)",False
+False,10980,"Nuremberg Code",False
+False,2808,"Bessel process",False
+False,4362,"Lag operator",False
+False,14909,"Mortality rate",False
+False,5099,"Inhomogeneous Poisson process",False
+False,5484,"Gaussian measure",False
+False,3543,"Calibrated probability assessment",False
+False,7217,"STATISTICA",False
+False,14215,"Invariant estimator",False
+False,13254,"Questionnaire",False
+False,6145,"Seasonal adjustment",False
+False,3964,"Hierarchical hidden Markov model",False
+False,2369,"Small area estimation",False
+False,5560,"Xbar and R chart",False
+False,37997,"SAS (software)",False
+False,7864,"Timeline of probability and statistics",False
+False,8643,"Random walk hypothesis",False
+False,43966,"Nonlinear dimensionality reduction",False
+False,7770,"Intention-to-treat analysis",False
+False,552,"Proper linear model",True
+False,16489,"Pie chart",False
+False,6512,"STAR model",False
+False,5701,"Ogive",False
+False,1509,"Scatterplot smoothing",False
+False,5297,"Internal consistency",False
+False,4347,"Richardson–Lucy deconvolution",False
+False,1514,"M-separation",False
+False,3608,"Concurrent validity",True
+False,4082,"K-distribution",False
+True,3625,"Redescending M-estimator",False
+False,833,"Correlation inequality",False
+False,2868,"Dynamic Bayesian network",True
+False,7663,"Probabilistic causation",False
+False,2328,"Extensions of Fisher's method",True
+False,6113,"Parameter space",False
+False,23115,"Naive Bayes spam filtering",False
+False,1866,"Psychological statistics",True
+False,7178,"Beta rectangular distribution",False
+False,613,"Separation test",True
+False,1817,"Scale analysis (statistics)",True
+False,4034,"Least-angle regression",False
+False,948,"Per-comparison error rate",False
+False,5866,"Social statistics",False
+False,1776,"Logit analysis in marketing",False
+False,9180,"Rao–Blackwell theorem",False
+False,16731,"Confirmatory factor analysis",False
+False,6679,"Rank correlation",False
+False,7173,"Mid-range",False
+False,10775,"Sparse PCA",False
+False,5488,"Clark–Ocone theorem",False
+False,4224,"Jackknife resampling",False
+False,12983,"National Health Interview Survey",False
+False,1029,"Rational quadratic covariance function",True
+False,23465,"External validity",False
+False,7229,"Semidefinite embedding",False
+False,4438,"Population statistics",False
+False,9033,"Smoothing spline",False
+False,6076,"Isomap",False
+False,8087,"Inverse distance weighting",False
+False,13490,"Sliced inverse regression",False
+False,5823,"Latin hypercube sampling",False
+False,1023,"Sieve estimator",True
+False,585,"Saturated array",True
+False,5439,"Regression Analysis of Time Series",False
+False,36192,"Convergence of random variables",False
+False,3663,"Total survey error",True
+False,3304,"Generalized logistic distribution",True
+False,2535,"Moving average crossover",False
+False,3706,"Bruck–Ryser–Chowla theorem",False
+False,11518,"Cartogram",False
+False,3879,"Bivariate analysis",False
+False,7703,"Cricket statistics",False
+False,4587,"Azuma's inequality",False
+False,22610,"Prediction interval",False
+False,10940,"Illustration of the central limit theorem",False
+False,10514,"Propensity score matching",False
+False,2185,"Hannan–Quinn information criterion",False
+False,5335,"Variational message passing",False
+False,3338,"Ewens's sampling formula",False
+False,6930,"Q-function",False
+False,33229,"Misleading graph",False
+False,16691,"Gaussian process",False
+False,9445,"Fréchet distribution",False
+False,5666,"Fisher transformation",False
+False,1446,"Path coefficient",False
+False,8062,"Thurstonian model",False
+False,8000,"Point-biserial correlation coefficient",False
+False,4868,"Ancillary statistic",False
+False,8859,"Identifiability",False
+False,822,"Generalized Tobit",True
+False,32997,"Robust statistics",False
+False,21693,"Decision theory",False
+False,8549,"Backfitting algorithm",False
+False,15043,"Economic epidemiology",False
+False,800,"Bayesian inference using Gibbs sampling",True
+False,1086,"Multiscale geometric analysis",False
+False,7942,"Surrogate model",False
+False,2048,"Mean absolute error",False
+False,5058,"Forest plot",False
+False,8024,"Cochran–Armitage test for trend",False
+False,20355,"Orthogonality",False
+False,32382,"Naive Bayes classifier",False
+False,10362,"Log-Cauchy distribution",False
+False,1762,"Kitchen sink regression",False
+False,5495,"Neyman–Pearson lemma",False
+False,5986,"Frequency distribution",False
+False,10175,"Gompertz distribution",False
+False,5314,"Urn problem",False
+False,3677,"Bernstein–von Mises theorem",True
+False,16088,"Noncentral chi-squared distribution",False
+False,18236,"Variable (mathematics)",False
+False,18940,"Ensemble forecasting",False
+False,5052,"SHAZAM (software)",False
+False,5888,"Spectrum bias",False
+False,2632,"Dynamic factor",True
+False,3307,"Coding (social sciences)",False
+False,2263,"Weighted median",True
+False,5513,"Invariant extended Kalman filter",False
+False,7307,"Long-range dependency",False
+False,11661,"Cross-correlation",False
+False,5114,"Von Mises–Fisher distribution",False
+False,11210,"Newman–Keuls method",False
+False,11018,"Minimax estimator",False
+False,1482,"Killed process",False
+False,12517,"Optimal stopping",False
+False,7300,"Product-form solution",False
+False,1708,"Probabilistic metric space",False
+False,2425,"Conditional variance",True
+False,5101,"Dutch book",False
+True,1589,"Principle of marginality",False
+False,4797,"Hyperbolic secant distribution",False
+False,5923,"Lift (data mining)",False
+False,32643,"Actuarial science",False
+False,7805,"Generalized inverse Gaussian distribution",False
+True,1113,"Eigenpoll",True
+False,9043,"M/G/1 queue",False
+False,2745,"Greenwood statistic",False
+False,10987,"Bose–Mesner algebra",False
+False,4590,"Doob martingale",False
+False,4736,"Test set",False
+False,33596,"Student's t-test",False
+False,12348,"Rothamsted Research",False
+False,4867,"Survival rate",True
+False,3013,"Taylor expansions for the moments of functions of random variables",False
+False,32350,"Characteristic function (probability theory)",False
+False,2220,"Game of chance",False
+False,4428,"Cross-covariance",False
+False,5182,"Catastro of Ensenada",False
+False,8628,"Fat-tailed distribution",False
+False,5179,"Durbin test",False
+False,32915,"Heart rate variability",False
+False,4508,"Dunn index",False
+False,5487,"Mean square weighted deviation",False
+False,1249,"Inherent bias",False
+False,8932,"Local martingale",False
+False,2257,"Financial econometrics",True
+False,1220,"Stationary distribution",True
+False,8205,"Dickey–Fuller test",False
+False,1873,"Survival function",False
+False,92711,"Science",False
+False,59716,"Statistics education",False
+False,3673,"Robust confidence intervals",False
+False,1360,"Box–Cox distribution",True
+False,5645,"Uniform distribution (discrete)",False
+False,7645,"G-test",False
+False,1862,"Population process",False
+False,19064,"Likert scale",False
+False,14435,"Cronbach's alpha",False
+False,5074,"Hammersley–Clifford theorem",False
+False,29555,"Secretary problem",False
+False,4020,"Nuisance parameter",False
+False,2516,"Frisch–Waugh–Lovell theorem",False
+False,34748,"Regression analysis",False
+False,25418,"Non-linear least squares",False
+False,3906,"Arcsine laws (Wiener process)",False
+False,8745,"G-network",False
+False,3760,"Generative model",False
+False,6584,"Divisia index",False
+False,4822,"Stability (probability)",False
+False,2934,"Discretization of continuous features",True
+False,10770,"Rayleigh distribution",False
+False,5975,"PSPP",False
+False,2869,"Doob–Meyer decomposition theorem",False
+False,21973,"Substitution model",False
+False,7288,"Normal-inverse-gamma distribution",False
+False,253,"K-statistic",True
+False,2351,"Uncomfortable science",False
+False,6217,"Kullback's inequality",False
+False,3784,"Pareto chart",False
+False,5092,"Bernoulli distribution",False
+False,3975,"Computer-assisted survey information collection",False
+False,17836,"Inductive reasoning",False
+False,1281,"MLwiN",False
+False,5357,"Optimal matching",False
+False,6885,"Good–Turing frequency estimation",False
+False,1331,"Ecological correlation",False
+False,9926,"Statistical learning theory",False
+False,16048,"Standard normal table",False
+False,33886,"Copula (probability theory)",False
+False,88467,"Kalman filter",False
+False,48468,"Ordinary least squares",False
+False,5289,"Central limit theorem for directional statistics",False
+False,11664,"Historiometry",False
+False,4763,"Large deviations of Gaussian random functions",False
+False,2612,"Floor effect",False
+False,3381,"Random function",False
+False,2388,"Factorial moment generating function",False
+False,5502,"Group size measures",False
+False,3204,"Cross-sectional data",True
+False,4996,"Frequentist inference",False
+True,10726,"Imputation (statistics)",False
+False,1636,"Ancestral graph",True
+False,9966,"Classical definition of probability",False
+False,3444,"Quantitative psychological research",False
+False,48402,"Sampling (statistics)",False
+False,945,"Antecedent variable",True
+False,12118,"Efficiency (statistics)",False
+False,5679,"Correlation function",False
+False,6899,"Hamburger moment problem",False
+False,2809,"Summary statistics",False
+False,3722,"Pseudocount",False
+False,16590,"Noncentral hypergeometric distributions",False
+False,10176,"Pairwise comparison",False
+False,1955,"Maxwell's theorem",False
