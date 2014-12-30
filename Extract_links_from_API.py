@@ -326,7 +326,7 @@ pages_expert = get_pages_category('Category:Statistics_articles_needing_expert_a
 # for the first solution we save the category of vertices :
 vertex = []
 for page in pages_links.keys():
-    vertex = vertex + [{ "name":page, "category": pages_category[page], "stub": page in pages_stubs , "expertneeded": page in pages_expert }]
+    vertex = vertex + [{ "name":page, "category": pages_category[page], "stub": page in pages_stubs , "expertneeded": page in pages_expert, "length":pages_length[page] }]
 
 
 df = pd.DataFrame(vertex)
@@ -336,8 +336,8 @@ df.to_csv('vertex.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False
 
 # for the second solution without categories :
 vertex = []
-for page in pages_links.keys():
-    vertex = vertex + [{ "name":page, "stub": page in pages_stubs , "expertneeded": page in pages_expert }]
+for page in pages_links.keys() :
+    vertex = vertex + [{ "name":page, "stub": page in pages_stubs , "expertneeded": page in pages_expert, "length":pages_length[page] }]
 
 df = pd.DataFrame(vertex)
 df.to_csv('vertex.csv',quoting = csv.QUOTE_NONNUMERIC, quotechar='"',index=False, encoding='utf-8')
