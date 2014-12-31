@@ -109,9 +109,9 @@ vcount(graph)
 ecount(graph)
 
 cat.size <- V(graph)$size
-plot(graph, vertex.size=sqrt(cat.size)/1.5, vertex.label=V(graph)$name, vertex.label.color=rainbow(length(V(graph)), alpha=1),
-     vertex.color=rainbow(length(V(graph)), alpha=0.3), edge.width=sqrt(E(graph)$weight)/30,
-     edge.arrow.size=0.2, layout=layout.kamada.kawai, vertex.label.cex=0.8)
+plot(graph, vertex.size=sqrt(cat.size)/1.2, vertex.label=V(graph)$name, vertex.label.color="black",
+     vertex.color=rainbow(length(V(graph)), alpha=0.3), edge.width=sqrt(E(graph)$weight)/20,
+     edge.arrow.size=0.3, layout=layout.kamada.kawai, vertex.label.cex=1)
 # vertex.label.dist=1.5,
 # vertex.color=V(graph.c)
 # layout : layout.drl layout.kamada.kawai layout.circle layout.fruchterman.reingold
