@@ -3,6 +3,8 @@ wikipedia_network_analysis
 
 Statistical Network Analysis of the Field of Statistics on Wikipedia In English
 
+![Main statistical categories visualization](https://github.com/Framartin/wikipedia_network_analysis/blob/master/images/categories2.png)
+
 ## Introduction
 
 The Python script, which extracts edges of our graphs, is inspired by the great brianckeegan's Wikipedia-Network-Analysis python notebook available on [github](https://github.com/brianckeegan/Wikipedia-Network-Analysis) under MIT license.
