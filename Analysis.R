@@ -120,15 +120,25 @@ plot(graph, vertex.size=sqrt(cat.size)/1.2, vertex.label=V(graph)$name, vertex.l
 # non-agregated network
 
 edges2 = read.csv("data/edges2.csv", colClasses = c("character", "character"))
-vertex2 = read.csv("data/vertex2.csv", colClasses = c("character", "character", "character", "integer"))
+vertex2 = read.csv("data/vertex2.csv", colClasses = c("character", "integer", "character", "character"))
 # name first
-vertex2_tmp = vertex2[,c(2:4)]
+vertex2_tmp = vertex2[,3:4]
 vertex2_tmp$expertneeded = vertex2$expertneeded
+vertex2_tmp$length = vertex2$length
 vertex2 = vertex2_tmp
+rm(vertex2_tmp)
 vertex2$stub = ifelse(vertex2$stub=="True", TRUE, FALSE)
 vertex2$expertneeded = ifelse(vertex2$expertneeded=="True", TRUE, FALSE)
 
 graph <- graph.data.frame(edges2, directed=TRUE, vertices=vertex2)
+
+# enlever 'List of' et 'Outline'
+vertex_to_delete = V(graph)[V(graph)$name[grepl("Outline",V(graph)$name)]]
+graph = graph - vertex_to_delete
+vertex_to_delete = V(graph)[V(graph)$name[grepl("List of|Lists of",V(graph)$name)]]
+graph = graph - vertex_to_delete
+
+
 
 # dot file for viz
 write.graph(graph, "myGraph2.dot", format = "dot")
@@ -136,14 +146,13 @@ write.graph(graph, "myGraph2.dot", format = "dot")
 write.graph(graph, "myGraph2.gml", format = "gml")
 
 
-plot(graph)
-igraph.options(vertex.size=3, vertex.label=NA,
-               edge.arrow.size=0.5)
-par(mfrow=c(1, 2))
-plot(graph, layout=layout.circle)
-title("5x5x5 Lattice")
-plot(graph, layout=layout.fruchterman.reingold)
-title("Blog Network")
+#plot(graph)
+#igraph.options(vertex.size=3, vertex.label=NA,
+#               edge.arrow.size=0.5)
+#plot(graph, layout=layout.circle)
+#title("5x5x5 Lattice")
+#plot(graph, layout=layout.fruchterman.reingold)
+#title("Blog Network")
 
 
 
@@ -154,40 +163,45 @@ vcount(graph)
 ecount(graph)
 neighbors(graph,5)
 
+
 # degrees
 # question : heterogeneous ?
 d_in = degree(graph, mode="in")
 summary(d_in)
-hist(d_in, breaks = 50, col="lightblue", xlab="Vertex In-Degree", ylab="Frequency", main="")
+hist(d_in, breaks = 50, col="lightblue", xlab="Degré entrant des sommets", ylab="Fréquence", main="")
+hist(d_in, breaks = 50, col="lightblue", xlab="Degré entrant des sommets", ylab="Fréquence", main="", xlim = c(0,600))
 # très élevé
-sort(d_in[d_in > 170], decreasing=T)
+sort(d_in[d_in > 600], decreasing=T)
 # 1er pic
-sort(d_in[d_in > 110 & d_in <= 170 ], decreasing=T)
-# 2iem pic : les distributions
-sort(d_in[d_in > 70 & d_in <= 110 ], decreasing=T)
+sort(d_in[d_in > 450 & d_in <= 600 ], decreasing=T)
+# 2e
+sort(d_in[d_in > 250 & d_in <= 450 ], decreasing=T)
+# 3em pic : les distributions
+sort(d_in[d_in > 150 & d_in <= 250 ], decreasing=T)
 # question : est-ce que ça correspond à ce qui est fondamental en stat ?
 # qu'est-ce qui caractérise ce qui fait le plus référence en stat sur wikipedia ?
 
 
 d_out = degree(graph, mode="out")
 summary(d_out)
-hist(d_out, breaks = 50, col="lightblue", xlab="Vertex In-Degree", ylab="Frequency", main="")
+hist(d_out, breaks = 50, col="lightblue", xlab="Degré sortant des sommets", ylab="Fréquence", main="")
 
 # on a des points d'entrée dans la stat comme "Epidemiology", "Econometrics"
-sort(d_out[d_out > 130], decreasing=T)
+sort(d_out[d_out > 350], decreasing=T)
 # 1er pic
-sort(d_out[d_out > 110 & d_out <= 170 ], decreasing=T)
+sort(d_out[d_out > 220 & d_out <= 350 ], decreasing=T)
 # 2iem pic : les distributions
 sort(d_out[d_out > 70 & d_out <= 110 ], decreasing=T)
 
-# log degree
 
+# log degree
+par(mfrow = c(1,2))
 dd_in <- degree.distribution(graph, mode="in")
 d <- 1:max(d_in)-1
 ind <- (dd_in != 0)
 d[1]=0.3 # we add an epsilon to the 0 in-degree
 plot(d[ind], dd_in[ind], log="xy", col="blue",
-     xlab=c("Log-In-Degree"), ylab=c("Log-Intensity"),
+     xlab=c("In-Degree (log-scale)"), ylab=c("Intensity (log-scale)"),
      main="Log-Log In-Degree Distribution")
 
 dd_out <- degree.distribution(graph, mode="out")
@@ -220,20 +234,49 @@ d_total <- degree(graph, mode="total")
 # in + out degree
 a.nn.deg <- graph.knn(graph,V(graph))$knn
 plot(d_total, a.nn.deg, col="goldenrod", xlab=c("Vertex Degree"),
-     ylab=c("Average Neighbor Degree"))
+     ylab=c("Degré moyen des voisins"))
 plot(d_total, a.nn.deg, log="xy", col="goldenrod", xlab=c("Log Vertex Degree"),
-     ylab=c("Log Average Neighbor Degree"))
+     ylab=c("Degré moyen des voisins"))
 # Average neighbor degree versus vertex degree (log–log scale)
 
 
 x <- log(d_total)
 y <- log(a.nn.deg)
 bin<-hexbin(x, y, xbins=50)
-plot(bin, main="Hexagonal Binning", xlab=c("Log Vertex Degree"), ylab=c("Log Average Neighbor Degree") ) 
+plot(bin, main="", xlab=c("Log du degré des sommets"), ylab=c("Log du degré moyen des voisins") ) 
 
 
+# propotion of reciprocal edges
+reciprocity(graph)
+
+# correlation between degree and size
+
+cor(d_in,V(graph)$length)
+
+plot(d_in, V(graph)$length, col="firebrick", xlab=c("Degré entrant (log)"),
+     ylab=c("Taille en octets (log)"))
+plot(d_in, V(graph)$length, log="xy", col="firebrick", xlab=c("Degré entrant (log)"),
+     ylab=c("Taille en octets (log)"))
+
+x <- log(d_in+0.3)
+y <- log(V(graph)$length)
+bin<-hexbin(x, y, xbins=50)
+plot(bin, main="", xlab=c("Log du degré des sommets"), ylab=c("Log du degré moyen des voisins") ) 
+
+# sortant
+cor(d_out,V(graph)$length)
+plot(d_out, V(graph)$length, col="firebrick", xlab=c("Degré entrant (log)"),
+     ylab=c("Taille en octets (log)"))
+plot(d_out, V(graph)$length, log="xy", col="firebrick", xlab=c("Degré entrant (log)"),
+     ylab=c("Taille en octets (log)"))
+
+x <- log(d_out+0.3)
+y <- log(V(graph)$length)
+bin<-hexbin(x, y, xbins=50)
+plot(bin, main="", xlab=c("Log du degré des sommets"), ylab=c("Log du degré moyen des voisins"), col = "firebrick" ) 
 
 
+# stub et expertneeded en fonction des degrees / de la taille / des clusters trouvés
 
 
 # the graph is not connected
