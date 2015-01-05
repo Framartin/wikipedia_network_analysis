@@ -74,15 +74,15 @@ vertex2_agg$name = sub("Category:", "", vertex2_agg$name)
 graph <- graph.data.frame(edges2_agg, directed=TRUE, vertices=vertex2_agg)
 vcount(graph)
 ecount(graph)
-hist(E(graph)$weight, xlim=c(0,1000), breaks=2000)
+hist(E(graph)$weight, xlim=c(0,1000), breaks=2000, col = "firebrick", xlab = "Poids des liens", main = "")
 
 # graph selection
 
 # size of categories
 summary(V(graph)$size)
-hist(V(graph)$size, breaks=50)
+hist(V(graph)$size, breaks=50, col = "firebrick", xlab="Taille des catégories", main ="")
 table(V(graph)$size)
-V(graph)$name[V(graph)$size>26]
+V(graph)$name[V(graph)$size>=61]
 sum(V(graph)$size<14)
 sum(V(graph)$size<26)
 # sélection des 50 plus grands
@@ -98,7 +98,7 @@ hist(E(graph)$weight, breaks=50)
 sum(E(graph)$weight<7)
 
 # selection of edges
-length(E(graph)$weight[E(graph)$weight<364.0]) # ou 68
+length(E(graph)$weight[E(graph)$weight>=364.0]) # ou 68
 edges_to_delete = E(graph)[E(graph)$weight<364.0]
 
 # we reduce our graph
@@ -191,7 +191,7 @@ sort(d_out[d_out > 350], decreasing=T)
 # 1er pic
 sort(d_out[d_out > 220 & d_out <= 350 ], decreasing=T)
 # 2iem pic : les distributions
-sort(d_out[d_out > 70 & d_out <= 110 ], decreasing=T)
+sort(d_out[d_out > 160 & d_out <= 220 ], decreasing=T)
 
 
 # log degree
@@ -277,7 +277,23 @@ plot(bin, main="", xlab=c("Log du degré des sommets"), ylab=c("Log du degré mo
 
 
 # stub et expertneeded en fonction des degrees / de la taille / des clusters trouvés
+length(V(graph)$name[V(graph)$stub])
+V(graph)$name[V(graph)$stub]
 
+summary(V(graph)$length[V(graph)$stub])
+
+A = V(graph)$length[V(graph)$stub]
+B = V(graph)$length[!V(graph)$stub]
+mean(A, na.rm=T) ; mean(B, na.rm=T)
+median(A,na.rm=T) ; median(B, na.rm=T)
+boxplot(A,B)
+t.test(A, B) # par d?faut il fait comme si sigma1 diff?rent de signma2
+
+
+
+# expertneeded
+length(V(graph)$name[V(graph)$expertneeded])
+V(graph)$name[V(graph)$expertneeded]
 
 # the graph is not connected
 
@@ -289,20 +305,40 @@ is.connected(graph, mode="strong")
 
 # nb of clusters
 no.clusters(graph)
-# there is only 4 vertice not in the main cluster
+
+# there is only 19 vertice not in the main cluster
 clusters(graph, mode="strong")
 clusters(graph, mode="weak") # par défaut : weak
-V(graph)[clusters(graph, mode="weak")$membership==2]
+V(graph)[clusters(graph, mode="weak")$membership!=1]
+
+# principal connected component
+vertex_to_delete = V(graph)[clusters(graph, mode="weak")$membership!=1]
+graph = graph - vertex_to_delete
+
+# Centrality measure
+# closeness
+closeness(graph, mode = "in") # using path TO a vertex
+# betweenness
+betweenness(graph)
+# eigenvector centrality
+evcent(graph, directed=T)$vector
+evcent(graph, directed=T)$value
+
+# Hubs
+hub.score(graph)$vector
+# Authorities
+authority.score(graph)$vector
+
 
 # acyclic ? (no cycles ?)
 is.dag(graph)
 # nb of cycles ?
 
 # adjacency matrix
-get.adjacency(graph)
+#get.adjacency(graph)
 
 
-diameter(graph, weights=NA) # non-pertinent car lié à la façon dont on a extrait les articles parlant de stats
+diameter(graph, weights=NA) 
 
 
 # graph partitioning
