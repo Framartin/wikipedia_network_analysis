@@ -475,16 +475,17 @@ reciprocation_fraction = round(float(len(reciprocal_edges))/graph.number_of_edge
 print "There are {0} reciprocated edges out of {1} edges in the network, giving a reciprocation fraction of {2}.".format(len(reciprocal_edges),graph.number_of_edges(),reciprocation_fraction)
 # There are 41021 reciprocated edges out of 151917 edges in the network, giving a reciprocation fraction of 0.27.
 
-import matplotlib.pyplot as plt
 
-nx.draw(graph)
-plt.savefig("path.png")
-nx.draw_networkx(graph, node_size = 80, alpha=0.5, linewidths=0.2, width=0.2, font_size=5)
-plt.savefig("path_ok.png")
-nx.draw_random(graph)
-plt.savefig("path_random.png")
-nx.draw_circular(graph)
-plt.savefig("path_circular.png")
-nx.draw_spectral(graph)
-plt.savefig("path_spectral.png")
+# Not run
+#import matplotlib.pyplot as plt
+#nx.draw(graph)
+#plt.savefig("path.png")
+#nx.draw_networkx(graph, node_size = 80, alpha=0.5, linewidths=0.2, width=0.2, font_size=5)
+#plt.savefig("path_ok.png")
+#nx.draw_random(graph)
+#plt.savefig("path_random.png")
+#nx.draw_circular(graph)
+#plt.savefig("path_circular.png")
+#nx.draw_spectral(graph)
+#plt.savefig("path_spectral.png")
 
