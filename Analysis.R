@@ -117,6 +117,7 @@ plot(graph, vertex.size=sqrt(cat.size)/1.2, vertex.label=V(graph)$name, vertex.l
 # layout : layout.drl layout.kamada.kawai layout.circle layout.fruchterman.reingold
 # vertex.label.color=rainbow(length(V(graph)), alpha=1)
 
+#########################
 # non-agregated network
 
 edges2 = read.csv("data/edges2.csv", colClasses = c("character", "character"))
@@ -246,9 +247,6 @@ bin<-hexbin(x, y, xbins=50)
 plot(bin, main="", xlab=c("Log du degré des sommets"), ylab=c("Log du degré moyen des voisins") ) 
 
 
-# propotion of reciprocal edges
-reciprocity(graph)
-
 # correlation between degree and size
 
 cor(d_in,V(graph)$length)
@@ -311,9 +309,34 @@ clusters(graph, mode="strong")
 clusters(graph, mode="weak") # par défaut : weak
 V(graph)[clusters(graph, mode="weak")$membership!=1]
 
+# network cohesion
+# cliques length /!\ undirected graph
+table(sapply(cliques(graph), length))
+# dyad
+dyad.census(graph)
+# Two fundamental quantities, going back to early work in social network analysis, are dyads and triads. Dyads are
+# pairs of vertices and, in directed graphs, may take on three possible states: null (no directed edges), 
+# asymmetric (one directed edge), or mutual (two directed edges).
+triad.census(graph)
+?triad.census
+plot(triad.census(graph), ylim = c(0,5e6))
+
+# propotion of reciprocal edges
+# the probability that the opposite counterpart of a directed edge is also included in the graph
+reciprocity(graph)
+
+# density
+graph.density(graph)
+# The density of a graph is the frequency of realized edges relative to potential edges.
+# The value of den(H) will lie between zero and one and provides a measure of how close H is to being a clique.
+
+
+
+
 # principal connected component
 vertex_to_delete = V(graph)[clusters(graph, mode="weak")$membership!=1]
 graph = graph - vertex_to_delete
+
 
 # Centrality measure
 # closeness
