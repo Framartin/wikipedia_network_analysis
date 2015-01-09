@@ -250,9 +250,10 @@ plot(bin, main="", xlab=c("Log du degré des sommets"), ylab=c("Log du degré mo
 # correlation between degree and size
 
 cor(d_in,V(graph)$length)
+cor(log(d_in[d_in!=0]),log(V(graph)$length[d_in!=0]))
 
-plot(d_in, V(graph)$length, col="firebrick", xlab=c("Degré entrant (log)"),
-     ylab=c("Taille en octets (log)"))
+plot(d_in, V(graph)$length, col="firebrick", xlab=c("Degré entrant"),
+     ylab=c("Taille en octets"))
 plot(d_in, V(graph)$length, log="xy", col="firebrick", xlab=c("Degré entrant (log)"),
      ylab=c("Taille en octets (log)"))
 
@@ -287,11 +288,27 @@ median(A,na.rm=T) ; median(B, na.rm=T)
 boxplot(A,B)
 t.test(A, B) # par d?faut il fait comme si sigma1 diff?rent de signma2
 
+# idem avec deg in
+A = d_in[V(graph)$stub]
+B = d_in[!V(graph)$stub]
+mean(A, na.rm=T) ; mean(B, na.rm=T)
+median(A,na.rm=T) ; median(B, na.rm=T)
+boxplot(A,B)
+t.test(A, B)
 
 
 # expertneeded
 length(V(graph)$name[V(graph)$expertneeded])
 V(graph)$name[V(graph)$expertneeded]
+
+A = d_in[V(graph)$expertneeded]
+B = d_in[!V(graph)$expertneeded]
+mean(A, na.rm=T) ; mean(B, na.rm=T)
+median(A,na.rm=T) ; median(B, na.rm=T)
+boxplot(A,B)
+t.test(A, B)
+
+
 
 # the graph is not connected
 
@@ -334,23 +351,32 @@ graph.density(graph)
 
 
 # principal connected component
-vertex_to_delete = V(graph)[clusters(graph, mode="weak")$membership!=1]
-graph = graph - vertex_to_delete
+#vertex_to_delete = V(graph)[clusters(graph, mode="weak")$membership!=1]
+#graph = graph - vertex_to_delete
 
 
 # Centrality measure
 # closeness
-closeness(graph, mode = "in") # using path TO a vertex
+c.graph = closeness(graph, mode = "in") # using path TO a vertex
+head(c.graph[order(c.graph, decreasing=T)], n=50)
+
 # betweenness
-betweenness(graph)
+b.graph = betweenness(graph)
+head(b.graph[order(b.graph, decreasing=T)], n=50)
+
+
 # eigenvector centrality
 evcent(graph, directed=T)$vector
 evcent(graph, directed=T)$value
 
 # Hubs
-hub.score(graph)$vector
+h.graph = hub.score(graph)$vector
+head(h.graph[order(h.graph, decreasing=T)], n=50)
+
 # Authorities
-authority.score(graph)$vector
+a.graph = authority.score(graph)$vector
+head(a.graph[order(a.graph, decreasing=T)], n=50)
+
 
 
 # acyclic ? (no cycles ?)
@@ -364,8 +390,26 @@ is.dag(graph)
 diameter(graph, weights=NA) 
 
 
+# partitioning
+comps <- decompose.graph(graph)
+table(sapply(comps, vcount))
+
+# keep the giant component
+graph.gc <- decompose.graph(graph)[[1]] # weak mode
+
+# small world ? YES
+average.path.length(graph.gc)
+diameter(graph.gc) # not so big
+transitivity(graph.gc) # high clustering coefficient
+
+vertex.connectivity(graph.gc)
+edge.connectivity(graph.gc)
+
+
+
+
 # graph partitioning
-kc <- fastgreedy.community(graph)
+kc <- fastgreedy.community(graph.gc)
 length(kc)
 sizes(kc)
 membership(kc)
@@ -374,6 +418,34 @@ plot(kc,karate)
 library(ape)
 dendPlot(kc,mode="phylo")
 
+# spectral partitioning
+g.lap <- graph.laplacian(graph)
+eig.anal <- eigen(g.lap)
+plot(Re(eig.anal$values), col="blue", ylab="Eigenvalues of Graph Laplacian")
+tail(eig.anal$values, n = 100)
+f.vec <- eig.anal$vectors[, length(eig.anal$values)-75]
+f.vec <- eig.anal$vectors[, length(eig.anal$values)-1]
+
+faction <- get.vertex.attribute(graph, "Faction")
+f.colors <- as.character(length(faction))
+f.colors[faction == 1] <- "red"
+f.colors[faction == 2] <- "cyan"
+plot(Re(f.vec), pch=16, xlab="Actor Number",
+     ylab="Fiedler Vector Entry") #col=f.colors)
+abline(0, 0, lwd=2, col="lightgray")
+
+
+comm = leading.eigenvector.community(graph.gc)
+table(comm$membership)
+table(table(comm$membership))
+V(graph.gc)$name[comm$membership==1]
+V(graph.gc)$name[comm$membership==3] # distribution ; tmp = V(graph.gc)$name[comm$membership==3] ; sum(grepl("distribution", tmp))/length(tmp)
+V(graph.gc)$name[comm$membership==4] # theorem ; stats-maths ; 
+V(graph.gc)$name[comm$membership==5] # softwares
+V(graph.gc)$name[comm$membership==6]
+V(graph.gc)$name[comm$membership==7]
+V(graph.gc)$name[comm$membership==8] # biais
+for (i in 9:16) { print(i) ; print(V(graph.gc)$name[comm$membership==i]) }
 
 
 #g.full <- graph.full(7)
