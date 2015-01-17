@@ -63,7 +63,9 @@ hist(s_out, breaks = 50, col="pink", xlab="Vertex Out-Strength", ylab="Frequency
 #   Second solution : pages from list    #
 ##########################################
 
-# agregated network
+# ----------------- #
+# aggregated network #
+# ----------------- #
 
 edges2_agg = read.csv("data/edges2_aggregated.csv", colClasses = c("character", "character", "integer"))
 edges2_agg$from = sub("Category:", "", edges2_agg$from)
@@ -85,11 +87,11 @@ table(V(graph)$size)
 V(graph)$name[V(graph)$size>=61]
 sum(V(graph)$size<14)
 sum(V(graph)$size<26)
-# sélection des 50 plus grands
-quantile(V(graph)$size, probs=(1-20/vcount(graph))) # 26 pour 50 vertices, 50 pour 30 vertices, 61 pour 20 vertices
+# select the 20 biggest vertex
+quantile(V(graph)$size, probs=(1-20/vcount(graph))) # 26 for 50 vertices, 50 for 30 vertices, 61 for 20 vertices
 
 # selection of vertex
-vertex_to_delete = V(graph)[V(graph)$size<61] # médiane = 14
+vertex_to_delete = V(graph)[V(graph)$size<61] # median = 14
 graph = graph - vertex_to_delete
 
 # weights
@@ -98,7 +100,7 @@ hist(E(graph)$weight, breaks=50)
 sum(E(graph)$weight<7)
 
 # selection of edges
-length(E(graph)$weight[E(graph)$weight>=364.0]) # ou 68
+length(E(graph)$weight[E(graph)$weight>=364.0]) # or 68
 edges_to_delete = E(graph)[E(graph)$weight<364.0]
 
 # we reduce our graph
@@ -117,8 +119,10 @@ plot(graph, vertex.size=sqrt(cat.size)/1.2, vertex.label=V(graph)$name, vertex.l
 # layout : layout.drl layout.kamada.kawai layout.circle layout.fruchterman.reingold
 # vertex.label.color=rainbow(length(V(graph)), alpha=1)
 
-#########################
-# non-agregated network
+
+# --------------------- #
+# non-aggregated network #
+# --------------------- #
 
 edges2 = read.csv("data/edges2.csv", colClasses = c("character", "character"))
 vertex2 = read.csv("data/vertex2.csv", colClasses = c("character", "integer", "character", "character"))
@@ -133,7 +137,7 @@ vertex2$expertneeded = ifelse(vertex2$expertneeded=="True", TRUE, FALSE)
 
 graph <- graph.data.frame(edges2, directed=TRUE, vertices=vertex2)
 
-# enlever 'List of' et 'Outline'
+# delete pages with 'List of' or 'Outline'
 vertex_to_delete = V(graph)[V(graph)$name[grepl("Outline",V(graph)$name)]]
 graph = graph - vertex_to_delete
 vertex_to_delete = V(graph)[V(graph)$name[grepl("List of|Lists of",V(graph)$name)]]
@@ -179,19 +183,17 @@ sort(d_in[d_in > 450 & d_in <= 600 ], decreasing=T)
 sort(d_in[d_in > 250 & d_in <= 450 ], decreasing=T)
 # 3em pic : les distributions
 sort(d_in[d_in > 150 & d_in <= 250 ], decreasing=T)
-# question : est-ce que ça correspond à ce qui est fondamental en stat ?
-# qu'est-ce qui caractérise ce qui fait le plus référence en stat sur wikipedia ?
 
 
 d_out = degree(graph, mode="out")
 summary(d_out)
 hist(d_out, breaks = 50, col="lightblue", xlab="Degré sortant des sommets", ylab="Fréquence", main="")
 
-# on a des points d'entrée dans la stat comme "Epidemiology", "Econometrics"
+
 sort(d_out[d_out > 350], decreasing=T)
-# 1er pic
+# 1st peak
 sort(d_out[d_out > 220 & d_out <= 350 ], decreasing=T)
-# 2iem pic : les distributions
+# 2nd peak : distributions
 sort(d_out[d_out > 160 & d_out <= 220 ], decreasing=T)
 
 
@@ -262,7 +264,7 @@ y <- log(V(graph)$length)
 bin<-hexbin(x, y, xbins=50)
 plot(bin, main="", xlab=c("Log du degré des sommets"), ylab=c("Log du degré moyen des voisins") ) 
 
-# sortant
+# out links
 cor(d_out,V(graph)$length)
 plot(d_out, V(graph)$length, col="firebrick", xlab=c("Degré entrant (log)"),
      ylab=c("Taille en octets (log)"))
@@ -286,9 +288,9 @@ B = V(graph)$length[!V(graph)$stub]
 mean(A, na.rm=T) ; mean(B, na.rm=T)
 median(A,na.rm=T) ; median(B, na.rm=T)
 boxplot(A,B)
-t.test(A, B) # par d?faut il fait comme si sigma1 diff?rent de signma2
+t.test(A, B) # by default sigma1 different of signma2
 
-# idem avec deg in
+# idem with deg in
 A = d_in[V(graph)$stub]
 B = d_in[!V(graph)$stub]
 mean(A, na.rm=T) ; mean(B, na.rm=T)
@@ -338,7 +340,7 @@ triad.census(graph)
 ?triad.census
 plot(triad.census(graph), ylim = c(0,5e6))
 
-# propotion of reciprocal edges
+# proportion of reciprocal edges
 # the probability that the opposite counterpart of a directed edge is also included in the graph
 reciprocity(graph)
 
