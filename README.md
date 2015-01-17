@@ -9,6 +9,8 @@ Statistical Network Analysis of the Field of Statistics on Wikipedia In English
 
 The Python script, which extracts edges of our graphs, is inspired by the great brianckeegan's Wikipedia-Network-Analysis python notebook available on [github](https://github.com/brianckeegan/Wikipedia-Network-Analysis) under MIT license.
 
+A statistical analysis in French is available in the `report` folder.
+
 ## Data
 
 We build a directed graph using links between Wikipedia articles related to the specific field of Statistics (but you can quite easily change it if you want).
