@@ -18,7 +18,7 @@ We have two solutions to get pages related to Statistics :
 1. Using [Category:Statistics](http://en.wikipedia.org/wiki/Category:Statistics)
 2. Using lists of articles about statistics ([List_of_statistics_articles](https://en.wikipedia.org/wiki/List_of_statistics_articles) and [Outline_of_statistics](https://en.wikipedia.org/wiki/Outline_of_statistics)) featured in the [Portal:Statistics](https://en.wikipedia.org/wiki/Portal:Statistics)
 
-See `Extract_links_from_API.py` for more details.
+See `Extract_links_from_API.py` for more details. We strongly recommend using the second solution.
 
 - Data, available in `edges1.csv` and `vertex1.csv` files, was extracted the 30/12/2014 using the first solution.
 - Data, available in `edges2.csv` and `vertex2.csv` files, was extracted the 27/12/2014 using the second solution.
